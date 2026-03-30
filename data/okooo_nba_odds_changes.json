@@ -1,0 +1,3641 @@
+{
+  "source": "https://m.okooo.com/live/?LotteryType=lancai",
+  "scraped_at_epoch": 1774874045,
+  "matches": [
+    {
+      "match_id": "5378480",
+      "match_no": "周一301",
+      "league": "NBA",
+      "away_team": "凯尔特人",
+      "home_team": "老鹰",
+      "status": "未开始",
+      "time_or_score": "07:30",
+      "history_url": "https://m.okooo.com/match/basketball/history.php?LotteryType=SportteryWL&MatchID=5378480&from=%2Flive%2F",
+      "odds_url": "https://m.okooo.com/match/basketball/odds.php?MatchID=5378480&from=%2Flive%2F",
+      "moneyline_companies": [
+        {
+          "company": "99家平均",
+          "initial_away": "1.95",
+          "initial_home": "1.86",
+          "latest_away": "1.95",
+          "latest_home": "1.83",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378480&pid=24&Type=Odds",
+          "history": [
+            {
+              "away": "1.95",
+              "home": "1.84",
+              "time": "赛前11小时59分"
+            },
+            {
+              "away": "1.94",
+              "home": "1.84",
+              "time": "赛前12小时20分"
+            },
+            {
+              "away": "1.94",
+              "home": "1.85",
+              "time": "赛前12小时53分"
+            },
+            {
+              "away": "1.94",
+              "home": "1.84",
+              "time": "赛前13小时9分"
+            },
+            {
+              "away": "1.94",
+              "home": "1.85",
+              "time": "赛前13小时57分"
+            },
+            {
+              "away": "1.95",
+              "home": "1.84",
+              "time": "赛前16小时11分"
+            },
+            {
+              "away": "1.94",
+              "home": "1.84",
+              "time": "赛前16小时11分"
+            },
+            {
+              "away": "1.94",
+              "home": "1.85",
+              "time": "赛前16小时36分"
+            },
+            {
+              "away": "1.94",
+              "home": "1.84",
+              "time": "赛前16小时37分"
+            },
+            {
+              "away": "1.95",
+              "home": "1.84",
+              "time": "赛前18小时32分"
+            },
+            {
+              "away": "1.96",
+              "home": "1.84",
+              "time": "赛前18小时59分"
+            },
+            {
+              "away": "1.95",
+              "home": "1.84",
+              "time": "赛前19小时44分"
+            },
+            {
+              "away": "1.94",
+              "home": "1.84",
+              "time": "赛前20小时5分"
+            },
+            {
+              "away": "1.94",
+              "home": "1.85",
+              "time": "赛前20小时23分"
+            },
+            {
+              "away": "1.93",
+              "home": "1.85",
+              "time": "赛前20小时27分"
+            },
+            {
+              "away": "1.94",
+              "home": "1.86",
+              "time": "赛前20小时50分"
+            },
+            {
+              "away": "1.95",
+              "home": "1.86",
+              "time": "赛前21小时4分"
+            },
+            {
+              "away": "1.94",
+              "home": "1.86",
+              "time": "赛前21小时14分"
+            },
+            {
+              "away": "1.94",
+              "home": "1.87",
+              "time": "赛前21小时22分"
+            },
+            {
+              "away": "1.93",
+              "home": "1.87",
+              "time": "赛前21小时59分"
+            },
+            {
+              "away": "1.94",
+              "home": "1.87",
+              "time": "赛前22小时4分"
+            },
+            {
+              "away": "1.94",
+              "home": "1.86",
+              "time": "赛前22小时22分"
+            },
+            {
+              "away": "1.95",
+              "home": "1.86",
+              "time": "赛前22小时23分"
+            }
+          ]
+        },
+        {
+          "company": "竞彩官方",
+          "initial_away": "1.75",
+          "initial_home": "1.65",
+          "latest_away": "1.92",
+          "latest_home": "1.52",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378480&pid=2&Type=Odds",
+          "history": [
+            {
+              "away": "1.87",
+              "home": "1.55",
+              "time": "赛前12小时12分"
+            },
+            {
+              "away": "1.81",
+              "home": "1.60",
+              "time": "赛前12小时13分"
+            },
+            {
+              "away": "1.87",
+              "home": "1.55",
+              "time": "赛前12小时15分"
+            },
+            {
+              "away": "1.81",
+              "home": "1.60",
+              "time": "赛前15小时18分"
+            },
+            {
+              "away": "1.75",
+              "home": "1.65",
+              "time": "赛前20小时27分"
+            }
+          ]
+        },
+        {
+          "company": "威廉.希尔",
+          "initial_away": "1.80",
+          "initial_home": "2.00",
+          "latest_away": "1.91",
+          "latest_home": "1.91",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378480&pid=14&Type=Odds",
+          "history": [
+            {
+              "away": "1.80",
+              "home": "2.00",
+              "time": "赛前24小时51分"
+            }
+          ]
+        },
+        {
+          "company": "立博",
+          "initial_away": "1.91",
+          "initial_home": "1.91",
+          "latest_away": "1.91",
+          "latest_home": "1.85",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378480&pid=82&Type=Odds",
+          "history": [
+            {
+              "away": "1.95",
+              "home": "1.83",
+              "time": "赛前16小时10分"
+            },
+            {
+              "away": "1.91",
+              "home": "1.85",
+              "time": "赛前18小时32分"
+            },
+            {
+              "away": "1.95",
+              "home": "1.83",
+              "time": "赛前19小时24分"
+            },
+            {
+              "away": "1.91",
+              "home": "1.85",
+              "time": "赛前20小时49分"
+            },
+            {
+              "away": "1.95",
+              "home": "1.83",
+              "time": "赛前21小时4分"
+            },
+            {
+              "away": "1.91",
+              "home": "1.85",
+              "time": "赛前21小时14分"
+            },
+            {
+              "away": "1.91",
+              "home": "1.91",
+              "time": "赛前22小时22分"
+            }
+          ]
+        },
+        {
+          "company": "Interwetten",
+          "initial_away": "1.85",
+          "initial_home": "1.95",
+          "latest_away": "1.95",
+          "latest_home": "1.85",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378480&pid=43&Type=Odds",
+          "history": [
+            {
+              "away": "1.90",
+              "home": "1.90",
+              "time": "赛前23小时55分"
+            },
+            {
+              "away": "1.85",
+              "home": "1.95",
+              "time": "赛前24小时56分"
+            }
+          ]
+        },
+        {
+          "company": "bwin",
+          "initial_away": "1.91",
+          "initial_home": "1.91",
+          "latest_away": "1.95",
+          "latest_home": "1.87",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378480&pid=94&Type=Odds",
+          "history": [
+            {
+              "away": "1.98",
+              "home": "1.85",
+              "time": "赛前16小时11分"
+            },
+            {
+              "away": "1.95",
+              "home": "1.87",
+              "time": "赛前18小时31分"
+            },
+            {
+              "away": "1.98",
+              "home": "1.85",
+              "time": "赛前19小时24分"
+            },
+            {
+              "away": "1.95",
+              "home": "1.87",
+              "time": "赛前20小时50分"
+            },
+            {
+              "away": "1.98",
+              "home": "1.85",
+              "time": "赛前21小时5分"
+            },
+            {
+              "away": "1.95",
+              "home": "1.87",
+              "time": "赛前21小时13分"
+            },
+            {
+              "away": "1.91",
+              "home": "1.91",
+              "time": "赛前22小时23分"
+            }
+          ]
+        },
+        {
+          "company": "伟德国际",
+          "initial_away": "1.80",
+          "initial_home": "1.91",
+          "latest_away": "1.95",
+          "latest_home": "1.80",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378480&pid=65&Type=Odds",
+          "history": [
+            {
+              "away": "1.91",
+              "home": "1.80",
+              "time": "赛前22小时58分"
+            },
+            {
+              "away": "1.85",
+              "home": "1.85",
+              "time": "赛前23小时51分"
+            },
+            {
+              "away": "1.83",
+              "home": "1.85",
+              "time": "赛前23小时54分"
+            },
+            {
+              "away": "1.80",
+              "home": "1.91",
+              "time": "赛前24小时57分"
+            }
+          ]
+        },
+        {
+          "company": "Unibet",
+          "initial_away": "1.85",
+          "initial_home": "1.95",
+          "latest_away": "2.00",
+          "latest_home": "1.85",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378480&pid=180&Type=Odds",
+          "history": [
+            {
+              "away": "1.94",
+              "home": "1.91",
+              "time": "赛前23小时51分"
+            },
+            {
+              "away": "1.91",
+              "home": "1.94",
+              "time": "赛前23小时54分"
+            },
+            {
+              "away": "1.88",
+              "home": "1.98",
+              "time": "赛前23小时57分"
+            },
+            {
+              "away": "1.85",
+              "home": "1.95",
+              "time": "赛前24小时58分"
+            }
+          ]
+        },
+        {
+          "company": "博天堂",
+          "initial_away": "1.91",
+          "initial_home": "1.91",
+          "latest_away": "1.95",
+          "latest_home": "1.87",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378480&pid=159&Type=Odds",
+          "history": [
+            {
+              "away": "2.00",
+              "home": "1.83",
+              "time": "赛前14小时50分"
+            },
+            {
+              "away": "1.98",
+              "home": "1.85",
+              "time": "赛前16小时11分"
+            },
+            {
+              "away": "1.95",
+              "home": "1.87",
+              "time": "赛前18小时32分"
+            },
+            {
+              "away": "1.98",
+              "home": "1.85",
+              "time": "赛前19小时25分"
+            },
+            {
+              "away": "1.95",
+              "home": "1.87",
+              "time": "赛前20小时50分"
+            },
+            {
+              "away": "1.98",
+              "home": "1.85",
+              "time": "赛前21小时4分"
+            },
+            {
+              "away": "1.95",
+              "home": "1.87",
+              "time": "赛前21小时14分"
+            },
+            {
+              "away": "1.91",
+              "home": "1.91",
+              "time": "赛前22小时23分"
+            }
+          ]
+        },
+        {
+          "company": "必发",
+          "initial_away": "1.95",
+          "initial_home": "1.97",
+          "latest_away": "2.04",
+          "latest_home": "1.93",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378480&pid=19&Type=Odds",
+          "history": [
+            {
+              "away": "2.02",
+              "home": "1.95",
+              "time": "赛前11小时2分"
+            },
+            {
+              "away": "2.04",
+              "home": "1.95",
+              "time": "赛前11小时3分"
+            },
+            {
+              "away": "2.02",
+              "home": "1.95",
+              "time": "赛前11小时4分"
+            },
+            {
+              "away": "2.04",
+              "home": "1.95",
+              "time": "赛前11小时25分"
+            },
+            {
+              "away": "2.02",
+              "home": "1.95",
+              "time": "赛前11小时31分"
+            },
+            {
+              "away": "2.04",
+              "home": "1.95",
+              "time": "赛前11小时34分"
+            },
+            {
+              "away": "2.02",
+              "home": "1.95",
+              "time": "赛前11小时46分"
+            },
+            {
+              "away": "2.04",
+              "home": "1.95",
+              "time": "赛前11小时57分"
+            },
+            {
+              "away": "2.04",
+              "home": "1.96",
+              "time": "赛前12小时1分"
+            },
+            {
+              "away": "2.02",
+              "home": "1.94",
+              "time": "赛前12小时2分"
+            },
+            {
+              "away": "2.04",
+              "home": "1.96",
+              "time": "赛前12小时3分"
+            },
+            {
+              "away": "2.02",
+              "home": "1.94",
+              "time": "赛前12小时9分"
+            },
+            {
+              "away": "2.02",
+              "home": "1.95",
+              "time": "赛前12小时15分"
+            },
+            {
+              "away": "2.02",
+              "home": "1.96",
+              "time": "赛前12小时48分"
+            },
+            {
+              "away": "2.02",
+              "home": "1.95",
+              "time": "赛前13小时13分"
+            },
+            {
+              "away": "2.02",
+              "home": "1.96",
+              "time": "赛前13小时21分"
+            },
+            {
+              "away": "2.02",
+              "home": "1.95",
+              "time": "赛前13小时25分"
+            },
+            {
+              "away": "2.02",
+              "home": "1.94",
+              "time": "赛前13小时26分"
+            },
+            {
+              "away": "2.02",
+              "home": "1.95",
+              "time": "赛前13小时28分"
+            },
+            {
+              "away": "2.02",
+              "home": "1.94",
+              "time": "赛前13小时57分"
+            },
+            {
+              "away": "2.02",
+              "home": "1.97",
+              "time": "赛前14小时8分"
+            },
+            {
+              "away": "2.02",
+              "home": "1.96",
+              "time": "赛前14小时26分"
+            },
+            {
+              "away": "2.02",
+              "home": "1.94",
+              "time": "赛前15小时5分"
+            },
+            {
+              "away": "2.02",
+              "home": "1.95",
+              "time": "赛前15小时25分"
+            },
+            {
+              "away": "2.04",
+              "home": "1.93",
+              "time": "赛前15小时34分"
+            },
+            {
+              "away": "2.06",
+              "home": "1.94",
+              "time": "赛前15小时36分"
+            },
+            {
+              "away": "2.04",
+              "home": "1.95",
+              "time": "赛前15小时40分"
+            },
+            {
+              "away": "2.00",
+              "home": "1.96",
+              "time": "赛前16小时4分"
+            },
+            {
+              "away": "2.02",
+              "home": "1.96",
+              "time": "赛前16小时5分"
+            }
+          ]
+        },
+        {
+          "company": "澳门彩票",
+          "initial_away": "2.00",
+          "initial_home": "1.75",
+          "latest_away": "2.00",
+          "latest_home": "1.75",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378480&pid=84&Type=Odds",
+          "history": []
+        },
+        {
+          "company": "Coral",
+          "initial_away": "1.91",
+          "initial_home": "1.91",
+          "latest_away": "1.91",
+          "latest_home": "1.85",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378480&pid=116&Type=Odds",
+          "history": [
+            {
+              "away": "1.95",
+              "home": "1.83",
+              "time": "赛前16小时11分"
+            },
+            {
+              "away": "1.91",
+              "home": "1.85",
+              "time": "赛前18小时31分"
+            },
+            {
+              "away": "1.95",
+              "home": "1.83",
+              "time": "赛前19小时24分"
+            },
+            {
+              "away": "1.91",
+              "home": "1.85",
+              "time": "赛前20小时50分"
+            },
+            {
+              "away": "1.95",
+              "home": "1.83",
+              "time": "赛前21小时5分"
+            },
+            {
+              "away": "1.91",
+              "home": "1.85",
+              "time": "赛前21小时14分"
+            },
+            {
+              "away": "1.91",
+              "home": "1.91",
+              "time": "赛前22小时23分"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "match_id": "5378481",
+      "match_no": "周一302",
+      "league": "NBA",
+      "away_team": "太阳",
+      "home_team": "灰熊",
+      "status": "未开始",
+      "time_or_score": "08:00",
+      "history_url": "https://m.okooo.com/match/basketball/history.php?LotteryType=SportteryWL&MatchID=5378481&from=%2Flive%2F",
+      "odds_url": "https://m.okooo.com/match/basketball/odds.php?MatchID=5378481&from=%2Flive%2F",
+      "moneyline_companies": [
+        {
+          "company": "99家平均",
+          "initial_away": "1.12",
+          "initial_home": "6.13",
+          "latest_away": "1.12",
+          "latest_home": "6.18",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378481&pid=24&Type=Odds",
+          "history": [
+            {
+              "away": "1.12",
+              "home": "6.16",
+              "time": "赛前11小时53分"
+            },
+            {
+              "away": "1.12",
+              "home": "6.15",
+              "time": "赛前12小时3分"
+            },
+            {
+              "away": "1.12",
+              "home": "6.14",
+              "time": "赛前12小时15分"
+            },
+            {
+              "away": "1.12",
+              "home": "6.15",
+              "time": "赛前12小时17分"
+            },
+            {
+              "away": "1.12",
+              "home": "6.16",
+              "time": "赛前12小时20分"
+            },
+            {
+              "away": "1.12",
+              "home": "6.15",
+              "time": "赛前12小时23分"
+            },
+            {
+              "away": "1.12",
+              "home": "6.16",
+              "time": "赛前12小时25分"
+            },
+            {
+              "away": "1.12",
+              "home": "6.15",
+              "time": "赛前12小时26分"
+            },
+            {
+              "away": "1.12",
+              "home": "6.14",
+              "time": "赛前12小时28分"
+            },
+            {
+              "away": "1.12",
+              "home": "6.15",
+              "time": "赛前12小时31分"
+            },
+            {
+              "away": "1.12",
+              "home": "6.14",
+              "time": "赛前12小时36分"
+            },
+            {
+              "away": "1.12",
+              "home": "6.15",
+              "time": "赛前12小时37分"
+            },
+            {
+              "away": "1.12",
+              "home": "6.14",
+              "time": "赛前12小时56分"
+            },
+            {
+              "away": "1.12",
+              "home": "6.13",
+              "time": "赛前13小时2分"
+            },
+            {
+              "away": "1.12",
+              "home": "6.12",
+              "time": "赛前13小时2分"
+            },
+            {
+              "away": "1.12",
+              "home": "6.09",
+              "time": "赛前15小时"
+            },
+            {
+              "away": "1.12",
+              "home": "6.08",
+              "time": "赛前15小时33分"
+            },
+            {
+              "away": "1.12",
+              "home": "6.07",
+              "time": "赛前16小时41分"
+            },
+            {
+              "away": "1.12",
+              "home": "6.10",
+              "time": "赛前16小时44分"
+            },
+            {
+              "away": "1.12",
+              "home": "6.13",
+              "time": "赛前17小时33分"
+            },
+            {
+              "away": "1.12",
+              "home": "6.12",
+              "time": "赛前17小时33分"
+            },
+            {
+              "away": "1.12",
+              "home": "6.11",
+              "time": "赛前17小时33分"
+            },
+            {
+              "away": "1.12",
+              "home": "6.10",
+              "time": "赛前17小时34分"
+            },
+            {
+              "away": "1.12",
+              "home": "6.09",
+              "time": "赛前17小时51分"
+            },
+            {
+              "away": "1.12",
+              "home": "6.08",
+              "time": "赛前17小时55分"
+            },
+            {
+              "away": "1.12",
+              "home": "6.09",
+              "time": "赛前17小时55分"
+            },
+            {
+              "away": "1.12",
+              "home": "6.08",
+              "time": "赛前17小时56分"
+            },
+            {
+              "away": "1.12",
+              "home": "6.09",
+              "time": "赛前17小时58分"
+            },
+            {
+              "away": "1.12",
+              "home": "6.09",
+              "time": "赛前18小时28分"
+            }
+          ]
+        },
+        {
+          "company": "威廉.希尔",
+          "initial_away": "1.11",
+          "initial_home": "6.50",
+          "latest_away": "1.11",
+          "latest_home": "6.50",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378481&pid=14&Type=Odds",
+          "history": []
+        },
+        {
+          "company": "立博",
+          "initial_away": "1.10",
+          "initial_home": "6.50",
+          "latest_away": "1.11",
+          "latest_home": "6.00",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378481&pid=82&Type=Odds",
+          "history": [
+            {
+              "away": "1.12",
+              "home": "6.00",
+              "time": "赛前17小时55分"
+            },
+            {
+              "away": "1.11",
+              "home": "6.00",
+              "time": "赛前18小时27分"
+            },
+            {
+              "away": "1.12",
+              "home": "6.00",
+              "time": "赛前21小时19分"
+            },
+            {
+              "away": "1.13",
+              "home": "5.75",
+              "time": "赛前21小时49分"
+            },
+            {
+              "away": "1.12",
+              "home": "6.00",
+              "time": "赛前22小时49分"
+            },
+            {
+              "away": "1.10",
+              "home": "6.50",
+              "time": "赛前22小时52分"
+            }
+          ]
+        },
+        {
+          "company": "Interwetten",
+          "initial_away": "1.12",
+          "initial_home": "6.00",
+          "latest_away": "1.12",
+          "latest_home": "6.00",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378481&pid=43&Type=Odds",
+          "history": [
+            {
+              "away": "1.10",
+              "home": "6.75",
+              "time": "赛前24小时29分"
+            },
+            {
+              "away": "1.12",
+              "home": "6.00",
+              "time": "赛前24小时54分"
+            }
+          ]
+        },
+        {
+          "company": "bwin",
+          "initial_away": "1.11",
+          "initial_home": "6.75",
+          "latest_away": "1.12",
+          "latest_home": "6.50",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378481&pid=94&Type=Odds",
+          "history": [
+            {
+              "away": "1.13",
+              "home": "6.25",
+              "time": "赛前17小时55分"
+            },
+            {
+              "away": "1.12",
+              "home": "6.50",
+              "time": "赛前18小时28分"
+            },
+            {
+              "away": "1.13",
+              "home": "6.25",
+              "time": "赛前21小时20分"
+            },
+            {
+              "away": "1.13",
+              "home": "6.00",
+              "time": "赛前21小时47分"
+            },
+            {
+              "away": "1.13",
+              "home": "6.25",
+              "time": "赛前22小时48分"
+            },
+            {
+              "away": "1.11",
+              "home": "6.75",
+              "time": "赛前22小时53分"
+            }
+          ]
+        },
+        {
+          "company": "伟德国际",
+          "initial_away": "1.10",
+          "initial_home": "5.80",
+          "latest_away": "1.12",
+          "latest_home": "6.00",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378481&pid=65&Type=Odds",
+          "history": [
+            {
+              "away": "1.11",
+              "home": "5.60",
+              "time": "赛前21小时13分"
+            },
+            {
+              "away": "1.10",
+              "home": "5.80",
+              "time": "赛前23小时54分"
+            },
+            {
+              "away": "1.10",
+              "home": "6.00",
+              "time": "赛前24小时15分"
+            },
+            {
+              "away": "1.09",
+              "home": "6.00",
+              "time": "赛前24小时30分"
+            },
+            {
+              "away": "1.10",
+              "home": "5.80",
+              "time": "赛前24小时54分"
+            }
+          ]
+        },
+        {
+          "company": "Unibet",
+          "initial_away": "1.12",
+          "initial_home": "6.50",
+          "latest_away": "1.13",
+          "latest_home": "6.50",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378481&pid=180&Type=Odds",
+          "history": [
+            {
+              "away": "1.12",
+              "home": "6.75",
+              "time": "赛前23小时54分"
+            },
+            {
+              "away": "1.12",
+              "home": "7.00",
+              "time": "赛前23小时58分"
+            },
+            {
+              "away": "1.12",
+              "home": "6.75",
+              "time": "赛前24小时15分"
+            },
+            {
+              "away": "1.10",
+              "home": "6.75",
+              "time": "赛前24小时30分"
+            },
+            {
+              "away": "1.12",
+              "home": "6.50",
+              "time": "赛前24小时33分"
+            },
+            {
+              "away": "1.12",
+              "home": "6.40",
+              "time": "赛前24小时48分"
+            },
+            {
+              "away": "1.12",
+              "home": "6.50",
+              "time": "赛前24小时53分"
+            }
+          ]
+        },
+        {
+          "company": "博天堂",
+          "initial_away": "1.11",
+          "initial_home": "6.75",
+          "latest_away": "1.12",
+          "latest_home": "6.50",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378481&pid=159&Type=Odds",
+          "history": [
+            {
+              "away": "1.13",
+              "home": "6.25",
+              "time": "赛前17小时56分"
+            },
+            {
+              "away": "1.12",
+              "home": "6.50",
+              "time": "赛前18小时28分"
+            },
+            {
+              "away": "1.13",
+              "home": "6.25",
+              "time": "赛前21小时20分"
+            },
+            {
+              "away": "1.14",
+              "home": "6.00",
+              "time": "赛前21小时49分"
+            },
+            {
+              "away": "1.13",
+              "home": "6.25",
+              "time": "赛前22小时48分"
+            },
+            {
+              "away": "1.11",
+              "home": "6.75",
+              "time": "赛前22小时53分"
+            }
+          ]
+        },
+        {
+          "company": "必发",
+          "initial_away": "1.16",
+          "initial_home": "6.60",
+          "latest_away": "1.14",
+          "latest_home": "8.00",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378481&pid=19&Type=Odds",
+          "history": [
+            {
+              "away": "1.14",
+              "home": "7.80",
+              "time": "赛前12小时51分"
+            },
+            {
+              "away": "1.14",
+              "home": "7.60",
+              "time": "赛前13小时13分"
+            },
+            {
+              "away": "1.14",
+              "home": "7.80",
+              "time": "赛前14小时19分"
+            },
+            {
+              "away": "1.14",
+              "home": "7.60",
+              "time": "赛前15小时26分"
+            },
+            {
+              "away": "1.14",
+              "home": "7.80",
+              "time": "赛前15小时27分"
+            },
+            {
+              "away": "1.14",
+              "home": "7.60",
+              "time": "赛前15小时42分"
+            },
+            {
+              "away": "1.14",
+              "home": "7.80",
+              "time": "赛前15小时45分"
+            },
+            {
+              "away": "1.14",
+              "home": "7.60",
+              "time": "赛前15小时53分"
+            },
+            {
+              "away": "1.14",
+              "home": "7.80",
+              "time": "赛前16小时7分"
+            },
+            {
+              "away": "1.14",
+              "home": "7.60",
+              "time": "赛前16小时8分"
+            },
+            {
+              "away": "1.14",
+              "home": "7.80",
+              "time": "赛前16小时9分"
+            },
+            {
+              "away": "1.14",
+              "home": "7.60",
+              "time": "赛前16小时33分"
+            },
+            {
+              "away": "1.14",
+              "home": "7.40",
+              "time": "赛前16小时34分"
+            },
+            {
+              "away": "1.14",
+              "home": "7.60",
+              "time": "赛前16小时35分"
+            },
+            {
+              "away": "1.14",
+              "home": "7.40",
+              "time": "赛前17小时37分"
+            },
+            {
+              "away": "1.15",
+              "home": "7.40",
+              "time": "赛前17小时39分"
+            },
+            {
+              "away": "1.14",
+              "home": "7.40",
+              "time": "赛前17小时40分"
+            },
+            {
+              "away": "1.15",
+              "home": "7.40",
+              "time": "赛前18小时20分"
+            },
+            {
+              "away": "1.15",
+              "home": "7.60",
+              "time": "赛前18小时22分"
+            },
+            {
+              "away": "1.14",
+              "home": "7.60",
+              "time": "赛前18小时28分"
+            },
+            {
+              "away": "1.14",
+              "home": "7.80",
+              "time": "赛前18小时29分"
+            },
+            {
+              "away": "1.14",
+              "home": "7.60",
+              "time": "赛前18小时30分"
+            },
+            {
+              "away": "1.14",
+              "home": "7.80",
+              "time": "赛前18小时31分"
+            },
+            {
+              "away": "1.14",
+              "home": "7.60",
+              "time": "赛前18小时32分"
+            },
+            {
+              "away": "1.14",
+              "home": "7.40",
+              "time": "赛前18小时40分"
+            },
+            {
+              "away": "1.14",
+              "home": "7.20",
+              "time": "赛前19小时10分"
+            },
+            {
+              "away": "1.14",
+              "home": "7.40",
+              "time": "赛前19小时36分"
+            },
+            {
+              "away": "1.14",
+              "home": "7.20",
+              "time": "赛前20小时14分"
+            },
+            {
+              "away": "1.14",
+              "home": "7.00",
+              "time": "赛前20小时41分"
+            }
+          ]
+        },
+        {
+          "company": "澳门彩票",
+          "initial_away": "1.14",
+          "initial_home": "5.10",
+          "latest_away": "1.14",
+          "latest_home": "5.10",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378481&pid=84&Type=Odds",
+          "history": []
+        },
+        {
+          "company": "Coral",
+          "initial_away": "1.10",
+          "initial_home": "6.50",
+          "latest_away": "1.11",
+          "latest_home": "6.00",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378481&pid=116&Type=Odds",
+          "history": [
+            {
+              "away": "1.12",
+              "home": "6.00",
+              "time": "赛前17小时56分"
+            },
+            {
+              "away": "1.11",
+              "home": "6.00",
+              "time": "赛前18小时27分"
+            },
+            {
+              "away": "1.12",
+              "home": "6.00",
+              "time": "赛前21小时20分"
+            },
+            {
+              "away": "1.13",
+              "home": "5.75",
+              "time": "赛前21小时49分"
+            },
+            {
+              "away": "1.12",
+              "home": "6.00",
+              "time": "赛前22小时48分"
+            },
+            {
+              "away": "1.10",
+              "home": "6.50",
+              "time": "赛前22小时53分"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "match_id": "5378482",
+      "match_no": "周一303",
+      "league": "NBA",
+      "away_team": "公牛",
+      "home_team": "马刺",
+      "status": "未开始",
+      "time_or_score": "08:00",
+      "history_url": "https://m.okooo.com/match/basketball/history.php?LotteryType=SportteryWL&MatchID=5378482&from=%2Flive%2F",
+      "odds_url": "https://m.okooo.com/match/basketball/odds.php?MatchID=5378482&from=%2Flive%2F",
+      "moneyline_companies": [
+        {
+          "company": "99家平均",
+          "initial_away": "10.92",
+          "initial_home": "1.04",
+          "latest_away": "10.25",
+          "latest_home": "1.05",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378482&pid=24&Type=Odds",
+          "history": [
+            {
+              "away": "10.24",
+              "home": "1.05",
+              "time": "赛前11小时41分"
+            },
+            {
+              "away": "10.26",
+              "home": "1.05",
+              "time": "赛前11小时43分"
+            },
+            {
+              "away": "10.25",
+              "home": "1.05",
+              "time": "赛前11小时43分"
+            },
+            {
+              "away": "10.28",
+              "home": "1.05",
+              "time": "赛前11小时45分"
+            },
+            {
+              "away": "10.29",
+              "home": "1.05",
+              "time": "赛前11小时46分"
+            },
+            {
+              "away": "10.27",
+              "home": "1.05",
+              "time": "赛前11小时46分"
+            },
+            {
+              "away": "10.26",
+              "home": "1.05",
+              "time": "赛前11小时47分"
+            },
+            {
+              "away": "10.26",
+              "home": "1.04",
+              "time": "赛前11小时47分"
+            },
+            {
+              "away": "10.25",
+              "home": "1.05",
+              "time": "赛前11小时49分"
+            },
+            {
+              "away": "10.26",
+              "home": "1.05",
+              "time": "赛前11小时51分"
+            },
+            {
+              "away": "10.28",
+              "home": "1.05",
+              "time": "赛前11小时52分"
+            },
+            {
+              "away": "10.22",
+              "home": "1.04",
+              "time": "赛前11小时53分"
+            },
+            {
+              "away": "10.23",
+              "home": "1.04",
+              "time": "赛前11小时54分"
+            },
+            {
+              "away": "10.21",
+              "home": "1.05",
+              "time": "赛前12小时4分"
+            },
+            {
+              "away": "10.17",
+              "home": "1.05",
+              "time": "赛前12小时8分"
+            },
+            {
+              "away": "10.13",
+              "home": "1.05",
+              "time": "赛前12小时8分"
+            },
+            {
+              "away": "10.09",
+              "home": "1.05",
+              "time": "赛前12小时55分"
+            },
+            {
+              "away": "10.04",
+              "home": "1.05",
+              "time": "赛前12小时57分"
+            },
+            {
+              "away": "10.03",
+              "home": "1.05",
+              "time": "赛前14小时12分"
+            },
+            {
+              "away": "10.06",
+              "home": "1.05",
+              "time": "赛前14小时18分"
+            },
+            {
+              "away": "10.07",
+              "home": "1.05",
+              "time": "赛前14小时28分"
+            },
+            {
+              "away": "10.06",
+              "home": "1.05",
+              "time": "赛前14小时57分"
+            },
+            {
+              "away": "10.02",
+              "home": "1.05",
+              "time": "赛前15小时59分"
+            },
+            {
+              "away": "10.07",
+              "home": "1.05",
+              "time": "赛前16小时3分"
+            },
+            {
+              "away": "10.03",
+              "home": "1.05",
+              "time": "赛前16小时5分"
+            },
+            {
+              "away": "10.07",
+              "home": "1.05",
+              "time": "赛前16小时38分"
+            },
+            {
+              "away": "10.06",
+              "home": "1.05",
+              "time": "赛前16小时40分"
+            },
+            {
+              "away": "10.03",
+              "home": "1.05",
+              "time": "赛前16小时41分"
+            },
+            {
+              "away": "10.08",
+              "home": "1.05",
+              "time": "赛前16小时42分"
+            }
+          ]
+        },
+        {
+          "company": "威廉.希尔",
+          "initial_away": "11.00",
+          "initial_home": "1.04",
+          "latest_away": "11.00",
+          "latest_home": "1.04",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378482&pid=14&Type=Odds",
+          "history": []
+        },
+        {
+          "company": "立博",
+          "initial_away": "11.00",
+          "initial_home": "1.03",
+          "latest_away": "10.00",
+          "latest_home": "1.04",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378482&pid=82&Type=Odds",
+          "history": [
+            {
+              "away": "11.00",
+              "home": "1.03",
+              "time": "赛前22小时52分"
+            }
+          ]
+        },
+        {
+          "company": "Interwetten",
+          "initial_away": "12.00",
+          "initial_home": "1.03",
+          "latest_away": "9.50",
+          "latest_home": "1.05",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378482&pid=43&Type=Odds",
+          "history": [
+            {
+              "away": "8.00",
+              "home": "1.07",
+              "time": "赛前22小时30分"
+            },
+            {
+              "away": "12.00",
+              "home": "1.03",
+              "time": "赛前23小时52分"
+            }
+          ]
+        },
+        {
+          "company": "bwin",
+          "initial_away": "12.00",
+          "initial_home": "1.04",
+          "latest_away": "11.00",
+          "latest_home": "1.05",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378482&pid=94&Type=Odds",
+          "history": [
+            {
+              "away": "12.00",
+              "home": "1.04",
+              "time": "赛前22小时53分"
+            }
+          ]
+        },
+        {
+          "company": "伟德国际",
+          "initial_away": "9.50",
+          "initial_home": "1.03",
+          "latest_away": "10.00",
+          "latest_home": "1.05",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378482&pid=65&Type=Odds",
+          "history": [
+            {
+              "away": "10.00",
+              "home": "1.04",
+              "time": "赛前11小时52分"
+            },
+            {
+              "away": "8.50",
+              "home": "1.03",
+              "time": "赛前12小时9分"
+            },
+            {
+              "away": "8.50",
+              "home": "1.04",
+              "time": "赛前16小时5分"
+            },
+            {
+              "away": "8.50",
+              "home": "1.03",
+              "time": "赛前19小时41分"
+            },
+            {
+              "away": "7.50",
+              "home": "1.05",
+              "time": "赛前22小时30分"
+            },
+            {
+              "away": "11.50",
+              "home": "1.05",
+              "time": "赛前22小时50分"
+            },
+            {
+              "away": "9.00",
+              "home": "1.03",
+              "time": "赛前23小时52分"
+            },
+            {
+              "away": "9.50",
+              "home": "1.03",
+              "time": "赛前23小时53分"
+            }
+          ]
+        },
+        {
+          "company": "Unibet",
+          "initial_away": "10.50",
+          "initial_home": "1.06",
+          "latest_away": "11.50",
+          "latest_home": "1.05",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378482&pid=180&Type=Odds",
+          "history": [
+            {
+              "away": "9.50",
+              "home": "1.07",
+              "time": "赛前22小时30分"
+            },
+            {
+              "away": "12.50",
+              "home": "1.04",
+              "time": "赛前23小时48分"
+            },
+            {
+              "away": "12.00",
+              "home": "1.04",
+              "time": "赛前23小时52分"
+            },
+            {
+              "away": "10.50",
+              "home": "1.06",
+              "time": "赛前23小时54分"
+            }
+          ]
+        },
+        {
+          "company": "博天堂",
+          "initial_away": "12.00",
+          "initial_home": "1.04",
+          "latest_away": "11.00",
+          "latest_home": "1.05",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378482&pid=159&Type=Odds",
+          "history": [
+            {
+              "away": "12.00",
+              "home": "1.04",
+              "time": "赛前22小时52分"
+            }
+          ]
+        },
+        {
+          "company": "必发",
+          "initial_away": "14.00",
+          "initial_home": "1.07",
+          "latest_away": "16.00",
+          "latest_home": "1.06",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378482&pid=19&Type=Odds",
+          "history": [
+            {
+              "away": "15.50",
+              "home": "1.06",
+              "time": "赛前12小时19分"
+            },
+            {
+              "away": "16.00",
+              "home": "1.06",
+              "time": "赛前12小时20分"
+            },
+            {
+              "away": "15.50",
+              "home": "1.06",
+              "time": "赛前12小时21分"
+            },
+            {
+              "away": "16.00",
+              "home": "1.06",
+              "time": "赛前13小时31分"
+            },
+            {
+              "away": "15.50",
+              "home": "1.06",
+              "time": "赛前13小时32分"
+            },
+            {
+              "away": "16.00",
+              "home": "1.06",
+              "time": "赛前13小时33分"
+            },
+            {
+              "away": "15.50",
+              "home": "1.06",
+              "time": "赛前13小时46分"
+            },
+            {
+              "away": "15.00",
+              "home": "1.06",
+              "time": "赛前14小时4分"
+            },
+            {
+              "away": "15.50",
+              "home": "1.06",
+              "time": "赛前14小时49分"
+            },
+            {
+              "away": "15.00",
+              "home": "1.06",
+              "time": "赛前15小时25分"
+            },
+            {
+              "away": "15.50",
+              "home": "1.06",
+              "time": "赛前15小时35分"
+            },
+            {
+              "away": "15.00",
+              "home": "1.06",
+              "time": "赛前15小时50分"
+            },
+            {
+              "away": "14.50",
+              "home": "1.06",
+              "time": "赛前15小时51分"
+            },
+            {
+              "away": "15.00",
+              "home": "1.06",
+              "time": "赛前16小时52分"
+            },
+            {
+              "away": "14.00",
+              "home": "1.06",
+              "time": "赛前16小时54分"
+            },
+            {
+              "away": "15.00",
+              "home": "1.06",
+              "time": "赛前16小时55分"
+            },
+            {
+              "away": "14.00",
+              "home": "1.06",
+              "time": "赛前16小时56分"
+            },
+            {
+              "away": "15.00",
+              "home": "1.06",
+              "time": "赛前17小时3分"
+            },
+            {
+              "away": "14.00",
+              "home": "1.06",
+              "time": "赛前17小时6分"
+            },
+            {
+              "away": "15.50",
+              "home": "1.06",
+              "time": "赛前17小时15分"
+            },
+            {
+              "away": "13.50",
+              "home": "1.06",
+              "time": "赛前17小时16分"
+            },
+            {
+              "away": "14.00",
+              "home": "1.06",
+              "time": "赛前17小时17分"
+            },
+            {
+              "away": "13.50",
+              "home": "1.06",
+              "time": "赛前17小时18分"
+            },
+            {
+              "away": "13.50",
+              "home": "1.07",
+              "time": "赛前18小时37分"
+            },
+            {
+              "away": "14.00",
+              "home": "1.07",
+              "time": "赛前22小时11分"
+            }
+          ]
+        },
+        {
+          "company": "澳门彩票",
+          "initial_away": "8.80",
+          "initial_home": "1.04",
+          "latest_away": "10.00",
+          "latest_home": "1.02",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378482&pid=84&Type=Odds",
+          "history": [
+            {
+              "away": "8.80",
+              "home": "1.04",
+              "time": "赛前19小时30分"
+            }
+          ]
+        },
+        {
+          "company": "Coral",
+          "initial_away": "11.00",
+          "initial_home": "1.03",
+          "latest_away": "10.00",
+          "latest_home": "1.04",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378482&pid=116&Type=Odds",
+          "history": [
+            {
+              "away": "11.00",
+              "home": "1.03",
+              "time": "赛前22小时53分"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "match_id": "5378483",
+      "match_no": "周一304",
+      "league": "NBA",
+      "away_team": "森林狼",
+      "home_team": "独行侠",
+      "status": "未开始",
+      "time_or_score": "08:30",
+      "history_url": "https://m.okooo.com/match/basketball/history.php?LotteryType=SportteryWL&MatchID=5378483&from=%2Flive%2F",
+      "odds_url": "https://m.okooo.com/match/basketball/odds.php?MatchID=5378483&from=%2Flive%2F",
+      "moneyline_companies": [
+        {
+          "company": "99家平均",
+          "initial_away": "1.35",
+          "initial_home": "3.19",
+          "latest_away": "1.35",
+          "latest_home": "3.13",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378483&pid=24&Type=Odds",
+          "history": [
+            {
+              "away": "1.35",
+              "home": "3.12",
+              "time": "赛前12小时30分"
+            },
+            {
+              "away": "1.35",
+              "home": "3.13",
+              "time": "赛前12小时55分"
+            },
+            {
+              "away": "1.35",
+              "home": "3.12",
+              "time": "赛前13小时7分"
+            },
+            {
+              "away": "1.35",
+              "home": "3.13",
+              "time": "赛前13小时34分"
+            },
+            {
+              "away": "1.35",
+              "home": "3.14",
+              "time": "赛前13小时36分"
+            },
+            {
+              "away": "1.35",
+              "home": "3.15",
+              "time": "赛前13小时37分"
+            },
+            {
+              "away": "1.35",
+              "home": "3.16",
+              "time": "赛前13小时38分"
+            },
+            {
+              "away": "1.34",
+              "home": "3.17",
+              "time": "赛前13小时48分"
+            },
+            {
+              "away": "1.34",
+              "home": "3.16",
+              "time": "赛前14小时42分"
+            },
+            {
+              "away": "1.35",
+              "home": "3.16",
+              "time": "赛前14小时43分"
+            },
+            {
+              "away": "1.34",
+              "home": "3.16",
+              "time": "赛前14小时49分"
+            },
+            {
+              "away": "1.34",
+              "home": "3.15",
+              "time": "赛前14小时51分"
+            },
+            {
+              "away": "1.35",
+              "home": "3.15",
+              "time": "赛前14小时51分"
+            },
+            {
+              "away": "1.34",
+              "home": "3.15",
+              "time": "赛前14小时51分"
+            },
+            {
+              "away": "1.34",
+              "home": "3.16",
+              "time": "赛前14小时57分"
+            },
+            {
+              "away": "1.34",
+              "home": "3.15",
+              "time": "赛前16小时14分"
+            },
+            {
+              "away": "1.34",
+              "home": "3.16",
+              "time": "赛前16小时37分"
+            },
+            {
+              "away": "1.34",
+              "home": "3.15",
+              "time": "赛前16小时46分"
+            },
+            {
+              "away": "1.35",
+              "home": "3.15",
+              "time": "赛前17小时3分"
+            },
+            {
+              "away": "1.35",
+              "home": "3.14",
+              "time": "赛前17小时6分"
+            },
+            {
+              "away": "1.35",
+              "home": "3.15",
+              "time": "赛前18小时38分"
+            },
+            {
+              "away": "1.35",
+              "home": "3.14",
+              "time": "赛前19小时3分"
+            },
+            {
+              "away": "1.35",
+              "home": "3.15",
+              "time": "赛前19小时6分"
+            },
+            {
+              "away": "1.35",
+              "home": "3.16",
+              "time": "赛前19小时8分"
+            },
+            {
+              "away": "1.35",
+              "home": "3.14",
+              "time": "赛前19小时59分"
+            },
+            {
+              "away": "1.35",
+              "home": "3.15",
+              "time": "赛前20小时6分"
+            },
+            {
+              "away": "1.35",
+              "home": "3.14",
+              "time": "赛前20小时9分"
+            },
+            {
+              "away": "1.35",
+              "home": "3.15",
+              "time": "赛前20小时33分"
+            },
+            {
+              "away": "1.35",
+              "home": "3.16",
+              "time": "赛前20小时43分"
+            }
+          ]
+        },
+        {
+          "company": "竞彩官方",
+          "initial_away": "1.25",
+          "initial_home": "2.64",
+          "latest_away": "1.11",
+          "latest_home": "3.60",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378483&pid=2&Type=Odds",
+          "history": [
+            {
+              "away": "1.13",
+              "home": "3.40",
+              "time": "赛前14小时49分"
+            },
+            {
+              "away": "1.16",
+              "home": "3.15",
+              "time": "赛前16小时46分"
+            },
+            {
+              "away": "1.19",
+              "home": "2.95",
+              "time": "赛前18小时38分"
+            },
+            {
+              "away": "1.22",
+              "home": "2.78",
+              "time": "赛前19小时23分"
+            },
+            {
+              "away": "1.25",
+              "home": "2.64",
+              "time": "赛前19小时24分"
+            },
+            {
+              "away": "1.22",
+              "home": "2.78",
+              "time": "赛前19小时25分"
+            },
+            {
+              "away": "1.25",
+              "home": "2.64",
+              "time": "赛前21小时27分"
+            }
+          ]
+        },
+        {
+          "company": "威廉.希尔",
+          "initial_away": "1.33",
+          "initial_home": "3.30",
+          "latest_away": "1.33",
+          "latest_home": "3.30",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378483&pid=14&Type=Odds",
+          "history": []
+        },
+        {
+          "company": "立博",
+          "initial_away": "1.33",
+          "initial_home": "3.25",
+          "latest_away": "1.35",
+          "latest_home": "3.10",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378483&pid=82&Type=Odds",
+          "history": [
+            {
+              "away": "1.33",
+              "home": "3.20",
+              "time": "赛前13小时37分"
+            },
+            {
+              "away": "1.33",
+              "home": "3.25",
+              "time": "赛前14小时43分"
+            },
+            {
+              "away": "1.33",
+              "home": "3.20",
+              "time": "赛前14小时51分"
+            },
+            {
+              "away": "1.33",
+              "home": "3.25",
+              "time": "赛前23小时22分"
+            }
+          ]
+        },
+        {
+          "company": "Interwetten",
+          "initial_away": "1.35",
+          "initial_home": "3.15",
+          "latest_away": "1.37",
+          "latest_home": "3.00",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378483&pid=43&Type=Odds",
+          "history": [
+            {
+              "away": "1.35",
+              "home": "3.15",
+              "time": "赛前24小时43分"
+            }
+          ]
+        },
+        {
+          "company": "bwin",
+          "initial_away": "1.34",
+          "initial_home": "3.30",
+          "latest_away": "1.36",
+          "latest_home": "3.20",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378483&pid=94&Type=Odds",
+          "history": [
+            {
+              "away": "1.35",
+              "home": "3.25",
+              "time": "赛前13小时38分"
+            },
+            {
+              "away": "1.34",
+              "home": "3.30",
+              "time": "赛前14小时42分"
+            },
+            {
+              "away": "1.35",
+              "home": "3.25",
+              "time": "赛前14小时51分"
+            },
+            {
+              "away": "1.34",
+              "home": "3.30",
+              "time": "赛前23小时23分"
+            }
+          ]
+        },
+        {
+          "company": "伟德国际",
+          "initial_away": "1.33",
+          "initial_home": "3.05",
+          "latest_away": "1.36",
+          "latest_home": "3.05",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378483&pid=65&Type=Odds",
+          "history": [
+            {
+              "away": "1.34",
+              "home": "2.95",
+              "time": "赛前13小时36分"
+            },
+            {
+              "away": "1.34",
+              "home": "3.00",
+              "time": "赛前23小时23分"
+            },
+            {
+              "away": "1.33",
+              "home": "3.05",
+              "time": "赛前24小时23分"
+            },
+            {
+              "away": "1.34",
+              "home": "3.00",
+              "time": "赛前24小时37分"
+            },
+            {
+              "away": "1.33",
+              "home": "3.05",
+              "time": "赛前24小时45分"
+            }
+          ]
+        },
+        {
+          "company": "Unibet",
+          "initial_away": "1.35",
+          "initial_home": "3.20",
+          "latest_away": "1.37",
+          "latest_home": "3.15",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378483&pid=180&Type=Odds",
+          "history": [
+            {
+              "away": "1.37",
+              "home": "3.20",
+              "time": "赛前23小时24分"
+            },
+            {
+              "away": "1.37",
+              "home": "3.25",
+              "time": "赛前23小时58分"
+            },
+            {
+              "away": "1.35",
+              "home": "3.20",
+              "time": "赛前24小时22分"
+            },
+            {
+              "away": "1.37",
+              "home": "3.15",
+              "time": "赛前24小时37分"
+            },
+            {
+              "away": "1.35",
+              "home": "3.20",
+              "time": "赛前24小时43分"
+            }
+          ]
+        },
+        {
+          "company": "博天堂",
+          "initial_away": "1.34",
+          "initial_home": "3.30",
+          "latest_away": "1.36",
+          "latest_home": "3.20",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378483&pid=159&Type=Odds",
+          "history": [
+            {
+              "away": "1.34",
+              "home": "3.30",
+              "time": "赛前14小时42分"
+            },
+            {
+              "away": "1.35",
+              "home": "3.25",
+              "time": "赛前14小时51分"
+            },
+            {
+              "away": "1.34",
+              "home": "3.30",
+              "time": "赛前23小时22分"
+            }
+          ]
+        },
+        {
+          "company": "必发",
+          "initial_away": "1.40",
+          "initial_home": "3.30",
+          "latest_away": "1.42",
+          "latest_home": "3.30",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378483&pid=19&Type=Odds",
+          "history": [
+            {
+              "away": "1.41",
+              "home": "3.30",
+              "time": "赛前12小时21分"
+            },
+            {
+              "away": "1.41",
+              "home": "3.35",
+              "time": "赛前12小时28分"
+            },
+            {
+              "away": "1.41",
+              "home": "3.30",
+              "time": "赛前12小时33分"
+            },
+            {
+              "away": "1.43",
+              "home": "3.30",
+              "time": "赛前12小时36分"
+            },
+            {
+              "away": "1.41",
+              "home": "3.30",
+              "time": "赛前12小时38分"
+            },
+            {
+              "away": "1.41",
+              "home": "3.35",
+              "time": "赛前12小时40分"
+            },
+            {
+              "away": "1.41",
+              "home": "3.30",
+              "time": "赛前12小时41分"
+            },
+            {
+              "away": "1.41",
+              "home": "3.35",
+              "time": "赛前12小时42分"
+            },
+            {
+              "away": "1.41",
+              "home": "3.30",
+              "time": "赛前13小时1分"
+            },
+            {
+              "away": "1.42",
+              "home": "3.30",
+              "time": "赛前13小时2分"
+            },
+            {
+              "away": "1.41",
+              "home": "3.30",
+              "time": "赛前13小时3分"
+            },
+            {
+              "away": "1.41",
+              "home": "3.25",
+              "time": "赛前13小时4分"
+            },
+            {
+              "away": "1.41",
+              "home": "3.30",
+              "time": "赛前13小时6分"
+            },
+            {
+              "away": "1.41",
+              "home": "3.35",
+              "time": "赛前13小时8分"
+            },
+            {
+              "away": "1.41",
+              "home": "3.30",
+              "time": "赛前13小时34分"
+            },
+            {
+              "away": "1.42",
+              "home": "3.30",
+              "time": "赛前13小时35分"
+            },
+            {
+              "away": "1.41",
+              "home": "3.30",
+              "time": "赛前13小时37分"
+            },
+            {
+              "away": "1.42",
+              "home": "3.30",
+              "time": "赛前13小时54分"
+            },
+            {
+              "away": "1.41",
+              "home": "3.30",
+              "time": "赛前14小时7分"
+            },
+            {
+              "away": "1.41",
+              "home": "3.35",
+              "time": "赛前14小时9分"
+            },
+            {
+              "away": "1.41",
+              "home": "3.30",
+              "time": "赛前14小时10分"
+            },
+            {
+              "away": "1.41",
+              "home": "3.35",
+              "time": "赛前14小时11分"
+            },
+            {
+              "away": "1.41",
+              "home": "3.30",
+              "time": "赛前14小时12分"
+            },
+            {
+              "away": "1.40",
+              "home": "3.40",
+              "time": "赛前14小时31分"
+            },
+            {
+              "away": "1.40",
+              "home": "3.45",
+              "time": "赛前14小时35分"
+            },
+            {
+              "away": "1.41",
+              "home": "3.35",
+              "time": "赛前14小时56分"
+            },
+            {
+              "away": "1.42",
+              "home": "3.30",
+              "time": "赛前14小时57分"
+            },
+            {
+              "away": "1.42",
+              "home": "3.35",
+              "time": "赛前14小时58分"
+            },
+            {
+              "away": "1.42",
+              "home": "3.30",
+              "time": "赛前15小时5分"
+            }
+          ]
+        },
+        {
+          "company": "澳门彩票",
+          "initial_away": "1.38",
+          "initial_home": "2.90",
+          "latest_away": "1.38",
+          "latest_home": "2.90",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378483&pid=84&Type=Odds",
+          "history": []
+        },
+        {
+          "company": "Coral",
+          "initial_away": "1.33",
+          "initial_home": "3.25",
+          "latest_away": "1.35",
+          "latest_home": "3.10",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378483&pid=116&Type=Odds",
+          "history": [
+            {
+              "away": "1.33",
+              "home": "3.25",
+              "time": "赛前14小时41分"
+            },
+            {
+              "away": "1.33",
+              "home": "3.20",
+              "time": "赛前14小时51分"
+            },
+            {
+              "away": "1.33",
+              "home": "3.25",
+              "time": "赛前23小时23分"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "match_id": "5378484",
+      "match_no": "周一305",
+      "league": "NBA",
+      "away_team": "骑士",
+      "home_team": "爵士",
+      "status": "未开始",
+      "time_or_score": "09:00",
+      "history_url": "https://m.okooo.com/match/basketball/history.php?LotteryType=SportteryWL&MatchID=5378484&from=%2Flive%2F",
+      "odds_url": "https://m.okooo.com/match/basketball/odds.php?MatchID=5378484&from=%2Flive%2F",
+      "moneyline_companies": [
+        {
+          "company": "99家平均",
+          "initial_away": "1.05",
+          "initial_home": "9.82",
+          "latest_away": "1.05",
+          "latest_home": "9.71",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378484&pid=24&Type=Odds",
+          "history": [
+            {
+              "away": "1.05",
+              "home": "9.73",
+              "time": "赛前13小时2分"
+            },
+            {
+              "away": "1.05",
+              "home": "9.75",
+              "time": "赛前13小时6分"
+            },
+            {
+              "away": "1.05",
+              "home": "9.78",
+              "time": "赛前13小时6分"
+            },
+            {
+              "away": "1.05",
+              "home": "9.77",
+              "time": "赛前13小时11分"
+            },
+            {
+              "away": "1.05",
+              "home": "9.75",
+              "time": "赛前13小时23分"
+            },
+            {
+              "away": "1.05",
+              "home": "9.76",
+              "time": "赛前14小时33分"
+            },
+            {
+              "away": "1.05",
+              "home": "9.75",
+              "time": "赛前14小时43分"
+            },
+            {
+              "away": "1.05",
+              "home": "9.73",
+              "time": "赛前14小时57分"
+            },
+            {
+              "away": "1.05",
+              "home": "9.74",
+              "time": "赛前15小时7分"
+            },
+            {
+              "away": "1.05",
+              "home": "9.76",
+              "time": "赛前16小时55分"
+            },
+            {
+              "away": "1.05",
+              "home": "9.64",
+              "time": "赛前16小时59分"
+            },
+            {
+              "away": "1.05",
+              "home": "9.75",
+              "time": "赛前17小时7分"
+            },
+            {
+              "away": "1.05",
+              "home": "9.76",
+              "time": "赛前17小时56分"
+            },
+            {
+              "away": "1.05",
+              "home": "9.65",
+              "time": "赛前18小时52分"
+            },
+            {
+              "away": "1.05",
+              "home": "9.64",
+              "time": "赛前18小时52分"
+            },
+            {
+              "away": "1.05",
+              "home": "9.66",
+              "time": "赛前19小时27分"
+            },
+            {
+              "away": "1.05",
+              "home": "9.67",
+              "time": "赛前19小时27分"
+            },
+            {
+              "away": "1.05",
+              "home": "9.68",
+              "time": "赛前19小时34分"
+            },
+            {
+              "away": "1.05",
+              "home": "9.70",
+              "time": "赛前19小时38分"
+            },
+            {
+              "away": "1.05",
+              "home": "9.73",
+              "time": "赛前20小时23分"
+            },
+            {
+              "away": "1.05",
+              "home": "9.77",
+              "time": "赛前20小时26分"
+            },
+            {
+              "away": "1.05",
+              "home": "9.79",
+              "time": "赛前20小时27分"
+            },
+            {
+              "away": "1.05",
+              "home": "9.81",
+              "time": "赛前21小时4分"
+            },
+            {
+              "away": "1.05",
+              "home": "9.79",
+              "time": "赛前21小时20分"
+            },
+            {
+              "away": "1.05",
+              "home": "9.83",
+              "time": "赛前21小时32分"
+            },
+            {
+              "away": "1.05",
+              "home": "9.75",
+              "time": "赛前22小时18分"
+            },
+            {
+              "away": "1.05",
+              "home": "9.79",
+              "time": "赛前22小时20分"
+            },
+            {
+              "away": "1.05",
+              "home": "9.83",
+              "time": "赛前22小时20分"
+            },
+            {
+              "away": "1.05",
+              "home": "9.85",
+              "time": "赛前22小时20分"
+            }
+          ]
+        },
+        {
+          "company": "威廉.希尔",
+          "initial_away": "1.05",
+          "initial_home": "10.00",
+          "latest_away": "1.05",
+          "latest_home": "10.00",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378484&pid=14&Type=Odds",
+          "history": [
+            {
+              "away": "1.04",
+              "home": "11.00",
+              "time": "赛前24小时29分"
+            },
+            {
+              "away": "1.05",
+              "home": "10.00",
+              "time": "赛前24小时40分"
+            }
+          ]
+        },
+        {
+          "company": "立博",
+          "initial_away": "1.04",
+          "initial_home": "10.00",
+          "latest_away": "1.04",
+          "latest_home": "10.00",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378484&pid=82&Type=Odds",
+          "history": [
+            {
+              "away": "1.03",
+              "home": "11.00",
+              "time": "赛前23小时48分"
+            },
+            {
+              "away": "1.04",
+              "home": "10.00",
+              "time": "赛前23小时52分"
+            }
+          ]
+        },
+        {
+          "company": "Interwetten",
+          "initial_away": "1.03",
+          "initial_home": "12.00",
+          "latest_away": "1.05",
+          "latest_home": "9.50",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378484&pid=43&Type=Odds",
+          "history": [
+            {
+              "away": "1.03",
+              "home": "12.00",
+              "time": "赛前24小时52分"
+            }
+          ]
+        },
+        {
+          "company": "bwin",
+          "initial_away": "1.05",
+          "initial_home": "11.00",
+          "latest_away": "1.05",
+          "latest_home": "11.00",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378484&pid=94&Type=Odds",
+          "history": [
+            {
+              "away": "1.04",
+              "home": "11.50",
+              "time": "赛前23小时48分"
+            },
+            {
+              "away": "1.05",
+              "home": "11.00",
+              "time": "赛前23小时53分"
+            }
+          ]
+        },
+        {
+          "company": "伟德国际",
+          "initial_away": "1.03",
+          "initial_home": "9.00",
+          "latest_away": "1.04",
+          "latest_home": "8.50",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378484&pid=65&Type=Odds",
+          "history": [
+            {
+              "away": "1.03",
+              "home": "8.50",
+              "time": "赛前24小时33分"
+            },
+            {
+              "away": "1.05",
+              "home": "8.00",
+              "time": "赛前24小时40分"
+            },
+            {
+              "away": "1.03",
+              "home": "9.00",
+              "time": "赛前24小时52分"
+            }
+          ]
+        },
+        {
+          "company": "Unibet",
+          "initial_away": "1.04",
+          "initial_home": "11.00",
+          "latest_away": "1.06",
+          "latest_home": "11.00",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378484&pid=180&Type=Odds",
+          "history": [
+            {
+              "away": "1.05",
+              "home": "11.00",
+              "time": "赛前23小时57分"
+            },
+            {
+              "away": "1.05",
+              "home": "10.50",
+              "time": "赛前24小时34分"
+            },
+            {
+              "away": "1.06",
+              "home": "9.50",
+              "time": "赛前24小时40分"
+            },
+            {
+              "away": "1.04",
+              "home": "11.00",
+              "time": "赛前24小时44分"
+            }
+          ]
+        },
+        {
+          "company": "博天堂",
+          "initial_away": "1.05",
+          "initial_home": "11.00",
+          "latest_away": "1.05",
+          "latest_home": "11.00",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378484&pid=159&Type=Odds",
+          "history": [
+            {
+              "away": "1.04",
+              "home": "11.50",
+              "time": "赛前23小时48分"
+            },
+            {
+              "away": "1.05",
+              "home": "11.00",
+              "time": "赛前23小时53分"
+            }
+          ]
+        },
+        {
+          "company": "必发",
+          "initial_away": "1.08",
+          "initial_home": "11.50",
+          "latest_away": "1.07",
+          "latest_home": "13.50",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378484&pid=19&Type=Odds",
+          "history": [
+            {
+              "away": "1.08",
+              "home": "12.50",
+              "time": "赛前13小时47分"
+            },
+            {
+              "away": "1.08",
+              "home": "12.00",
+              "time": "赛前13小时48分"
+            },
+            {
+              "away": "1.08",
+              "home": "12.50",
+              "time": "赛前13小时50分"
+            },
+            {
+              "away": "1.08",
+              "home": "12.00",
+              "time": "赛前14小时"
+            },
+            {
+              "away": "1.08",
+              "home": "12.50",
+              "time": "赛前14小时14分"
+            },
+            {
+              "away": "1.08",
+              "home": "12.00",
+              "time": "赛前14小时18分"
+            },
+            {
+              "away": "1.08",
+              "home": "12.50",
+              "time": "赛前14小时33分"
+            },
+            {
+              "away": "1.07",
+              "home": "12.50",
+              "time": "赛前14小时34分"
+            },
+            {
+              "away": "1.08",
+              "home": "12.50",
+              "time": "赛前14小时35分"
+            },
+            {
+              "away": "1.07",
+              "home": "13.50",
+              "time": "赛前14小时41分"
+            },
+            {
+              "away": "1.07",
+              "home": "12.50",
+              "time": "赛前14小时42分"
+            },
+            {
+              "away": "1.07",
+              "home": "13.50",
+              "time": "赛前14小时43分"
+            },
+            {
+              "away": "1.07",
+              "home": "13.00",
+              "time": "赛前14小时44分"
+            },
+            {
+              "away": "1.07",
+              "home": "12.50",
+              "time": "赛前14小时47分"
+            },
+            {
+              "away": "1.07",
+              "home": "12.00",
+              "time": "赛前15小时15分"
+            },
+            {
+              "away": "1.07",
+              "home": "13.50",
+              "time": "赛前15小时17分"
+            },
+            {
+              "away": "1.07",
+              "home": "12.00",
+              "time": "赛前15小时22分"
+            },
+            {
+              "away": "1.08",
+              "home": "12.00",
+              "time": "赛前15小时54分"
+            },
+            {
+              "away": "1.07",
+              "home": "12.00",
+              "time": "赛前15小时56分"
+            },
+            {
+              "away": "1.08",
+              "home": "12.00",
+              "time": "赛前16小时27分"
+            },
+            {
+              "away": "1.07",
+              "home": "12.00",
+              "time": "赛前20小时2分"
+            },
+            {
+              "away": "1.08",
+              "home": "11.50",
+              "time": "赛前20小时39分"
+            },
+            {
+              "away": "1.08",
+              "home": "11.00",
+              "time": "赛前20小时55分"
+            },
+            {
+              "away": "1.07",
+              "home": "11.00",
+              "time": "赛前20小时56分"
+            },
+            {
+              "away": "1.08",
+              "home": "11.00",
+              "time": "赛前20小时57分"
+            },
+            {
+              "away": "1.08",
+              "home": "11.50",
+              "time": "赛前21小时19分"
+            },
+            {
+              "away": "1.08",
+              "home": "12.00",
+              "time": "赛前21小时20分"
+            },
+            {
+              "away": "1.08",
+              "home": "11.50",
+              "time": "赛前21小时21分"
+            },
+            {
+              "away": "1.08",
+              "home": "12.00",
+              "time": "赛前23小时6分"
+            }
+          ]
+        },
+        {
+          "company": "澳门彩票",
+          "initial_away": "1.04",
+          "initial_home": "8.80",
+          "latest_away": "1.04",
+          "latest_home": "8.80",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378484&pid=84&Type=Odds",
+          "history": []
+        },
+        {
+          "company": "Coral",
+          "initial_away": "1.04",
+          "initial_home": "10.00",
+          "latest_away": "1.04",
+          "latest_home": "10.00",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378484&pid=116&Type=Odds",
+          "history": [
+            {
+              "away": "1.03",
+              "home": "11.00",
+              "time": "赛前23小时48分"
+            },
+            {
+              "away": "1.04",
+              "home": "10.00",
+              "time": "赛前23小时53分"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "match_id": "5378485",
+      "match_no": "周一306",
+      "league": "NBA",
+      "away_team": "活塞",
+      "home_team": "雷霆",
+      "status": "未开始",
+      "time_or_score": "09:30",
+      "history_url": "https://m.okooo.com/match/basketball/history.php?LotteryType=SportteryWL&MatchID=5378485&from=%2Flive%2F",
+      "odds_url": "https://m.okooo.com/match/basketball/odds.php?MatchID=5378485&from=%2Flive%2F",
+      "moneyline_companies": [
+        {
+          "company": "99家平均",
+          "initial_away": "5.89",
+          "initial_home": "1.13",
+          "latest_away": "6.12",
+          "latest_home": "1.12",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378485&pid=24&Type=Odds",
+          "history": [
+            {
+              "away": "6.13",
+              "home": "1.12",
+              "time": "赛前13小时3分"
+            },
+            {
+              "away": "6.12",
+              "home": "1.12",
+              "time": "赛前13小时6分"
+            },
+            {
+              "away": "6.13",
+              "home": "1.12",
+              "time": "赛前13小时11分"
+            },
+            {
+              "away": "6.12",
+              "home": "1.12",
+              "time": "赛前13小时14分"
+            },
+            {
+              "away": "6.15",
+              "home": "1.12",
+              "time": "赛前13小时16分"
+            },
+            {
+              "away": "6.12",
+              "home": "1.12",
+              "time": "赛前13小时17分"
+            },
+            {
+              "away": "6.13",
+              "home": "1.12",
+              "time": "赛前13小时19分"
+            },
+            {
+              "away": "6.14",
+              "home": "1.12",
+              "time": "赛前13小时20分"
+            },
+            {
+              "away": "6.13",
+              "home": "1.12",
+              "time": "赛前13小时27分"
+            },
+            {
+              "away": "6.14",
+              "home": "1.12",
+              "time": "赛前15小时8分"
+            },
+            {
+              "away": "6.13",
+              "home": "1.12",
+              "time": "赛前15小时11分"
+            },
+            {
+              "away": "6.12",
+              "home": "1.12",
+              "time": "赛前15小时14分"
+            },
+            {
+              "away": "6.13",
+              "home": "1.12",
+              "time": "赛前15小时24分"
+            },
+            {
+              "away": "6.12",
+              "home": "1.12",
+              "time": "赛前15小时28分"
+            },
+            {
+              "away": "6.17",
+              "home": "1.12",
+              "time": "赛前15小时30分"
+            },
+            {
+              "away": "6.19",
+              "home": "1.12",
+              "time": "赛前16小时"
+            },
+            {
+              "away": "6.17",
+              "home": "1.12",
+              "time": "赛前16小时27分"
+            },
+            {
+              "away": "6.16",
+              "home": "1.12",
+              "time": "赛前16小时37分"
+            },
+            {
+              "away": "6.17",
+              "home": "1.12",
+              "time": "赛前16小时38分"
+            },
+            {
+              "away": "6.19",
+              "home": "1.12",
+              "time": "赛前16小时38分"
+            },
+            {
+              "away": "6.20",
+              "home": "1.12",
+              "time": "赛前16小时39分"
+            },
+            {
+              "away": "6.21",
+              "home": "1.12",
+              "time": "赛前16小时46分"
+            },
+            {
+              "away": "6.20",
+              "home": "1.12",
+              "time": "赛前16小时48分"
+            },
+            {
+              "away": "6.18",
+              "home": "1.12",
+              "time": "赛前16小时49分"
+            },
+            {
+              "away": "6.16",
+              "home": "1.12",
+              "time": "赛前16小时49分"
+            },
+            {
+              "away": "6.15",
+              "home": "1.12",
+              "time": "赛前16小时51分"
+            },
+            {
+              "away": "6.14",
+              "home": "1.12",
+              "time": "赛前16小时52分"
+            },
+            {
+              "away": "6.13",
+              "home": "1.12",
+              "time": "赛前17小时59分"
+            },
+            {
+              "away": "6.15",
+              "home": "1.12",
+              "time": "赛前18小时30分"
+            }
+          ]
+        },
+        {
+          "company": "威廉.希尔",
+          "initial_away": "7.00",
+          "initial_home": "1.10",
+          "latest_away": "6.50",
+          "latest_home": "1.11",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378485&pid=14&Type=Odds",
+          "history": [
+            {
+              "away": "6.00",
+              "home": "1.12",
+              "time": "赛前24小时49分"
+            },
+            {
+              "away": "7.00",
+              "home": "1.10",
+              "time": "赛前25小时20分"
+            }
+          ]
+        },
+        {
+          "company": "立博",
+          "initial_away": "6.00",
+          "initial_home": "1.12",
+          "latest_away": "6.00",
+          "latest_home": "1.11",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378485&pid=82&Type=Odds",
+          "history": [
+            {
+              "away": "6.50",
+              "home": "1.10",
+              "time": "赛前16小时48分"
+            },
+            {
+              "away": "6.00",
+              "home": "1.11",
+              "time": "赛前16小时51分"
+            },
+            {
+              "away": "6.00",
+              "home": "1.12",
+              "time": "赛前22小时18分"
+            }
+          ]
+        },
+        {
+          "company": "Interwetten",
+          "initial_away": "6.75",
+          "initial_home": "1.10",
+          "latest_away": "6.00",
+          "latest_home": "1.12",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378485&pid=43&Type=Odds",
+          "history": [
+            {
+              "away": "6.75",
+              "home": "1.10",
+              "time": "赛前25小时27分"
+            }
+          ]
+        },
+        {
+          "company": "bwin",
+          "initial_away": "6.25",
+          "initial_home": "1.13",
+          "latest_away": "6.50",
+          "latest_home": "1.12",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378485&pid=94&Type=Odds",
+          "history": [
+            {
+              "away": "6.75",
+              "home": "1.11",
+              "time": "赛前16小时47分"
+            },
+            {
+              "away": "6.50",
+              "home": "1.12",
+              "time": "赛前16小时52分"
+            },
+            {
+              "away": "6.25",
+              "home": "1.13",
+              "time": "赛前22小时19分"
+            }
+          ]
+        },
+        {
+          "company": "伟德国际",
+          "initial_away": "6.50",
+          "initial_home": "1.08",
+          "latest_away": "5.80",
+          "latest_home": "1.10",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378485&pid=65&Type=Odds",
+          "history": [
+            {
+              "away": "5.20",
+              "home": "1.12",
+              "time": "赛前22小时18分"
+            },
+            {
+              "away": "5.20",
+              "home": "1.11",
+              "time": "赛前22小时19分"
+            },
+            {
+              "away": "5.50",
+              "home": "1.11",
+              "time": "赛前22小时24分"
+            },
+            {
+              "away": "5.20",
+              "home": "1.13",
+              "time": "赛前23小时53分"
+            },
+            {
+              "away": "5.50",
+              "home": "1.11",
+              "time": "赛前24小时52分"
+            },
+            {
+              "away": "5.80",
+              "home": "1.10",
+              "time": "赛前25小时20分"
+            },
+            {
+              "away": "6.50",
+              "home": "1.10",
+              "time": "赛前25小时26分"
+            },
+            {
+              "away": "6.50",
+              "home": "1.08",
+              "time": "赛前25小时27分"
+            }
+          ]
+        },
+        {
+          "company": "Unibet",
+          "initial_away": "7.50",
+          "initial_home": "1.09",
+          "latest_away": "6.75",
+          "latest_home": "1.12",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378485&pid=180&Type=Odds",
+          "history": [
+            {
+              "away": "6.00",
+              "home": "1.14",
+              "time": "赛前22小时18分"
+            },
+            {
+              "away": "6.25",
+              "home": "1.14",
+              "time": "赛前22小时22分"
+            },
+            {
+              "away": "6.00",
+              "home": "1.14",
+              "time": "赛前23小时53分"
+            },
+            {
+              "away": "6.40",
+              "home": "1.13",
+              "time": "赛前23小时58分"
+            },
+            {
+              "away": "6.25",
+              "home": "1.13",
+              "time": "赛前24小时51分"
+            },
+            {
+              "away": "6.50",
+              "home": "1.12",
+              "time": "赛前25小时19分"
+            },
+            {
+              "away": "6.75",
+              "home": "1.12",
+              "time": "赛前25小时25分"
+            },
+            {
+              "away": "7.50",
+              "home": "1.09",
+              "time": "赛前25小时27分"
+            }
+          ]
+        },
+        {
+          "company": "博天堂",
+          "initial_away": "6.25",
+          "initial_home": "1.13",
+          "latest_away": "6.50",
+          "latest_home": "1.12",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378485&pid=159&Type=Odds",
+          "history": [
+            {
+              "away": "6.75",
+              "home": "1.11",
+              "time": "赛前16小时50分"
+            },
+            {
+              "away": "6.50",
+              "home": "1.12",
+              "time": "赛前16小时51分"
+            },
+            {
+              "away": "6.25",
+              "home": "1.13",
+              "time": "赛前22小时18分"
+            }
+          ]
+        },
+        {
+          "company": "必发",
+          "initial_away": "6.00",
+          "initial_home": "1.15",
+          "latest_away": "7.20",
+          "latest_home": "1.14",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378485&pid=19&Type=Odds",
+          "history": [
+            {
+              "away": "7.20",
+              "home": "1.15",
+              "time": "赛前13小时16分"
+            },
+            {
+              "away": "7.20",
+              "home": "1.14",
+              "time": "赛前13小时17分"
+            },
+            {
+              "away": "7.20",
+              "home": "1.15",
+              "time": "赛前13小时27分"
+            },
+            {
+              "away": "7.20",
+              "home": "1.14",
+              "time": "赛前13小时38分"
+            },
+            {
+              "away": "7.20",
+              "home": "1.15",
+              "time": "赛前13小时41分"
+            },
+            {
+              "away": "7.00",
+              "home": "1.15",
+              "time": "赛前13小时58分"
+            },
+            {
+              "away": "7.20",
+              "home": "1.15",
+              "time": "赛前14小时9分"
+            },
+            {
+              "away": "7.00",
+              "home": "1.15",
+              "time": "赛前14小时27分"
+            },
+            {
+              "away": "7.20",
+              "home": "1.15",
+              "time": "赛前14小时54分"
+            },
+            {
+              "away": "7.00",
+              "home": "1.15",
+              "time": "赛前15小时15分"
+            },
+            {
+              "away": "7.00",
+              "home": "1.16",
+              "time": "赛前15小时23分"
+            },
+            {
+              "away": "7.00",
+              "home": "1.15",
+              "time": "赛前16小时12分"
+            },
+            {
+              "away": "6.80",
+              "home": "1.15",
+              "time": "赛前16小时22分"
+            },
+            {
+              "away": "7.00",
+              "home": "1.15",
+              "time": "赛前17小时19分"
+            },
+            {
+              "away": "7.00",
+              "home": "1.14",
+              "time": "赛前18小时14分"
+            },
+            {
+              "away": "7.20",
+              "home": "1.14",
+              "time": "赛前18小时28分"
+            },
+            {
+              "away": "7.40",
+              "home": "1.14",
+              "time": "赛前19小时12分"
+            },
+            {
+              "away": "7.60",
+              "home": "1.14",
+              "time": "赛前20小时"
+            },
+            {
+              "away": "7.60",
+              "home": "1.13",
+              "time": "赛前20小时4分"
+            },
+            {
+              "away": "7.60",
+              "home": "1.14",
+              "time": "赛前20小时59分"
+            },
+            {
+              "away": "7.20",
+              "home": "1.14",
+              "time": "赛前21小时44分"
+            },
+            {
+              "away": "6.80",
+              "home": "1.14",
+              "time": "赛前21小时45分"
+            },
+            {
+              "away": "7.20",
+              "home": "1.14",
+              "time": "赛前21小时46分"
+            },
+            {
+              "away": "6.80",
+              "home": "1.14",
+              "time": "赛前21小时57分"
+            },
+            {
+              "away": "7.00",
+              "home": "1.14",
+              "time": "赛前21小时58分"
+            },
+            {
+              "away": "6.40",
+              "home": "1.14",
+              "time": "赛前22小时11分"
+            },
+            {
+              "away": "6.00",
+              "home": "1.15",
+              "time": "赛前22小时25分"
+            }
+          ]
+        },
+        {
+          "company": "澳门彩票",
+          "initial_away": "5.50",
+          "initial_home": "1.12",
+          "latest_away": "5.50",
+          "latest_home": "1.12",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378485&pid=84&Type=Odds",
+          "history": []
+        },
+        {
+          "company": "Coral",
+          "initial_away": "6.00",
+          "initial_home": "1.12",
+          "latest_away": "6.00",
+          "latest_home": "1.11",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378485&pid=116&Type=Odds",
+          "history": [
+            {
+              "away": "6.50",
+              "home": "1.10",
+              "time": "赛前16小时49分"
+            },
+            {
+              "away": "6.00",
+              "home": "1.11",
+              "time": "赛前16小时51分"
+            },
+            {
+              "away": "6.00",
+              "home": "1.12",
+              "time": "赛前22小时17分"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "match_id": "5378486",
+      "match_no": "周一307",
+      "league": "NBA",
+      "away_team": "奇才",
+      "home_team": "湖人",
+      "status": "未开始",
+      "time_or_score": "10:00",
+      "history_url": "https://m.okooo.com/match/basketball/history.php?LotteryType=SportteryWL&MatchID=5378486&from=%2Flive%2F",
+      "odds_url": "https://m.okooo.com/match/basketball/odds.php?MatchID=5378486&from=%2Flive%2F",
+      "moneyline_companies": [
+        {
+          "company": "99家平均",
+          "initial_away": "8.96",
+          "initial_home": "1.06",
+          "latest_away": "8.44",
+          "latest_home": "1.07",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378486&pid=24&Type=Odds",
+          "history": [
+            {
+              "away": "8.44",
+              "home": "1.07",
+              "time": "赛前13小时41分"
+            },
+            {
+              "away": "8.45",
+              "home": "1.07",
+              "time": "赛前13小时50分"
+            },
+            {
+              "away": "8.44",
+              "home": "1.07",
+              "time": "赛前13小时50分"
+            },
+            {
+              "away": "8.42",
+              "home": "1.07",
+              "time": "赛前13小时56分"
+            },
+            {
+              "away": "8.35",
+              "home": "1.07",
+              "time": "赛前13小时58分"
+            },
+            {
+              "away": "8.31",
+              "home": "1.07",
+              "time": "赛前14小时3分"
+            },
+            {
+              "away": "8.30",
+              "home": "1.07",
+              "time": "赛前14小时25分"
+            },
+            {
+              "away": "8.31",
+              "home": "1.07",
+              "time": "赛前14小时28分"
+            },
+            {
+              "away": "8.33",
+              "home": "1.07",
+              "time": "赛前14小时38分"
+            },
+            {
+              "away": "8.32",
+              "home": "1.07",
+              "time": "赛前14小时39分"
+            },
+            {
+              "away": "8.36",
+              "home": "1.07",
+              "time": "赛前14小时40分"
+            },
+            {
+              "away": "8.43",
+              "home": "1.07",
+              "time": "赛前15小时31分"
+            },
+            {
+              "away": "8.37",
+              "home": "1.07",
+              "time": "赛前15小时46分"
+            },
+            {
+              "away": "8.38",
+              "home": "1.07",
+              "time": "赛前15小时52分"
+            },
+            {
+              "away": "8.37",
+              "home": "1.07",
+              "time": "赛前16小时7分"
+            },
+            {
+              "away": "8.43",
+              "home": "1.07",
+              "time": "赛前16小时43分"
+            },
+            {
+              "away": "8.45",
+              "home": "1.07",
+              "time": "赛前17小时13分"
+            },
+            {
+              "away": "8.46",
+              "home": "1.07",
+              "time": "赛前17小时16分"
+            },
+            {
+              "away": "8.49",
+              "home": "1.07",
+              "time": "赛前17小时19分"
+            },
+            {
+              "away": "8.51",
+              "home": "1.07",
+              "time": "赛前17小时19分"
+            },
+            {
+              "away": "8.53",
+              "home": "1.07",
+              "time": "赛前17小时19分"
+            },
+            {
+              "away": "8.56",
+              "home": "1.06",
+              "time": "赛前18小时35分"
+            },
+            {
+              "away": "8.59",
+              "home": "1.06",
+              "time": "赛前18小时37分"
+            },
+            {
+              "away": "8.56",
+              "home": "1.06",
+              "time": "赛前18小时39分"
+            },
+            {
+              "away": "8.59",
+              "home": "1.06",
+              "time": "赛前19小时13分"
+            },
+            {
+              "away": "8.57",
+              "home": "1.06",
+              "time": "赛前19小时14分"
+            },
+            {
+              "away": "8.57",
+              "home": "1.07",
+              "time": "赛前19小时47分"
+            },
+            {
+              "away": "8.59",
+              "home": "1.06",
+              "time": "赛前19小时48分"
+            },
+            {
+              "away": "8.60",
+              "home": "1.06",
+              "time": "赛前19小时55分"
+            }
+          ]
+        },
+        {
+          "company": "威廉.希尔",
+          "initial_away": "10.00",
+          "initial_home": "1.05",
+          "latest_away": "9.00",
+          "latest_home": "1.06",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378486&pid=14&Type=Odds",
+          "history": [
+            {
+              "away": "7.50",
+              "home": "1.08",
+              "time": "赛前22小时58分"
+            },
+            {
+              "away": "10.00",
+              "home": "1.05",
+              "time": "赛前24小时57分"
+            },
+            {
+              "away": "9.00",
+              "home": "1.06",
+              "time": "赛前25小时19分"
+            },
+            {
+              "away": "10.00",
+              "home": "1.05",
+              "time": "赛前25小时29分"
+            }
+          ]
+        },
+        {
+          "company": "立博",
+          "initial_away": "8.50",
+          "initial_home": "1.06",
+          "latest_away": "8.50",
+          "latest_home": "1.06",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378486&pid=82&Type=Odds",
+          "history": [
+            {
+              "away": "9.00",
+              "home": "1.05",
+              "time": "赛前23小时19分"
+            },
+            {
+              "away": "8.50",
+              "home": "1.06",
+              "time": "赛前24小时52分"
+            }
+          ]
+        },
+        {
+          "company": "Interwetten",
+          "initial_away": "8.00",
+          "initial_home": "1.07",
+          "latest_away": "8.00",
+          "latest_home": "1.07",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378486&pid=43&Type=Odds",
+          "history": []
+        },
+        {
+          "company": "bwin",
+          "initial_away": "9.00",
+          "initial_home": "1.07",
+          "latest_away": "9.00",
+          "latest_home": "1.07",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378486&pid=94&Type=Odds",
+          "history": []
+        },
+        {
+          "company": "伟德国际",
+          "initial_away": "7.50",
+          "initial_home": "1.06",
+          "latest_away": "7.50",
+          "latest_home": "1.06",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378486&pid=65&Type=Odds",
+          "history": []
+        },
+        {
+          "company": "Unibet",
+          "initial_away": "9.00",
+          "initial_home": "1.07",
+          "latest_away": "9.50",
+          "latest_home": "1.07",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378486&pid=180&Type=Odds",
+          "history": []
+        },
+        {
+          "company": "博天堂",
+          "initial_away": "9.00",
+          "initial_home": "1.07",
+          "latest_away": "9.00",
+          "latest_home": "1.07",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378486&pid=159&Type=Odds",
+          "history": []
+        },
+        {
+          "company": "必发",
+          "initial_away": "10.00",
+          "initial_home": "1.09",
+          "latest_away": "13.00",
+          "latest_home": "1.08",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378486&pid=19&Type=Odds",
+          "history": []
+        },
+        {
+          "company": "澳门彩票",
+          "initial_away": "7.60",
+          "initial_home": "1.06",
+          "latest_away": "7.60",
+          "latest_home": "1.06",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378486&pid=84&Type=Odds",
+          "history": []
+        },
+        {
+          "company": "Coral",
+          "initial_away": "8.50",
+          "initial_home": "1.06",
+          "latest_away": "8.50",
+          "latest_home": "1.06",
+          "change_url": "https://m.okooo.com/match/basketball/change.php?mid=5378486&pid=116&Type=Odds",
+          "history": []
+        }
+      ]
+    }
+  ]
+}
