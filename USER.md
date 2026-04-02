@@ -12,6 +12,7 @@ _Learn about the person you're helping. Update this as you go._
 
 - Prefers the assistant to proactively read existing local config for integrations (for example DingTalk) instead of asking again when the config is already on disk.
 - When asked to send DingTalk messages, default to checking configured webhook/channel settings first.
+- For NBA pregame predictions, if Leisu does not provide a usable confirmed starting lineup, fall back to the NBA official site to verify starters/availability when possible.
 
 _(What do they care about? What projects are they working on? What annoys them? What makes them laugh? Build this over time.)_
 
