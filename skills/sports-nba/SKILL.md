@@ -46,8 +46,21 @@ Priority from Leisu:
 2. Confirmed return / absence notes
 3. Confirmed starting lineup
 
-If Leisu does not show a confirmed starting lineup, explicitly write:
-- `雷速首发暂未公布`
+#### 3.1 当雷速查不到时：必须继续从 NBA 官网爬取/核验
+如果雷速 **查不到首发阵容** 或 **伤残/伤停情况**（包含：未展示、信息为空、只有传闻无“确认”标记），不要停在“未公布”，需要继续到 NBA 官方渠道补全/核验。
+
+优先级（从上到下逐个尝试，命中即可停）：
+1. **NBA 官方伤病报告（官方口径）**：`https://official.nba.com/`（通常在 Injury Report/下载 PDF/按日期发布）
+2. **NBA 比赛页/预览页（阵容与出战状态线索）**：`https://www.nba.com/game/`（进入对应比赛页面，查看 Preview/News/Matchup/Lineups 等模块，页面结构会随赛季调整）
+3. **球队官网新闻页（补充口径）**：`https://www.nba.com/team/`（球队新闻/伤病更新）
+
+抓取/整理规则：
+- **伤停**：以 NBA 官方 injury report 为准，记录球员、状态（Out/Doubtful/Questionable/Probable 等）、原因（如有）、更新时间/日期（如可见）。
+- **首发**：NBA 官网未必总会“明确列出首发五人”。若能在比赛页或球队发布中找到“Starting Lineup/Starters”才可写“已确认首发”；否则只能写“暂未确认首发”，并保留已核验到的伤停信息。
+- **冲突处理**：若雷速与 NBA 官网冲突，以 **NBA 官方 injury report** 为最高优先级；同时在输出里说明“雷速与 NBA 官方案例不一致，以官报为准”。
+
+当雷速没有信息、NBA 官网也未检索到时，才允许写：
+- `雷速未查到首发/伤停，NBA官网亦未检索到明确发布，暂不强写`
 
 ### 4. Use fallback sources only when the two primaries are insufficient
 If Okooo handicap details or Leisu lineup/injury confirmation are missing, use fallbacks such as:
