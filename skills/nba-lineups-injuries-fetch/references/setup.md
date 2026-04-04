@@ -19,3 +19,7 @@ pip install pdfplumber
 页面为服务端渲染 HTML，一般无需浏览器。若遇 403/空页面，可改用项目内 [scrapling](../../scrapling/SKILL.md) 的 `StealthyFetcher` 拉取同一 URL。
 
 当前仓库脚本默认使用 `urllib` + 常见浏览器 `User-Agent`。
+
+## ESPN Injuries
+
+`https://www.espn.com/nba/injuries` 为表格 HTML，脚本解析 `ResponsiveTable Table__league-injuries` 块，**无需额外 Python 依赖**。若页面改版导致 class 名变化，需同步更新 `parse_espn_injuries_page`。

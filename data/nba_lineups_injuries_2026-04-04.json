@@ -1,8 +1,9 @@
 {
-  "fetched_at_utc": "2026-04-04T02:32:19.469794+00:00",
+  "fetched_at_utc": "2026-04-04T03:16:05.547619+00:00",
   "sources": {
     "rotowire_lineups": "https://www.rotowire.com/basketball/nba-lineups.php",
-    "nba_official_injury_index": "https://official.nba.com/nba-injury-report-2025-26-season/"
+    "nba_official_injury_index": "https://official.nba.com/nba-injury-report-2025-26-season/",
+    "espn_injuries": "https://www.espn.com/nba/injuries"
   },
   "rotowire": {
     "games": [
@@ -448,8 +449,8 @@
         "home_abbr": "HOU",
         "away_team": "Jazz",
         "home_team": "Rockets",
-        "away_record": "21-56",
-        "home_record": "47-29",
+        "away_record": "21-57",
+        "home_record": "48-29",
         "away": {
           "lineup_status": "confirmed",
           "starters": [
@@ -581,8 +582,8 @@
         "home_abbr": "MIL",
         "away_team": "Celtics",
         "home_team": "Bucks",
-        "away_record": "51-25",
-        "home_record": "30-46",
+        "away_record": "52-25",
+        "home_record": "30-47",
         "away": {
           "lineup_status": "confirmed",
           "starters": [
@@ -690,8 +691,8 @@
         "home_abbr": "MEM",
         "away_team": "Raptors",
         "home_team": "Grizzlies",
-        "away_record": "42-34",
-        "home_record": "25-51",
+        "away_record": "43-34",
+        "home_record": "25-52",
         "away": {
           "lineup_status": "confirmed",
           "starters": [
@@ -785,16 +786,34 @@
               "status": "OFS"
             },
             {
+              "position": "G",
+              "name": "Walter Clayton",
+              "name_short": "W. Clayton",
+              "status": "Ques"
+            },
+            {
               "position": "C",
               "name": "Zach Edey",
               "name_short": "Zach Edey",
               "status": "OFS"
             },
             {
+              "position": "C",
+              "name": "Taj Gibson",
+              "name_short": "T. Gibson",
+              "status": "Ques"
+            },
+            {
+              "position": "G",
+              "name": "Ty Jerome",
+              "name_short": "T. Jerome",
+              "status": "Ques"
+            },
+            {
               "position": "G",
               "name": "Jahmai Mashack",
               "name_short": "J. Mashack",
-              "status": "Doubt"
+              "status": "Ques"
             },
             {
               "position": "G",
@@ -810,39 +829,21 @@
             },
             {
               "position": "F",
-              "name": "Jaylen Wells",
-              "name_short": "J. Wells",
-              "status": "OFS"
-            },
-            {
-              "position": "G",
-              "name": "Walter Clayton",
-              "name_short": "W. Clayton",
-              "status": "Out"
-            },
-            {
-              "position": "C",
-              "name": "Taj Gibson",
-              "name_short": "Taj Gibson",
-              "status": "Out"
-            },
-            {
-              "position": "G",
-              "name": "Ty Jerome",
-              "name_short": "Ty Jerome",
-              "status": "Out"
-            },
-            {
-              "position": "F",
               "name": "Olivier-Maxence Prosper",
               "name_short": "O. Prosper",
-              "status": "Out"
+              "status": "Ques"
             },
             {
               "position": "G",
               "name": "Cam Spencer",
               "name_short": "C. Spencer",
-              "status": "Out"
+              "status": "Ques"
+            },
+            {
+              "position": "F",
+              "name": "Jaylen Wells",
+              "name_short": "J. Wells",
+              "status": "OFS"
             }
           ]
         }
@@ -889,13 +890,13 @@
               "position": "G",
               "name": "Anthony Black",
               "name_short": "A. Black",
-              "status": "Out"
+              "status": "Doubt"
             },
             {
               "position": "F",
               "name": "Jonathan Isaac",
               "name_short": "J. Isaac",
-              "status": "Out"
+              "status": "Doubt"
             }
           ]
         },
@@ -930,6 +931,12 @@
           ],
           "may_not_play": [
             {
+              "position": "C",
+              "name": "Marvin Bagley",
+              "name_short": "M. Bagley",
+              "status": "Ques"
+            },
+            {
               "position": "G",
               "name": "Kyrie Irving",
               "name_short": "K. Irving",
@@ -942,22 +949,16 @@
               "status": "OFS"
             },
             {
-              "position": "C",
-              "name": "Marvin Bagley",
-              "name_short": "M. Bagley",
-              "status": "Out"
-            },
-            {
               "position": "F",
               "name": "Caleb Martin",
               "name_short": "C. Martin",
-              "status": "Out"
+              "status": "Ques"
             },
             {
               "position": "F",
               "name": "P.J. Washington",
               "name_short": "P. Washington",
-              "status": "Out"
+              "status": "Ques"
             }
           ]
         }
@@ -1104,21 +1105,1003 @@
     ],
     "error": null
   },
+  "espn": {
+    "teams": [
+      {
+        "team": "Atlanta Hawks",
+        "players": [
+          {
+            "name": "Jock Landale",
+            "position": "C",
+            "est_return_date": "Apr 17",
+            "status": "Out",
+            "comment": "Apr 2: Landale (ankle) is expected to miss at least two weeks, per Brad Rowland of the Locked On Podcast Network."
+          }
+        ]
+      },
+      {
+        "team": "Boston Celtics",
+        "players": [
+          {
+            "name": "Nikola Vucevic",
+            "position": "C",
+            "est_return_date": "Apr 5",
+            "status": "Out",
+            "comment": "Mar 7: Vucevic underwent surgery Saturday to stabilize a fracture in his right ring finger and will be reevaluated in 3-to-4 weeks."
+          }
+        ]
+      },
+      {
+        "team": "Brooklyn Nets",
+        "players": [
+          {
+            "name": "Michael Porter Jr.",
+            "position": "F",
+            "est_return_date": "Oct 1",
+            "status": "Out",
+            "comment": "Apr 3: Porter (hamstring) has been ruled out for the remainder of the 2025-26 season, Erik Slater of ClutchPoints.com reports."
+          },
+          {
+            "name": "Danny Wolf",
+            "position": "F",
+            "est_return_date": "Jul 9",
+            "status": "Out",
+            "comment": "Apr 3: The Nets announced Friday that Wolf (ankle) is being shut down for the rest of the season, Erik Slater of ClutchPoints.com reports."
+          },
+          {
+            "name": "Egor Demin",
+            "position": "G",
+            "est_return_date": "Oct 1",
+            "status": "Out",
+            "comment": "Mar 18: Demin underwent a non-surgical procedure to address plantar fasciitis in his left foot, and there&#x27;s hope he will make a full recovery in time for NBA Summer League, Brian Lewis of the New York Post reports"
+          },
+          {
+            "name": "Day&#x27;Ron Sharpe",
+            "position": "C",
+            "est_return_date": "Oct 1",
+            "status": "Out",
+            "comment": "Mar 12: Sharpe has been diagnosed with an ulnar collateral ligament tear in his left thumb and will require season-ending surgery, Erik Slater of ClutchPoints.com reports."
+          }
+        ]
+      },
+      {
+        "team": "Charlotte Hornets",
+        "players": [
+          {
+            "name": "Grant Williams",
+            "position": "F",
+            "est_return_date": "Apr 5",
+            "status": "Day-To-Day",
+            "comment": "Apr 3: Williams (knee) is out for Friday&#x27;s game against the Pacers."
+          },
+          {
+            "name": "PJ Hall",
+            "position": "C",
+            "est_return_date": "Apr 5",
+            "status": "Day-To-Day",
+            "comment": "Apr 3: Hall has been ruled out for Friday&#x27;s game against the Pacers due to a right ankle fracture."
+          },
+          {
+            "name": "Moussa Diabate",
+            "position": "F",
+            "est_return_date": "Apr 5",
+            "status": "Day-To-Day",
+            "comment": "Apr 3: Diabate (ankle) won&#x27;t play in Friday&#x27;s game against Indiana."
+          }
+        ]
+      },
+      {
+        "team": "Chicago Bulls",
+        "players": [
+          {
+            "name": "Nick Richards",
+            "position": "C",
+            "est_return_date": "Apr 5",
+            "status": "Out",
+            "comment": "Apr 3: Richards is out for Friday&#x27;s game against the Knicks due to a sprained right elbow."
+          },
+          {
+            "name": "Anfernee Simons",
+            "position": "G",
+            "est_return_date": "Apr 5",
+            "status": "Out",
+            "comment": "Apr 2: Simons (wrist) is out for Friday&#x27;s game against the Knicks."
+          },
+          {
+            "name": "Jalen Smith",
+            "position": "F",
+            "est_return_date": "Oct 1",
+            "status": "Out",
+            "comment": "Mar 26: Smith (calf) will miss the remainder of the season, Joel Lorenzi of The Athletic reports."
+          },
+          {
+            "name": "Zach Collins",
+            "position": "F",
+            "est_return_date": "Oct 1",
+            "status": "Out",
+            "comment": "Feb 21: Collins will undergo surgery for a sprain right toe and will be sidelined for the rest of the 2025-26 season."
+          },
+          {
+            "name": "Noa Essengue",
+            "position": "F",
+            "est_return_date": "Oct 1",
+            "status": "Out",
+            "comment": "Dec 3: Essengue will undergo left shoulder surgery and will miss the remainder of the 2025-26 season, K.C. Johnson of Chicago Sports Network reports."
+          }
+        ]
+      },
+      {
+        "team": "Cleveland Cavaliers",
+        "players": [
+          {
+            "name": "Jaylon Tyson",
+            "position": "G",
+            "est_return_date": "Apr 5",
+            "status": "Out",
+            "comment": "Mar 29: Tyson (toe) won&#x27;t play in the Cavaliers&#x27; upcoming three-game road trip, according to Law Murray of The Athletic."
+          },
+          {
+            "name": "Dean Wade",
+            "position": "F",
+            "est_return_date": "Apr 5",
+            "status": "Out",
+            "comment": "Mar 29: Wade (ankle) won&#x27;t be available to play in the Cavaliers&#x27; three-game road trip, according to Law Murray of The Athletic."
+          }
+        ]
+      },
+      {
+        "team": "Dallas Mavericks",
+        "players": [
+          {
+            "name": "Marvin Bagley III",
+            "position": "F",
+            "est_return_date": "Apr 5",
+            "status": "Out",
+            "comment": "Apr 3: Bagley (shoulder) won&#x27;t play in Friday&#x27;s game against Orlando."
+          },
+          {
+            "name": "Caleb Martin",
+            "position": "F",
+            "est_return_date": "Apr 5",
+            "status": "Out",
+            "comment": "Apr 3: Martin is out for Friday&#x27;s game versus Orlando due to a right plantar fascia strain, Ron Harrod Jr. of DLLS Sports reports."
+          },
+          {
+            "name": "P.J. Washington",
+            "position": "F",
+            "est_return_date": "Apr 5",
+            "status": "Out",
+            "comment": "Apr 3: Washington (illness) has been ruled out for Friday&#x27;s game against the Magic, Ron Harrod Jr. of DLLS Sports reports."
+          },
+          {
+            "name": "Kyrie Irving",
+            "position": "G",
+            "est_return_date": "Oct 1",
+            "status": "Out",
+            "comment": "Feb 18: Irving (knee) will miss the remainder of the 2025-26 season, ESPN&#x27;s Shams Charania reports."
+          },
+          {
+            "name": "Dereck Lively II",
+            "position": "C",
+            "est_return_date": "Oct 1",
+            "status": "Out",
+            "comment": "Dec 21: Lively successfully underwent surgery on his right foot Sunday."
+          }
+        ]
+      },
+      {
+        "team": "Denver Nuggets",
+        "players": [
+          {
+            "name": "Zeke Nnaji",
+            "position": "F",
+            "est_return_date": "Apr 6",
+            "status": "Out",
+            "comment": "Apr 3: Nnaji (hip) has been ruled out for Saturday&#x27;s game against the Spurs."
+          },
+          {
+            "name": "Tim Hardaway Jr.",
+            "position": "G",
+            "est_return_date": "Apr 4",
+            "status": "Day-To-Day",
+            "comment": "Apr 3: Hardaway (knee) is listed as probable for Saturday&#x27;s game against San Antonio."
+          },
+          {
+            "name": "Spencer Jones",
+            "position": "F",
+            "est_return_date": "Apr 6",
+            "status": "Out",
+            "comment": "Apr 3: Jones (hamstring) has been ruled out for Saturday&#x27;s game against San Antonio."
+          },
+          {
+            "name": "Peyton Watson",
+            "position": "G",
+            "est_return_date": "Apr 12",
+            "status": "Out",
+            "comment": "Apr 3: Watson (hamstring) is considered week-to-week, Bennett Durando of The Denver Postreports."
+          }
+        ]
+      },
+      {
+        "team": "Detroit Pistons",
+        "players": [
+          {
+            "name": "Marcus Sasser",
+            "position": "G",
+            "est_return_date": "Apr 4",
+            "status": "Day-To-Day",
+            "comment": "Apr 3: Sasser is probable for Saturday&#x27;s game versus the 76ers due to a right hip strain."
+          },
+          {
+            "name": "Isaiah Stewart",
+            "position": "F",
+            "est_return_date": "Apr 6",
+            "status": "Out",
+            "comment": "Apr 3: Stewart (calf) will remain on the inactive list for Saturday&#x27;s game in Philadelphia."
+          },
+          {
+            "name": "Tobias Harris",
+            "position": "F",
+            "est_return_date": "Apr 4",
+            "status": "Day-To-Day",
+            "comment": "Apr 3: Harris is questionable for Saturday&#x27;s game versus Philadelphia due to a bruised left knee."
+          },
+          {
+            "name": "Cade Cunningham",
+            "position": "G",
+            "est_return_date": "Apr 10",
+            "status": "Out",
+            "comment": "Apr 2: Cunningham (chest) will be re-evaluated in one week, Eric Vincent of ClutchPoints.com reports."
+          }
+        ]
+      },
+      {
+        "team": "Golden State Warriors",
+        "players": [
+          {
+            "name": "Stephen Curry",
+            "position": "G",
+            "est_return_date": "Apr 5",
+            "status": "Out",
+            "comment": "Apr 3: Curry (ankle) is expected to play Sunday against Houston, Shams Charania of ESPN reports."
+          },
+          {
+            "name": "Seth Curry",
+            "position": "G",
+            "est_return_date": "Apr 5",
+            "status": "Day-To-Day",
+            "comment": "Apr 3: Curry (thigh) won&#x27;t play Thursday against the Cavaliers, Brett Siegel of ClutchPoints.com reports."
+          },
+          {
+            "name": "Quinten Post",
+            "position": "C",
+            "est_return_date": "Apr 5",
+            "status": "Out",
+            "comment": "Apr 2: Post is out for Thursday&#x27;s game against the Cavaliers due to right foot injury management."
+          },
+          {
+            "name": "Al Horford",
+            "position": "C",
+            "est_return_date": "Apr 5",
+            "status": "Out",
+            "comment": "Mar 27: Horford is making good progress in his recovery from a right soleus strain and will be re-evaluated in one week, Brett Siegel of ClutchPoints.com reports."
+          },
+          {
+            "name": "Moses Moody",
+            "position": "G",
+            "est_return_date": "Dec 1",
+            "status": "Out",
+            "comment": "Mar 24: Moody has been diagnosed with a torn patellar tendon in his left knee, Shams Charania of ESPN reports."
+          },
+          {
+            "name": "Jimmy Butler III",
+            "position": "F",
+            "est_return_date": "Dec 1",
+            "status": "Out",
+            "comment": "Feb 9: Butler underwent successful surgery Monday to repair a torn right anterior cruciate ligament."
+          }
+        ]
+      },
+      {
+        "team": "Houston Rockets",
+        "players": [
+          {
+            "name": "Jabari Smith Jr.",
+            "position": "F",
+            "est_return_date": "Apr 5",
+            "status": "Day-To-Day",
+            "comment": "Apr 3: Smith (face) exited Friday&#x27;s 140-106 win over the Jazz in the third quarter and did not return, finishing with 18 points (6-16 FG, 4-8 3Pt, 2-2 FT), five rebounds and one steal across 24 minutes."
+          },
+          {
+            "name": "Steven Adams",
+            "position": "C",
+            "est_return_date": "Oct 1",
+            "status": "Out",
+            "comment": "Jan 28: The Rockets announced Wednesday that Adams has undergone season-ending left ankle surgery, per Shams Charania of ESPN."
+          },
+          {
+            "name": "Fred VanVleet",
+            "position": "G",
+            "est_return_date": "Jun 1",
+            "status": "Out",
+            "comment": "Sep 22: VanVleet suffered a torn ACL and may be out for the entire 2025-26 campaign, Shams Charania of ESPN reports."
+          }
+        ]
+      },
+      {
+        "team": "Indiana Pacers",
+        "players": [
+          {
+            "name": "Pascal Siakam",
+            "position": "F",
+            "est_return_date": "Apr 5",
+            "status": "Day-To-Day",
+            "comment": "Apr 3: Siakam (back) supplied 30 points (13-24 FG, 2-4 3Pt, 2-3 FT), seven rebounds, two assists and two steals in 34 minutes during Friday&#x27;s 129-108 loss to the Hornets."
+          },
+          {
+            "name": "Andrew Nembhard",
+            "position": "G",
+            "est_return_date": "Apr 5",
+            "status": "Day-To-Day",
+            "comment": "Apr 3: Nembhard (back) is listed as out for Friday&#x27;s game against Charlotte."
+          },
+          {
+            "name": "T.J. McConnell",
+            "position": "G",
+            "est_return_date": "Apr 5",
+            "status": "Day-To-Day",
+            "comment": "Apr 3: McConnell is out for Friday&#x27;s game versus the Hornets due to right hamstring soreness."
+          },
+          {
+            "name": "Jarace Walker",
+            "position": "F",
+            "est_return_date": "Apr 5",
+            "status": "Out",
+            "comment": "Apr 2: Walker (back) has been ruled out for Friday&#x27;s game against Charlotte."
+          },
+          {
+            "name": "Aaron Nesmith",
+            "position": "G",
+            "est_return_date": "Apr 5",
+            "status": "Out",
+            "comment": "Apr 2: Nesmith (neck) has been ruled out for Friday&#x27;s game against the Hornets."
+          },
+          {
+            "name": "Ivica Zubac",
+            "position": "C",
+            "est_return_date": "Oct 1",
+            "status": "Out",
+            "comment": "Mar 20: Zubac will miss the rest of the season with a fractured rib, Dustin Dopirak of The Indianapolis Star reports."
+          },
+          {
+            "name": "Johnny Furphy",
+            "position": "G",
+            "est_return_date": "Jan 1",
+            "status": "Out",
+            "comment": "Feb 9: Furphy was diagnosed with a torn right ACL on Monday and will miss the remainder of the season, Michael Scotto of USA Today reports."
+          },
+          {
+            "name": "Tyrese Haliburton",
+            "position": "G",
+            "est_return_date": "Oct 1",
+            "status": "Out",
+            "comment": "Jan 27: Haliburton said Tuesday in his appearance on the &quot;Mind the Game&quot; podcast that he has resumed taking part in 3-on-3 and 4-on-4 work on the court while he continues to recover from right Achilles surgery."
+          }
+        ]
+      },
+      {
+        "team": "LA Clippers",
+        "players": [
+          {
+            "name": "Isaiah Jackson",
+            "position": "F",
+            "est_return_date": "Apr 10",
+            "status": "Out",
+            "comment": "Apr 2: Jackson (ankle) will be re-evaluated in one week, NBA writer Justin Russo reports."
+          },
+          {
+            "name": "Yanic Konan Niederhauser",
+            "position": "C",
+            "est_return_date": "Oct 1",
+            "status": "Out",
+            "comment": "Mar 5: Niederhauser has been diagnosed with a Lisfranc injury in his right foot and will require surgery. He&#x27;s been ruled out for the remainder of the 2025-26 season, Joey Linn of SI.com reports."
+          },
+          {
+            "name": "Bradley Beal",
+            "position": "G",
+            "est_return_date": "Oct 1",
+            "status": "Out",
+            "comment": "Nov 12: Beal will undergo season-ending surgery on his left hip, ESPN&#x27;s Shams Charania reports."
+          }
+        ]
+      },
+      {
+        "team": "Los Angeles Lakers",
+        "players": [
+          {
+            "name": "Luka Doncic",
+            "position": "G",
+            "est_return_date": "May 1",
+            "status": "Out",
+            "comment": "Apr 3: Doncic will miss the remainder of the regular season due to a Grade 2 left hamstring strain, and his status for the playoffs is uncertain, Chris Haynes of NBA TV reports."
+          },
+          {
+            "name": "Marcus Smart",
+            "position": "G",
+            "est_return_date": "Apr 5",
+            "status": "Out",
+            "comment": "Apr 2: Head coach JJ Redick said Smart (ankle) participated in an on-court workout Thursday and could return to game action as soon as Sunday against the Mavericks, Dave McMenamin of ESPN.com reports."
+          }
+        ]
+      },
+      {
+        "team": "Memphis Grizzlies",
+        "players": [
+          {
+            "name": "Cam Spencer",
+            "position": "G",
+            "est_return_date": "Apr 5",
+            "status": "Day-To-Day",
+            "comment": "Apr 3: Spencer is out for Friday&#x27;s game against the Raptors due to low back soreness."
+          },
+          {
+            "name": "Olivier-Maxence Prosper",
+            "position": "F",
+            "est_return_date": "Apr 5",
+            "status": "Day-To-Day",
+            "comment": "Apr 3: Prosper (back) has been ruled out for Friday&#x27;s game against Toronto, Michael Grange of Sportsnet.ca reports."
+          },
+          {
+            "name": "Walter Clayton Jr.",
+            "position": "G",
+            "est_return_date": "Apr 5",
+            "status": "Day-To-Day",
+            "comment": "Apr 3: Clayton (hip) has been ruled out for Friday&#x27;s game against the Raptors."
+          },
+          {
+            "name": "Jahmai Mashack",
+            "position": "G",
+            "est_return_date": "Apr 5",
+            "status": "Day-To-Day",
+            "comment": "Apr 3: Mashack didn&#x27;t return during the second half of Friday&#x27;s 128-96 loss to the Raptors due to neck soreness, finishing with two points (0-4 FG, 0-1 3Pt, 2-6 FT), one rebound and one assist across 14 minutes."
+          },
+          {
+            "name": "Taj Gibson",
+            "position": "F",
+            "est_return_date": "Apr 5",
+            "status": "Out",
+            "comment": "Apr 3: Gibson (foot) is out for Friday&#x27;s game versus Toronto."
+          },
+          {
+            "name": "Ty Jerome",
+            "position": "G",
+            "est_return_date": "Apr 5",
+            "status": "Out",
+            "comment": "Apr 2: Jerome (ankle) is listed as out for Friday&#x27;s game in Toronto."
+          },
+          {
+            "name": "Jaylen Wells",
+            "position": "F",
+            "est_return_date": "Oct 1",
+            "status": "Out",
+            "comment": "Mar 31: Wells (toe) underwent a successful procedure Tuesday to stabilize his right great toe."
+          },
+          {
+            "name": "Zach Edey",
+            "position": "C",
+            "est_return_date": "Oct 1",
+            "status": "Out",
+            "comment": "Mar 25: The Grizzlies announced that Edey (ankle) underwent a procedure Tuesday to address lingering discomfort in his left elbow."
+          },
+          {
+            "name": "Ja Morant",
+            "position": "G",
+            "est_return_date": "Oct 1",
+            "status": "Out",
+            "comment": "Mar 24: The Grizzlies announced Tuesday that Morant is progressing in his recovery from a UCL sprain in his left elbow and recently received a platelet-rich plasma injection, though he&#x27;ll miss the remainder of the 2025-26 campaign."
+          },
+          {
+            "name": "Brandon Clarke",
+            "position": "F",
+            "est_return_date": "Oct 1",
+            "status": "Out",
+            "comment": "Mar 24: Clarke needs additional time to recover from a right calf strain and has been ruled out for the rest of the 2025-26 season."
+          },
+          {
+            "name": "Santi Aldama",
+            "position": "F",
+            "est_return_date": "Oct 1",
+            "status": "Out",
+            "comment": "Mar 15: Aldama will undergo a season-ending arthroscopic procedure and receive an orthobiologic injection to address discomfort in his right knee, Brett Siegel of ClutchPoints.com reports."
+          },
+          {
+            "name": "Scotty Pippen Jr.",
+            "position": "G",
+            "est_return_date": "Oct 1",
+            "status": "Out",
+            "comment": "Mar 13: Pippen will miss the remainder of the season after undergoing a sesamoidectomy to address ongoing discomfort in his right big toe, Michael Scotto of USA Today reports Friday."
+          },
+          {
+            "name": "Kentavious Caldwell-Pope",
+            "position": "G",
+            "est_return_date": "Oct 1",
+            "status": "Out",
+            "comment": "Feb 19: The Grizzlies announced Thursday that Caldwell-Pope underwent surgery to address the misalignment of his right pinky finger and will miss the remainder of the 2025-26 campaign."
+          }
+        ]
+      },
+      {
+        "team": "Miami Heat",
+        "players": [
+          {
+            "name": "Tyler Herro",
+            "position": "G",
+            "est_return_date": "Apr 4",
+            "status": "Day-To-Day",
+            "comment": "Apr 3: Herro (foot soreness) is probable for Saturday&#x27;s game against Washington, Barry Jackson of the Miami Herald reports."
+          },
+          {
+            "name": "Norman Powell",
+            "position": "G",
+            "est_return_date": "Apr 7",
+            "status": "Out",
+            "comment": "Apr 3: Powell (illness) is out for Saturday&#x27;s game against Washington, Barry Jackson of the Miami Herald reports."
+          },
+          {
+            "name": "Terry Rozier",
+            "position": "G",
+            "est_return_date": "Apr 15",
+            "status": "Out",
+            "comment": "Mar 19: The Heat are planning to release Rozier in the near future, Anthony Chiang of the Miami Herald reports."
+          }
+        ]
+      },
+      {
+        "team": "Milwaukee Bucks",
+        "players": [
+          {
+            "name": "Gary Trent Jr.",
+            "position": "G",
+            "est_return_date": "Apr 5",
+            "status": "Day-To-Day",
+            "comment": "Apr 3: Trent (hip) won&#x27;t play Friday versus the Celtics, Eric Nehm of The Athletic reports."
+          },
+          {
+            "name": "Ryan Rollins",
+            "position": "G",
+            "est_return_date": "Apr 5",
+            "status": "Day-To-Day",
+            "comment": "Apr 3: Rollins (hip) has been ruled out for Friday&#x27;s game against the Celtics."
+          },
+          {
+            "name": "Bobby Portis",
+            "position": "F",
+            "est_return_date": "Apr 5",
+            "status": "Out",
+            "comment": "Apr 2: Portis (wrist) is out for Friday&#x27;s game against Boston."
+          },
+          {
+            "name": "Giannis Antetokounmpo",
+            "position": "F",
+            "est_return_date": "Apr 5",
+            "status": "Out",
+            "comment": "Apr 2: Antetokounmpo (knee) is out for Friday&#x27;s game against the Celtics."
+          },
+          {
+            "name": "Kevin Porter Jr.",
+            "position": "G",
+            "est_return_date": "Oct 1",
+            "status": "Out",
+            "comment": "Mar 28: Bucks head coach Doc Rivers told reporters Saturday that he would &quot;be surprised&quot; if Porter (knee) plays again this season, Eric Nehm of The Athletic reports."
+          }
+        ]
+      },
+      {
+        "team": "Minnesota Timberwolves",
+        "players": [
+          {
+            "name": "Jaden McDaniels",
+            "position": "F",
+            "est_return_date": "Apr 7",
+            "status": "Out",
+            "comment": "Mar 30: McDaniels is week-to-week with left knee patella tendinopathy and a bone bruise, per Marc J. Spears of ESPN.com."
+          }
+        ]
+      },
+      {
+        "team": "New Orleans Pelicans",
+        "players": [
+          {
+            "name": "Karlo Matkovic",
+            "position": "F",
+            "est_return_date": "Apr 5",
+            "status": "Out",
+            "comment": "Apr 3: Matkovic (back) won&#x27;t play Friday in Sacramento."
+          },
+          {
+            "name": "Bryce McGowens",
+            "position": "G",
+            "est_return_date": "Apr 5",
+            "status": "Out",
+            "comment": "Apr 3: McGowens (toe) has been ruled out for Friday&#x27;s game against the Kings."
+          },
+          {
+            "name": "Dejounte Murray",
+            "position": "G",
+            "est_return_date": "Apr 5",
+            "status": "Out",
+            "comment": "Apr 3: Murray (rest) will not play Friday against the Kings."
+          }
+        ]
+      },
+      {
+        "team": "New York Knicks",
+        "players": [
+          {
+            "name": "Karl-Anthony Towns",
+            "position": "C",
+            "est_return_date": "Apr 6",
+            "status": "Day-To-Day",
+            "comment": "Apr 3: Towns (elbow) won&#x27;t play Friday versus the Bulls, James L. Edwards III of The Athletic reports."
+          }
+        ]
+      },
+      {
+        "team": "Oklahoma City Thunder",
+        "players": [
+          {
+            "name": "Alex Caruso",
+            "position": "G",
+            "est_return_date": "Apr 5",
+            "status": "Day-To-Day",
+            "comment": "Apr 3: Caruso (illness) is out for Thursday&#x27;s game against the Lakers."
+          },
+          {
+            "name": "Luguentz Dort",
+            "position": "G",
+            "est_return_date": "Apr 5",
+            "status": "Day-To-Day",
+            "comment": "Apr 2: Dort (undisclosed) didn&#x27;t return to Thursday&#x27;s game against the Lakers. He finished with 14 points (5-8 FG, 4-6 3Pt), one assist and two steals in 21 minutes."
+          },
+          {
+            "name": "Thomas Sorber",
+            "position": "C",
+            "est_return_date": "Oct 1",
+            "status": "Out",
+            "comment": "Sep 5: The Thunder announced Friday that Sorber has sustained a torn ACL in his right knee during an offseason workout, NBA reporter Marc Stein reports."
+          }
+        ]
+      },
+      {
+        "team": "Orlando Magic",
+        "players": [
+          {
+            "name": "Jonathan Isaac",
+            "position": "F",
+            "est_return_date": "Apr 5",
+            "status": "Out",
+            "comment": "Apr 2: Isaac (knee) is out for Friday&#x27;s game against the Mavericks."
+          },
+          {
+            "name": "Anthony Black",
+            "position": "G",
+            "est_return_date": "Apr 5",
+            "status": "Out",
+            "comment": "Apr 2: Black (abdomen) is out for Friday&#x27;s game against the Mavericks."
+          }
+        ]
+      },
+      {
+        "team": "Philadelphia 76ers",
+        "players": [
+          {
+            "name": "Johni Broome",
+            "position": "F",
+            "est_return_date": "Apr 9",
+            "status": "Out",
+            "comment": "Apr 2: Broome (knee) has been ruled out for Friday&#x27;s game against the Timberwolves."
+          }
+        ]
+      },
+      {
+        "team": "Phoenix Suns",
+        "players": [
+          {
+            "name": "Jordan Goodwin",
+            "position": "G",
+            "est_return_date": "Apr 5",
+            "status": "Day-To-Day",
+            "comment": "Apr 2: Goodwin (undisclosed) exited Thursday&#x27;s 127-107 loss to the Hornets in the third quarter and did not return, finishing with three points (1-2 FG, 1-2 3Pt), one rebound and one block across 12 minutes."
+          },
+          {
+            "name": "Amir Coffey",
+            "position": "G",
+            "est_return_date": "Apr 5",
+            "status": "Out",
+            "comment": "Apr 1: Coffey (ankle) has been ruled out for Thursday&#x27;s game against the Hornets."
+          },
+          {
+            "name": "Haywood Highsmith",
+            "position": "F",
+            "est_return_date": "Apr 5",
+            "status": "Out",
+            "comment": "Apr 1: Highsmith (knee) has been ruled out for Thursday&#x27;s game against the Hornets."
+          }
+        ]
+      },
+      {
+        "team": "Portland Trail Blazers",
+        "players": [
+          {
+            "name": "Jerami Grant",
+            "position": "F",
+            "est_return_date": "Apr 6",
+            "status": "Out",
+            "comment": "Apr 1: Grant (calf) won&#x27;t play in Thursday&#x27;s game against the Pelicans."
+          },
+          {
+            "name": "Vit Krejci",
+            "position": "G",
+            "est_return_date": "Apr 6",
+            "status": "Out",
+            "comment": "Apr 1: Krejci (calf) has been ruled out for Thursday&#x27;s game against the Pelicans."
+          },
+          {
+            "name": "Shaedon Sharpe",
+            "position": "G",
+            "est_return_date": "Apr 6",
+            "status": "Out",
+            "comment": "Apr 1: Sharpe (calf) has been ruled out for Thursday&#x27;s game against the Pelicans."
+          },
+          {
+            "name": "Damian Lillard",
+            "position": "G",
+            "est_return_date": "Oct 1",
+            "status": "Out",
+            "comment": "Feb 14: Lillard (Achilles) defeated Devin Booker and Kon Knueppel in the final round of Saturday&#x27;s 2026 State Farm 3-Point Contest, taking home his third title."
+          }
+        ]
+      },
+      {
+        "team": "Sacramento Kings",
+        "players": [
+          {
+            "name": "Malik Monk",
+            "position": "G",
+            "est_return_date": "Apr 5",
+            "status": "Out",
+            "comment": "Apr 3: Monk (personal) is out for Friday&#x27;s game against the Pelicans."
+          },
+          {
+            "name": "Keegan Murray",
+            "position": "F",
+            "est_return_date": "Apr 5",
+            "status": "Out",
+            "comment": "Apr 2: Murray (ankle) has been ruled out for Friday&#x27;s game against New Orleans."
+          },
+          {
+            "name": "Russell Westbrook",
+            "position": "G",
+            "est_return_date": "Apr 5",
+            "status": "Out",
+            "comment": "Apr 2: Westbrook (toe) has been ruled out for Friday&#x27;s game against New Orleans."
+          },
+          {
+            "name": "Isaiah Stevens",
+            "position": "G",
+            "est_return_date": "Apr 5",
+            "status": "Out",
+            "comment": "Mar 29: The Kings list Stevens out for Sunday&#x27;s game against the Nets due to right ankle soreness."
+          },
+          {
+            "name": "Drew Eubanks",
+            "position": "F",
+            "est_return_date": "Oct 1",
+            "status": "Out",
+            "comment": "Mar 18: Eubanks underwent successful surgery to repair a torn UCL in his left thumb Wednesday and he will miss the remainder of the season, Sean Cunningham of Fox 40 Sacramento reports."
+          },
+          {
+            "name": "De&#x27;Andre Hunter",
+            "position": "F",
+            "est_return_date": "Oct 1",
+            "status": "Out",
+            "comment": "Feb 20: Hunter is set to undergo season-ending eye surgery, Chris Haynes of NBA TV reports."
+          },
+          {
+            "name": "Domantas Sabonis",
+            "position": "F",
+            "est_return_date": "Oct 1",
+            "status": "Out",
+            "comment": "Feb 18: Sabonis underwent season-ending knee surgery Wednesday to repair a torn left meniscus, Shams Charania of ESPN reports."
+          },
+          {
+            "name": "Zach LaVine",
+            "position": "G",
+            "est_return_date": "Oct 1",
+            "status": "Out",
+            "comment": "Feb 13: LaVine will undergo season-ending surgery on his right hand after the All-Star break, Chris Haynes of NBA TV reports."
+          }
+        ]
+      },
+      {
+        "team": "San Antonio Spurs",
+        "players": [
+          {
+            "name": "Emanuel Miller",
+            "position": "F",
+            "est_return_date": "Apr 6",
+            "status": "Out",
+            "comment": "Apr 3: Miller signed a two-way contract with the Spurs on Monday, Michael Scotto of USA Today reports."
+          },
+          {
+            "name": "David Jones Garcia",
+            "position": "F",
+            "est_return_date": "Jul 2",
+            "status": "Out",
+            "comment": "Feb 4: Jones Garcia underwent ankle surgery Wednesday and will miss the remainder of the 2025-26 season, Tom Orsborn of the San Antonio Express-News reports."
+          }
+        ]
+      },
+      {
+        "team": "Toronto Raptors",
+        "players": [
+          {
+            "name": "Chucky Hepburn",
+            "position": "G",
+            "est_return_date": "Apr 9",
+            "status": "Out",
+            "comment": "Apr 2: Hepburn (knee) has been ruled out for Friday&#x27;s game against the Grizzlies."
+          },
+          {
+            "name": "Immanuel Quickley",
+            "position": "G",
+            "est_return_date": "Apr 7",
+            "status": "Out",
+            "comment": "Apr 1: Quickley (foot) had his first workout without a boot Wednesday but remains without a timetable for a return to game action, Blake Murphy of Sportsnet.ca reports."
+          }
+        ]
+      },
+      {
+        "team": "Utah Jazz",
+        "players": [
+          {
+            "name": "Keyonte George",
+            "position": "G",
+            "est_return_date": "Apr 5",
+            "status": "Out",
+            "comment": "Apr 2: George (hamstring) has been ruled out for Friday&#x27;s game against the Rockets."
+          },
+          {
+            "name": "Isaiah Collier",
+            "position": "G",
+            "est_return_date": "Apr 5",
+            "status": "Out",
+            "comment": "Apr 2: Collier (hamstring) is out for Friday&#x27;s game versus Houston."
+          },
+          {
+            "name": "Elijah Harkless",
+            "position": "G",
+            "est_return_date": "Apr 5",
+            "status": "Out",
+            "comment": "Apr 2: Harkless (hamstring) is out for Friday&#x27;s game against Houston."
+          },
+          {
+            "name": "Lauri Markkanen",
+            "position": "F",
+            "est_return_date": "Apr 10",
+            "status": "Out",
+            "comment": "Mar 19: Markkanen (hip) will be re-evaluated in two weeks, Ben Anderson of KSL News Salt Lake City reports."
+          },
+          {
+            "name": "Jusuf Nurkic",
+            "position": "C",
+            "est_return_date": "Oct 1",
+            "status": "Out",
+            "comment": "Feb 23: Nurkic is scheduled to undergo season-ending nose surgery Wednesday, Chris Haynes of NBA TV reports."
+          },
+          {
+            "name": "Jaren Jackson Jr.",
+            "position": "F",
+            "est_return_date": "Oct 1",
+            "status": "Out",
+            "comment": "Feb 12: Jackson was diagnosed with a localized PVNS growth in his left knee and will miss the remainder of the season, Chris Haynes of NBA TV reports."
+          },
+          {
+            "name": "Walker Kessler",
+            "position": "C",
+            "est_return_date": "Oct 1",
+            "status": "Out",
+            "comment": "Nov 5: Kessler will undergo left shoulder surgery and will miss the remainder of the 2025-26 season, Tony Jones of The Athletic reports."
+          }
+        ]
+      },
+      {
+        "team": "Washington Wizards",
+        "players": [
+          {
+            "name": "Trae Young",
+            "position": "G",
+            "est_return_date": "Apr 5",
+            "status": "Out",
+            "comment": "Apr 3: Young (quadriceps) is out for Saturday&#x27;s game versus Miami."
+          },
+          {
+            "name": "Alex Sarr",
+            "position": "C",
+            "est_return_date": "Apr 4",
+            "status": "Out",
+            "comment": "Apr 3: Sarr (toe) is questionable for Saturday&#x27;s game against Miami."
+          },
+          {
+            "name": "Bilal Coulibaly",
+            "position": "G",
+            "est_return_date": "Apr 4",
+            "status": "Day-To-Day",
+            "comment": "Apr 3: Coulibaly (heel) is questionable for Saturday&#x27;s game against Miami."
+          },
+          {
+            "name": "Tristan Vukcevic",
+            "position": "F",
+            "est_return_date": "Apr 4",
+            "status": "Day-To-Day",
+            "comment": "Apr 3: Vukcevic (knee) is questionable for Saturday&#x27;s game against Miami."
+          },
+          {
+            "name": "Tre Johnson",
+            "position": "G",
+            "est_return_date": "Apr 4",
+            "status": "Day-To-Day",
+            "comment": "Apr 3: Johnson (foot) is questionable for Saturday&#x27;s game versus Miami."
+          },
+          {
+            "name": "Kyshawn George",
+            "position": "F",
+            "est_return_date": "Oct 1",
+            "status": "Out",
+            "comment": "Apr 2: George (elbow) will miss the rest of the 2025-26 season, Chase Hughes of Monumental Sports Network reports."
+          },
+          {
+            "name": "Anthony Davis",
+            "position": "F",
+            "est_return_date": "Apr 9",
+            "status": "Out",
+            "comment": "Mar 31: Davis (finger) is healing on schedule and has been cleared for light contact work, though he remains without a timetable for a return, Josh Robbins of The Athletic reports."
+          },
+          {
+            "name": "D&#x27;Angelo Russell",
+            "position": "G",
+            "est_return_date": "Apr 15",
+            "status": "Out",
+            "comment": "Mar 3: Russell (not injury related) has been ruled out for Tuesday&#x27;s game against the Magic."
+          },
+          {
+            "name": "Cam Whitmore",
+            "position": "F",
+            "est_return_date": "Oct 1",
+            "status": "Out",
+            "comment": "Jan 15: Whitmore has begun the recovery process for a diagnosed venous condition and he will miss the remainder of the 2025-26 season."
+          }
+        ]
+      }
+    ],
+    "error": null,
+    "url": "https://www.espn.com/nba/injuries"
+  },
   "nba_official": {
     "index_url": "https://official.nba.com/nba-injury-report-2025-26-season/",
-    "latest_pdf_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-04-03_10_15PM.pdf",
-    "pdf_text": "Injury Report: 04/03/26 10:15 PM\nGameDate GameTime Matchup Team PlayerName CurrentStatus Reason\n04/03/2026 07:00(ET) IND@CHA IndianaPacers Furphy,Johnny Out Injury/Illness-RightKnee;ACLTear\nInjury/Illness-RightAchillesTendon;\nHaliburton,Tyrese Out\nTear\nInjury/Illness-RightHamstring;\nMcConnell,T.J. Out\nSoreness\nInjury/Illness-CervicalandLumbar;\nNembhard,Andrew Out\nSoreness\nNesmith,Aaron Out Injury/Illness-Cervical;Strain\nInjury/Illness-RightKnee;Injury\nSiakam,Pascal Available\nManagement\nSlawson,Jalen Out GLeague-Two-Way\nInjury/Illness-RightFoot;Injury\nToppin,Obi Available\nmanagement\nWalker,Jarace Out Injury/Illness-LowerBack;Bruise\nZubac,Ivica Out Injury/Illness-Rib;Fracture\nCharlotteHornets Diabate,Moussa Out Injury/Illness-LeftAnkle;Soreness\nEvbuomwan,Tosan Out GLeague-OnAssignment\nHall,PJ Out Injury/Illness-RightAnkle;Fracture\nMcNeeley,Liam Out GLeague-OnAssignment\nPage1of9\nInjury Report: 04/03/26 10:15 PM\nReeves,Antonio Out GLeague-Two-Way\nSalaun,Tidjane Out GLeague-OnAssignment\nInjury/Illness-RightKnee;Injury\nWilliams,Grant Out\nManagement\nInjury/Illness-RightKnee;\nMIN@PHI MinnesotaTimberwolves Edwards,Anthony Available PatellofemoralPain Syndrome;\nIllness\nFreeman,Enrique Out GLeague-Two-Way\nInjury/Illness-LeftKnee;Patella\nMcDaniels,Jaden Out\nTendinopathy\nPullin,Zyon Out GLeague-Two-Way\nZikarsky,Rocco Out GLeague-Two-Way\nInjury/Illness-RightKnee;Surgery\nPhiladelphia76ers Broome,Johni Out\nRecovery\nEmbiid,Joel Available Injury/Illness-N/a;Illness\nInjury/Illness-RightFinger;Tendon\nMaxey,Tyrese Available\nStrain-Splint\n07:30(ET) ATL@BKN AtlantaHawks Dennis,RayJ Out GLeague-Two-Way\nGilbert,Keshon Out GLeague-Two-Way\nInjury/Illness-RightHighAnkle;\nLandale,Jock Out\nSprain\nBrooklynNets Claxton,Nic Available Injury/Illness-RightHand;Soreness/\nPage2of9\nInjury Report: 04/03/26 10:15 PM\nIllness\nClowney,Noah Available Injury/Illness-LeftAnkle;Soreness\nInjury/Illness-LeftPlantarFascia;\nDemin,Egor Out\nInjuryManagement\nPorterJr.,Michael Out Injury/Illness-LeftHamstring;Strain\nSharpe,Day'Ron Out Injury/Illness-LeftThumb;Surgery\nWolf,Danny Out Injury/Illness-LeftAnkle;Sprain\nCHI@NYK ChicagoBulls Collins,Zach Out Injury/Illness-Right1stToe;Surgery\nEssengue,Noa Out Injury/Illness-LeftShoulder;Surgery\nGiddey,Josh Available -\nJones,Tre Available -\nMcClung,Mac Available -\nOlbrich,Lachlan Available -\nRichards,Nick Out Injury/Illness-RightElbow;Sprain\nInjury/Illness-LeftUlnarStyloid;\nSimons,Anfernee Out\nFracture\nSmith,Jalen Out Injury/Illness-RightCalf;Strain\nYabusele,Guerschon Available -\nInjury/Illness-RightElbow;Right\nNewYorkKnicks Towns,Karl-Anthony Out\nElbowImpingement\n08:00(ET) BOS@MIL BostonCeltics Vucevic,Nikola Out Injury/Illness-RightRingFinger;\nPage3of9\nInjury Report: 04/03/26 10:15 PM\nFracture\nInjury/Illness-LeftKnee;\nMilwaukeeBucks Antetokounmpo,Giannis Out\nHyperextension;BoneBruise\nAntetokounmpo,Thanasis Available Injury/Illness-LeftCalf;Strain\nPorterJr.,Kevin Out Injury/Illness-RightKnee;Synovitis\nPortis,Bobby Out Injury/Illness-LeftWrist;Sprain\nRollins,Ryan Out Injury/Illness-RightHip;Strain\nInjury/Illness-RightPatella;\nSims,Jericho Available\nTendonopathy\nTrentJr.,Gary Out Injury/Illness-LeftHip;Pointer\nTOR@MEM TorontoRaptors Battle,Jamison Available Injury/Illness-Illness;Illness\nInjury/Illness-RightKnee;Surgery-\nHepburn,Chucky Out\ninjuryrecovery\nInjury/Illness-RightFoot;Plantar\nQuickley,Immanuel Out\nfasciitis\nInjury/Illness-RightKnee;Surgery\nMemphisGrizzlies Aldama,Santi Out\nRecovery\nInjury/Illness-Right5thFinger;\nCaldwell-Pope,Kentavious Out\nSurgeryRecovery\nClarke,Brandon Out Injury/Illness-RightCalf;Strain\nClaytonJr.,Walter Out Injury/Illness-LeftHip;Soreness\nEdey,Zach Out Injury/Illness-LeftAnkleAndElbow;\nPage4of9\nInjury Report: 04/03/26 10:15 PM\nSurgeryRecovery\nInjury/Illness-RightFoot;Injury\nGibson,Taj Out\nManagement\nJerome,Ty Out Injury/Illness-LeftAnkle;Sprain\nInjury/Illness-Nasal;Fracture-Face\nMashack,Jahmai Available\nMask\nMorant,Ja Out Injury/Illness-LeftElbow;UCLSprain\nInjury/Illness-RightGreatToe;\nPippenJr.,Scotty Out\nSurgeryRecovery\nProsper,Olivier-Maxence Out Injury/Illness-LowBack;Soreness\nSpencer,Cam Out Injury/Illness-LowBack;Soreness\nInjury/Illness-RightGreatToe;\nWells,Jaylen Out\nSurgeryRecovery\nUTA@HOU UtahJazz Collier,Isaiah Out Injury/Illness-LeftHamstring;Strain\nInjury/Illness-RightHamstring;\nGeorge,Keyonte Out\nStrain\nHarkless,Elijah Out Injury/Illness-LeftHamstring;Strain\nHinson,Blake Out GLeague-Two-Way\nInjury/Illness-LeftKnee;Injury\nJacksonJr.,Jaren Out\nRecovery\nInjury/Illness-LeftShoulder;Injury\nKessler,Walker Out\nRecovery\nPage5of9\nInjury Report: 04/03/26 10:15 PM\nInjury/Illness-RightHip;\nMarkkanen,Lauri Out\nImpingement\nNurkic,Jusuf Out Injury/Illness-Nose;InjuryRecovery\nHoustonRockets Adams,Steven Out Injury/Illness-LeftAnkle;Surgery\nCrawford,Isaiah Out GLeague-Two-Way\nNewton,Tristen Out GLeague-Two-Way\nVanVleet,Fred Out Injury/Illness-RightKnee;ACLRepair\nInjury/Illness-LeftLateral\n08:30(ET) ORL@DAL OrlandoMagic Black,Anthony Out\nAbdominal;Strain\nCastleton,Colin Out GLeague-Two-Way\nIsaac,Jonathan Out Injury/Illness-LeftKnee;Sprain\nMorales,Alex Out GLeague-Two-Way\nInjury/Illness-LeftShoulder;\nDallasMavericks BagleyIII,Marvin Out\nImpingement\nCisse,Moussa Out GLeague-Two-Way\nIrving,Kyrie Out Injury/Illness-LeftKnee;Surgery\nLivelyII,Dereck Out Injury/Illness-RightFoot;Surgery\nInjury/Illness-RightPlantarFascia;\nMartin,Caleb Out\nStrain\nPoulakidas,John Available GLeague-Two-Way\nSmith,Tyler Available GLeague-Two-Way\nPage6of9\nInjury Report: 04/03/26 10:15 PM\nWashington,P.J. Out Injury/Illness-Illness;Illness\n10:00(ET) NOP@SAC NewOrleansPelicans Matkovic,Karlo Out Injury/Illness-LowBack;Spasms\nInjury/Illness-RightSmallToe;\nMcGowens,Bryce Out\nFracture\nMurphyIII,Trey Available Injury/Illness-RightAnkle;Sprain\nInjury/Illness-RightAchilles;Injury\nMurray,Dejounte Out\nManagement\nSacramentoKings BaldwinJr.,Patrick Out GLeague-Two-Way\nInjury/Illness-LeftThumb;UCL\nEubanks,Drew Out\nRepair\nInjury/Illness-LeftEye;Retinal\nHunter,De'Andre Out\nRepair\nInjury/Illness-Left5thFinger;\nLaVine,Zach Out\nTendonRepair\nMonk,Malik Out PersonalReasons\nMurray,Keegan Out Injury/Illness-LeftAnkle;Sprain\nInjury/Illness-LeftKnee;Meniscus\nSabonis,Domantas Out\nrepair\nStevens,Isaiah Out GLeague-Two-Way\nInjury/Illness-RightToe;Injury\nWestbrook,Russell Out\nManagement\n04/04/2026 03:00(ET) SAS@DEN SanAntonioSpurs JonesGarcia,David Out Injury/Illness-RightAnkle;Surgery\nPage7of9\nInjury Report: 04/03/26 10:15 PM\nMiller,Emanuel Out GLeague-Two-Way\nDenverNuggets HardawayJr.,Tim Probable Injury/Illness-LeftKnee;Soreness\nInjury/Illness-RightHamstring;\nJones,Spencer Out\nStrain\nNnaji,Zeke Out Injury/Illness-LeftHip;Sprain\nInjury/Illness-RightHamstring;\nWatson,Peyton Out\nStrain\nWAS@MIA WashingtonWizards Champagnie,Justin Questionable Injury/Illness-RightKnee;Contusion\nInjury/Illness-RightRetrocalcaneal;\nCoulibaly,Bilal Questionable\nBursitis\nDavis,Anthony Out Injury/Illness-LeftFinger;Sprain\nGeorge,Kyshawn Out Injury/Illness-LeftElbow;Sprain\nJohnson,Tre Questionable Injury/Illness-RightFoot;Sprain\nRussell,D'Angelo Out NotWithTeam\nSarr,Alex Questionable Injury/Illness-LeftBigToe;Capsulitis\nVukcevic,Tristan Questionable Injury/Illness-RightKnee;Contusion\nInjury/Illness-RightShoulder;Deep\nWhitmore,Cam Out\nVeinThrombosis\nInjury/Illness-LowBack;Pain;Right\nYoung,Trae Out\nQuadContusion\nMiamiHeat Herro,Tyler Probable Injury/Illness-RightFoot;Soreness\nPage8of9\nInjury Report: 04/03/26 10:15 PM\nReturntoCompetition\nPowell,Norman Out\nReconditioning\nRozier,Terry Out NotWithTeam\nInjury/Illness-LeftBigToe;\nWiggins,Andrew Available\nSesamoiditis\nInjury/Illness-LeftLung;\n07:00(ET) DET@PHI DetroitPistons Cunningham,Cade Out\nPneumothorax\nHarris,Tobias Questionable Injury/Illness-LeftKnee;Contusion\nJones,Isaac Questionable GLeague-Two-Way\nKlintman,Bobi Questionable GLeague-OnAssignment\nLanier,Chaz Questionable GLeague-OnAssignment\nMooreJr.,Wendell Questionable GLeague-Two-Way\nSasser,Marcus Probable Injury/Illness-RightHip;Strain\nStewart,Isaiah Out Injury/Illness-LeftCalf;Strain\nPhiladelphia76ers NOTYETSUBMITTED\nPage9of9",
+    "latest_pdf_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-04-03_11_00PM.pdf",
+    "pdf_text": "Injury Report: 04/03/26 11:00 PM\nGameDate GameTime Matchup Team PlayerName CurrentStatus Reason\n04/03/2026 07:00(ET) IND@CHA IndianaPacers Furphy,Johnny Out Injury/Illness-RightKnee;ACLTear\nInjury/Illness-RightAchillesTendon;\nHaliburton,Tyrese Out\nTear\nInjury/Illness-RightHamstring;\nMcConnell,T.J. Out\nSoreness\nInjury/Illness-CervicalandLumbar;\nNembhard,Andrew Out\nSoreness\nNesmith,Aaron Out Injury/Illness-Cervical;Strain\nInjury/Illness-RightKnee;Injury\nSiakam,Pascal Available\nManagement\nSlawson,Jalen Out GLeague-Two-Way\nInjury/Illness-RightFoot;Injury\nToppin,Obi Available\nmanagement\nWalker,Jarace Out Injury/Illness-LowerBack;Bruise\nZubac,Ivica Out Injury/Illness-Rib;Fracture\nCharlotteHornets Diabate,Moussa Out Injury/Illness-LeftAnkle;Soreness\nEvbuomwan,Tosan Out GLeague-OnAssignment\nHall,PJ Out Injury/Illness-RightAnkle;Fracture\nMcNeeley,Liam Out GLeague-OnAssignment\nPage1of9\nInjury Report: 04/03/26 11:00 PM\nReeves,Antonio Out GLeague-Two-Way\nSalaun,Tidjane Out GLeague-OnAssignment\nInjury/Illness-RightKnee;Injury\nWilliams,Grant Out\nManagement\nInjury/Illness-RightKnee;\nMIN@PHI MinnesotaTimberwolves Edwards,Anthony Available PatellofemoralPain Syndrome;\nIllness\nFreeman,Enrique Out GLeague-Two-Way\nInjury/Illness-LeftKnee;Patella\nMcDaniels,Jaden Out\nTendinopathy\nPullin,Zyon Out GLeague-Two-Way\nZikarsky,Rocco Out GLeague-Two-Way\nInjury/Illness-RightKnee;Surgery\nPhiladelphia76ers Broome,Johni Out\nRecovery\nEmbiid,Joel Available Injury/Illness-N/a;Illness\nInjury/Illness-RightFinger;Tendon\nMaxey,Tyrese Available\nStrain-Splint\n07:30(ET) ATL@BKN AtlantaHawks Dennis,RayJ Out GLeague-Two-Way\nGilbert,Keshon Out GLeague-Two-Way\nInjury/Illness-RightHighAnkle;\nLandale,Jock Out\nSprain\nBrooklynNets Claxton,Nic Available Injury/Illness-RightHand;Soreness/\nPage2of9\nInjury Report: 04/03/26 11:00 PM\nIllness\nClowney,Noah Available Injury/Illness-LeftAnkle;Soreness\nInjury/Illness-LeftPlantarFascia;\nDemin,Egor Out\nInjuryManagement\nPorterJr.,Michael Out Injury/Illness-LeftHamstring;Strain\nSharpe,Day'Ron Out Injury/Illness-LeftThumb;Surgery\nWolf,Danny Out Injury/Illness-LeftAnkle;Sprain\nCHI@NYK ChicagoBulls Collins,Zach Out Injury/Illness-Right1stToe;Surgery\nEssengue,Noa Out Injury/Illness-LeftShoulder;Surgery\nGiddey,Josh Available -\nJones,Tre Available -\nMcClung,Mac Available -\nOlbrich,Lachlan Available -\nRichards,Nick Out Injury/Illness-RightElbow;Sprain\nInjury/Illness-LeftUlnarStyloid;\nSimons,Anfernee Out\nFracture\nSmith,Jalen Out Injury/Illness-RightCalf;Strain\nYabusele,Guerschon Available -\nInjury/Illness-RightElbow;Right\nNewYorkKnicks Towns,Karl-Anthony Out\nElbowImpingement\n08:00(ET) BOS@MIL BostonCeltics Vucevic,Nikola Out Injury/Illness-RightRingFinger;\nPage3of9\nInjury Report: 04/03/26 11:00 PM\nFracture\nInjury/Illness-LeftKnee;\nMilwaukeeBucks Antetokounmpo,Giannis Out\nHyperextension;BoneBruise\nAntetokounmpo,Thanasis Available Injury/Illness-LeftCalf;Strain\nPorterJr.,Kevin Out Injury/Illness-RightKnee;Synovitis\nPortis,Bobby Out Injury/Illness-LeftWrist;Sprain\nRollins,Ryan Out Injury/Illness-RightHip;Strain\nInjury/Illness-RightPatella;\nSims,Jericho Available\nTendonopathy\nTrentJr.,Gary Out Injury/Illness-LeftHip;Pointer\nTOR@MEM TorontoRaptors Battle,Jamison Available Injury/Illness-Illness;Illness\nInjury/Illness-RightKnee;Surgery-\nHepburn,Chucky Out\ninjuryrecovery\nInjury/Illness-RightFoot;Plantar\nQuickley,Immanuel Out\nfasciitis\nInjury/Illness-RightKnee;Surgery\nMemphisGrizzlies Aldama,Santi Out\nRecovery\nInjury/Illness-Right5thFinger;\nCaldwell-Pope,Kentavious Out\nSurgeryRecovery\nClarke,Brandon Out Injury/Illness-RightCalf;Strain\nClaytonJr.,Walter Out Injury/Illness-LeftHip;Soreness\nEdey,Zach Out Injury/Illness-LeftAnkleAndElbow;\nPage4of9\nInjury Report: 04/03/26 11:00 PM\nSurgeryRecovery\nInjury/Illness-RightFoot;Injury\nGibson,Taj Out\nManagement\nJerome,Ty Out Injury/Illness-LeftAnkle;Sprain\nInjury/Illness-Nasal;Fracture-Face\nMashack,Jahmai Available\nMask\nMorant,Ja Out Injury/Illness-LeftElbow;UCLSprain\nInjury/Illness-RightGreatToe;\nPippenJr.,Scotty Out\nSurgeryRecovery\nProsper,Olivier-Maxence Out Injury/Illness-LowBack;Soreness\nSpencer,Cam Out Injury/Illness-LowBack;Soreness\nInjury/Illness-RightGreatToe;\nWells,Jaylen Out\nSurgeryRecovery\nUTA@HOU UtahJazz Collier,Isaiah Out Injury/Illness-LeftHamstring;Strain\nInjury/Illness-RightHamstring;\nGeorge,Keyonte Out\nStrain\nHarkless,Elijah Out Injury/Illness-LeftHamstring;Strain\nHinson,Blake Out GLeague-Two-Way\nInjury/Illness-LeftKnee;Injury\nJacksonJr.,Jaren Out\nRecovery\nInjury/Illness-LeftShoulder;Injury\nKessler,Walker Out\nRecovery\nPage5of9\nInjury Report: 04/03/26 11:00 PM\nInjury/Illness-RightHip;\nMarkkanen,Lauri Out\nImpingement\nNurkic,Jusuf Out Injury/Illness-Nose;InjuryRecovery\nHoustonRockets Adams,Steven Out Injury/Illness-LeftAnkle;Surgery\nCrawford,Isaiah Out GLeague-Two-Way\nNewton,Tristen Out GLeague-Two-Way\nVanVleet,Fred Out Injury/Illness-RightKnee;ACLRepair\nInjury/Illness-LeftLateral\n08:30(ET) ORL@DAL OrlandoMagic Black,Anthony Out\nAbdominal;Strain\nCastleton,Colin Out GLeague-Two-Way\nIsaac,Jonathan Out Injury/Illness-LeftKnee;Sprain\nMorales,Alex Out GLeague-Two-Way\nInjury/Illness-LeftShoulder;\nDallasMavericks BagleyIII,Marvin Out\nImpingement\nCisse,Moussa Out GLeague-Two-Way\nIrving,Kyrie Out Injury/Illness-LeftKnee;Surgery\nLivelyII,Dereck Out Injury/Illness-RightFoot;Surgery\nInjury/Illness-RightPlantarFascia;\nMartin,Caleb Out\nStrain\nPoulakidas,John Available GLeague-Two-Way\nSmith,Tyler Available GLeague-Two-Way\nPage6of9\nInjury Report: 04/03/26 11:00 PM\nWashington,P.J. Out Injury/Illness-Illness;Illness\n10:00(ET) NOP@SAC NewOrleansPelicans Matkovic,Karlo Out Injury/Illness-LowBack;Spasms\nInjury/Illness-RightSmallToe;\nMcGowens,Bryce Out\nFracture\nMurphyIII,Trey Available Injury/Illness-RightAnkle;Sprain\nInjury/Illness-RightAchilles;Injury\nMurray,Dejounte Out\nManagement\nSacramentoKings BaldwinJr.,Patrick Out GLeague-Two-Way\nInjury/Illness-LeftThumb;UCL\nEubanks,Drew Out\nRepair\nInjury/Illness-LeftEye;Retinal\nHunter,De'Andre Out\nRepair\nInjury/Illness-Left5thFinger;\nLaVine,Zach Out\nTendonRepair\nMonk,Malik Out PersonalReasons\nMurray,Keegan Out Injury/Illness-LeftAnkle;Sprain\nInjury/Illness-LeftKnee;Meniscus\nSabonis,Domantas Out\nrepair\nStevens,Isaiah Out GLeague-Two-Way\nInjury/Illness-RightToe;Injury\nWestbrook,Russell Out\nManagement\n04/04/2026 03:00(ET) SAS@DEN SanAntonioSpurs JonesGarcia,David Out Injury/Illness-RightAnkle;Surgery\nPage7of9\nInjury Report: 04/03/26 11:00 PM\nMiller,Emanuel Out GLeague-Two-Way\nDenverNuggets HardawayJr.,Tim Probable Injury/Illness-LeftKnee;Soreness\nInjury/Illness-RightHamstring;\nJones,Spencer Out\nStrain\nNnaji,Zeke Out Injury/Illness-LeftHip;Sprain\nInjury/Illness-RightHamstring;\nWatson,Peyton Out\nStrain\nWAS@MIA WashingtonWizards Champagnie,Justin Questionable Injury/Illness-RightKnee;Contusion\nInjury/Illness-RightRetrocalcaneal;\nCoulibaly,Bilal Questionable\nBursitis\nDavis,Anthony Out Injury/Illness-LeftFinger;Sprain\nGeorge,Kyshawn Out Injury/Illness-LeftElbow;Sprain\nJohnson,Tre Questionable Injury/Illness-RightFoot;Sprain\nRussell,D'Angelo Out NotWithTeam\nSarr,Alex Questionable Injury/Illness-LeftBigToe;Capsulitis\nVukcevic,Tristan Questionable Injury/Illness-RightKnee;Contusion\nInjury/Illness-RightShoulder;Deep\nWhitmore,Cam Out\nVeinThrombosis\nInjury/Illness-LowBack;Pain;Right\nYoung,Trae Out\nQuadContusion\nMiamiHeat Herro,Tyler Probable Injury/Illness-RightFoot;Soreness\nPage8of9\nInjury Report: 04/03/26 11:00 PM\nReturntoCompetition\nPowell,Norman Out\nReconditioning\nRozier,Terry Out NotWithTeam\nInjury/Illness-LeftBigToe;\nWiggins,Andrew Available\nSesamoiditis\nInjury/Illness-LeftLung;\n07:00(ET) DET@PHI DetroitPistons Cunningham,Cade Out\nPneumothorax\nHarris,Tobias Questionable Injury/Illness-LeftKnee;Contusion\nJones,Isaac Questionable GLeague-Two-Way\nKlintman,Bobi Questionable GLeague-OnAssignment\nLanier,Chaz Questionable GLeague-OnAssignment\nMooreJr.,Wendell Questionable GLeague-Two-Way\nSasser,Marcus Probable Injury/Illness-RightHip;Strain\nStewart,Isaiah Out Injury/Illness-LeftCalf;Strain\nPhiladelphia76ers NOTYETSUBMITTED\nPage9of9",
     "by_game": [
       {
         "game_date": "04/03/2026",
         "game_time_et": "07:00",
         "matchup": "IND@CHA",
         "header_line": "04/03/2026 07:00(ET) IND@CHA",
-        "injury_block_text": "IndianaPacers Furphy,Johnny Out Injury/Illness-RightKnee;ACLTear\nInjury/Illness-RightAchillesTendon;\nHaliburton,Tyrese Out\nTear\nInjury/Illness-RightHamstring;\nMcConnell,T.J. Out\nSoreness\nInjury/Illness-CervicalandLumbar;\nNembhard,Andrew Out\nSoreness\nNesmith,Aaron Out Injury/Illness-Cervical;Strain\nInjury/Illness-RightKnee;Injury\nSiakam,Pascal Available\nManagement\nSlawson,Jalen Out GLeague-Two-Way\nInjury/Illness-RightFoot;Injury\nToppin,Obi Available\nmanagement\nWalker,Jarace Out Injury/Illness-LowerBack;Bruise\nZubac,Ivica Out Injury/Illness-Rib;Fracture\nCharlotteHornets Diabate,Moussa Out Injury/Illness-LeftAnkle;Soreness\nEvbuomwan,Tosan Out GLeague-OnAssignment\nHall,PJ Out Injury/Illness-RightAnkle;Fracture\nMcNeeley,Liam Out GLeague-OnAssignment\nPage1of9\nInjury Report: 04/03/26 10:15 PM\nReeves,Antonio Out GLeague-Two-Way\nSalaun,Tidjane Out GLeague-OnAssignment\nInjury/Illness-RightKnee;Injury\nWilliams,Grant Out\nManagement\nInjury/Illness-RightKnee;\nMIN@PHI MinnesotaTimberwolves Edwards,Anthony Available PatellofemoralPain Syndrome;\nIllness\nFreeman,Enrique Out GLeague-Two-Way\nInjury/Illness-LeftKnee;Patella\nMcDaniels,Jaden Out\nTendinopathy\nPullin,Zyon Out GLeague-Two-Way\nZikarsky,Rocco Out GLeague-Two-Way\nInjury/Illness-RightKnee;Surgery\nPhiladelphia76ers Broome,Johni Out\nRecovery\nEmbiid,Joel Available Injury/Illness-N/a;Illness\nInjury/Illness-RightFinger;Tendon\nMaxey,Tyrese Available\nStrain-Splint",
+        "injury_block_text": "IndianaPacers Furphy,Johnny Out Injury/Illness-RightKnee;ACLTear\nInjury/Illness-RightAchillesTendon;\nHaliburton,Tyrese Out\nTear\nInjury/Illness-RightHamstring;\nMcConnell,T.J. Out\nSoreness\nInjury/Illness-CervicalandLumbar;\nNembhard,Andrew Out\nSoreness\nNesmith,Aaron Out Injury/Illness-Cervical;Strain\nInjury/Illness-RightKnee;Injury\nSiakam,Pascal Available\nManagement\nSlawson,Jalen Out GLeague-Two-Way\nInjury/Illness-RightFoot;Injury\nToppin,Obi Available\nmanagement\nWalker,Jarace Out Injury/Illness-LowerBack;Bruise\nZubac,Ivica Out Injury/Illness-Rib;Fracture\nCharlotteHornets Diabate,Moussa Out Injury/Illness-LeftAnkle;Soreness\nEvbuomwan,Tosan Out GLeague-OnAssignment\nHall,PJ Out Injury/Illness-RightAnkle;Fracture\nMcNeeley,Liam Out GLeague-OnAssignment\nPage1of9\nInjury Report: 04/03/26 11:00 PM\nReeves,Antonio Out GLeague-Two-Way\nSalaun,Tidjane Out GLeague-OnAssignment\nInjury/Illness-RightKnee;Injury\nWilliams,Grant Out\nManagement\nInjury/Illness-RightKnee;\nMIN@PHI MinnesotaTimberwolves Edwards,Anthony Available PatellofemoralPain Syndrome;\nIllness\nFreeman,Enrique Out GLeague-Two-Way\nInjury/Illness-LeftKnee;Patella\nMcDaniels,Jaden Out\nTendinopathy\nPullin,Zyon Out GLeague-Two-Way\nZikarsky,Rocco Out GLeague-Two-Way\nInjury/Illness-RightKnee;Surgery\nPhiladelphia76ers Broome,Johni Out\nRecovery\nEmbiid,Joel Available Injury/Illness-N/a;Illness\nInjury/Illness-RightFinger;Tendon\nMaxey,Tyrese Available\nStrain-Splint",
         "segments": [
           {
             "matchup": "IND@CHA",
-            "text": "IndianaPacers Furphy,Johnny Out Injury/Illness-RightKnee;ACLTear\nInjury/Illness-RightAchillesTendon;\nHaliburton,Tyrese Out\nTear\nInjury/Illness-RightHamstring;\nMcConnell,T.J. Out\nSoreness\nInjury/Illness-CervicalandLumbar;\nNembhard,Andrew Out\nSoreness\nNesmith,Aaron Out Injury/Illness-Cervical;Strain\nInjury/Illness-RightKnee;Injury\nSiakam,Pascal Available\nManagement\nSlawson,Jalen Out GLeague-Two-Way\nInjury/Illness-RightFoot;Injury\nToppin,Obi Available\nmanagement\nWalker,Jarace Out Injury/Illness-LowerBack;Bruise\nZubac,Ivica Out Injury/Illness-Rib;Fracture\nCharlotteHornets Diabate,Moussa Out Injury/Illness-LeftAnkle;Soreness\nEvbuomwan,Tosan Out GLeague-OnAssignment\nHall,PJ Out Injury/Illness-RightAnkle;Fracture\nMcNeeley,Liam Out GLeague-OnAssignment\nPage1of9\nInjury Report: 04/03/26 10:15 PM\nReeves,Antonio Out GLeague-Two-Way\nSalaun,Tidjane Out GLeague-OnAssignment\nInjury/Illness-RightKnee;Injury\nWilliams,Grant Out\nManagement\nInjury/Illness-RightKnee;"
+            "text": "IndianaPacers Furphy,Johnny Out Injury/Illness-RightKnee;ACLTear\nInjury/Illness-RightAchillesTendon;\nHaliburton,Tyrese Out\nTear\nInjury/Illness-RightHamstring;\nMcConnell,T.J. Out\nSoreness\nInjury/Illness-CervicalandLumbar;\nNembhard,Andrew Out\nSoreness\nNesmith,Aaron Out Injury/Illness-Cervical;Strain\nInjury/Illness-RightKnee;Injury\nSiakam,Pascal Available\nManagement\nSlawson,Jalen Out GLeague-Two-Way\nInjury/Illness-RightFoot;Injury\nToppin,Obi Available\nmanagement\nWalker,Jarace Out Injury/Illness-LowerBack;Bruise\nZubac,Ivica Out Injury/Illness-Rib;Fracture\nCharlotteHornets Diabate,Moussa Out Injury/Illness-LeftAnkle;Soreness\nEvbuomwan,Tosan Out GLeague-OnAssignment\nHall,PJ Out Injury/Illness-RightAnkle;Fracture\nMcNeeley,Liam Out GLeague-OnAssignment\nPage1of9\nInjury Report: 04/03/26 11:00 PM\nReeves,Antonio Out GLeague-Two-Way\nSalaun,Tidjane Out GLeague-OnAssignment\nInjury/Illness-RightKnee;Injury\nWilliams,Grant Out\nManagement\nInjury/Illness-RightKnee;"
           },
           {
             "matchup": "MIN@PHI",
@@ -1131,11 +2114,11 @@
         "game_time_et": "07:30",
         "matchup": "ATL@BKN",
         "header_line": "04/03/2026 07:30(ET) ATL@BKN",
-        "injury_block_text": "AtlantaHawks Dennis,RayJ Out GLeague-Two-Way\nGilbert,Keshon Out GLeague-Two-Way\nInjury/Illness-RightHighAnkle;\nLandale,Jock Out\nSprain\nBrooklynNets Claxton,Nic Available Injury/Illness-RightHand;Soreness/\nPage2of9\nInjury Report: 04/03/26 10:15 PM\nIllness\nClowney,Noah Available Injury/Illness-LeftAnkle;Soreness\nInjury/Illness-LeftPlantarFascia;\nDemin,Egor Out\nInjuryManagement\nPorterJr.,Michael Out Injury/Illness-LeftHamstring;Strain\nSharpe,Day'Ron Out Injury/Illness-LeftThumb;Surgery\nWolf,Danny Out Injury/Illness-LeftAnkle;Sprain\nCHI@NYK ChicagoBulls Collins,Zach Out Injury/Illness-Right1stToe;Surgery\nEssengue,Noa Out Injury/Illness-LeftShoulder;Surgery\nGiddey,Josh Available -\nJones,Tre Available -\nMcClung,Mac Available -\nOlbrich,Lachlan Available -\nRichards,Nick Out Injury/Illness-RightElbow;Sprain\nInjury/Illness-LeftUlnarStyloid;\nSimons,Anfernee Out\nFracture\nSmith,Jalen Out Injury/Illness-RightCalf;Strain\nYabusele,Guerschon Available -\nInjury/Illness-RightElbow;Right\nNewYorkKnicks Towns,Karl-Anthony Out\nElbowImpingement",
+        "injury_block_text": "AtlantaHawks Dennis,RayJ Out GLeague-Two-Way\nGilbert,Keshon Out GLeague-Two-Way\nInjury/Illness-RightHighAnkle;\nLandale,Jock Out\nSprain\nBrooklynNets Claxton,Nic Available Injury/Illness-RightHand;Soreness/\nPage2of9\nInjury Report: 04/03/26 11:00 PM\nIllness\nClowney,Noah Available Injury/Illness-LeftAnkle;Soreness\nInjury/Illness-LeftPlantarFascia;\nDemin,Egor Out\nInjuryManagement\nPorterJr.,Michael Out Injury/Illness-LeftHamstring;Strain\nSharpe,Day'Ron Out Injury/Illness-LeftThumb;Surgery\nWolf,Danny Out Injury/Illness-LeftAnkle;Sprain\nCHI@NYK ChicagoBulls Collins,Zach Out Injury/Illness-Right1stToe;Surgery\nEssengue,Noa Out Injury/Illness-LeftShoulder;Surgery\nGiddey,Josh Available -\nJones,Tre Available -\nMcClung,Mac Available -\nOlbrich,Lachlan Available -\nRichards,Nick Out Injury/Illness-RightElbow;Sprain\nInjury/Illness-LeftUlnarStyloid;\nSimons,Anfernee Out\nFracture\nSmith,Jalen Out Injury/Illness-RightCalf;Strain\nYabusele,Guerschon Available -\nInjury/Illness-RightElbow;Right\nNewYorkKnicks Towns,Karl-Anthony Out\nElbowImpingement",
         "segments": [
           {
             "matchup": "ATL@BKN",
-            "text": "AtlantaHawks Dennis,RayJ Out GLeague-Two-Way\nGilbert,Keshon Out GLeague-Two-Way\nInjury/Illness-RightHighAnkle;\nLandale,Jock Out\nSprain\nBrooklynNets Claxton,Nic Available Injury/Illness-RightHand;Soreness/\nPage2of9\nInjury Report: 04/03/26 10:15 PM\nIllness\nClowney,Noah Available Injury/Illness-LeftAnkle;Soreness\nInjury/Illness-LeftPlantarFascia;\nDemin,Egor Out\nInjuryManagement\nPorterJr.,Michael Out Injury/Illness-LeftHamstring;Strain\nSharpe,Day'Ron Out Injury/Illness-LeftThumb;Surgery\nWolf,Danny Out Injury/Illness-LeftAnkle;Sprain"
+            "text": "AtlantaHawks Dennis,RayJ Out GLeague-Two-Way\nGilbert,Keshon Out GLeague-Two-Way\nInjury/Illness-RightHighAnkle;\nLandale,Jock Out\nSprain\nBrooklynNets Claxton,Nic Available Injury/Illness-RightHand;Soreness/\nPage2of9\nInjury Report: 04/03/26 11:00 PM\nIllness\nClowney,Noah Available Injury/Illness-LeftAnkle;Soreness\nInjury/Illness-LeftPlantarFascia;\nDemin,Egor Out\nInjuryManagement\nPorterJr.,Michael Out Injury/Illness-LeftHamstring;Strain\nSharpe,Day'Ron Out Injury/Illness-LeftThumb;Surgery\nWolf,Danny Out Injury/Illness-LeftAnkle;Sprain"
           },
           {
             "matchup": "CHI@NYK",
@@ -1148,19 +2131,19 @@
         "game_time_et": "08:00",
         "matchup": "BOS@MIL",
         "header_line": "04/03/2026 08:00(ET) BOS@MIL",
-        "injury_block_text": "BostonCeltics Vucevic,Nikola Out Injury/Illness-RightRingFinger;\nPage3of9\nInjury Report: 04/03/26 10:15 PM\nFracture\nInjury/Illness-LeftKnee;\nMilwaukeeBucks Antetokounmpo,Giannis Out\nHyperextension;BoneBruise\nAntetokounmpo,Thanasis Available Injury/Illness-LeftCalf;Strain\nPorterJr.,Kevin Out Injury/Illness-RightKnee;Synovitis\nPortis,Bobby Out Injury/Illness-LeftWrist;Sprain\nRollins,Ryan Out Injury/Illness-RightHip;Strain\nInjury/Illness-RightPatella;\nSims,Jericho Available\nTendonopathy\nTrentJr.,Gary Out Injury/Illness-LeftHip;Pointer\nTOR@MEM TorontoRaptors Battle,Jamison Available Injury/Illness-Illness;Illness\nInjury/Illness-RightKnee;Surgery-\nHepburn,Chucky Out\ninjuryrecovery\nInjury/Illness-RightFoot;Plantar\nQuickley,Immanuel Out\nfasciitis\nInjury/Illness-RightKnee;Surgery\nMemphisGrizzlies Aldama,Santi Out\nRecovery\nInjury/Illness-Right5thFinger;\nCaldwell-Pope,Kentavious Out\nSurgeryRecovery\nClarke,Brandon Out Injury/Illness-RightCalf;Strain\nClaytonJr.,Walter Out Injury/Illness-LeftHip;Soreness\nEdey,Zach Out Injury/Illness-LeftAnkleAndElbow;\nPage4of9\nInjury Report: 04/03/26 10:15 PM\nSurgeryRecovery\nInjury/Illness-RightFoot;Injury\nGibson,Taj Out\nManagement\nJerome,Ty Out Injury/Illness-LeftAnkle;Sprain\nInjury/Illness-Nasal;Fracture-Face\nMashack,Jahmai Available\nMask\nMorant,Ja Out Injury/Illness-LeftElbow;UCLSprain\nInjury/Illness-RightGreatToe;\nPippenJr.,Scotty Out\nSurgeryRecovery\nProsper,Olivier-Maxence Out Injury/Illness-LowBack;Soreness\nSpencer,Cam Out Injury/Illness-LowBack;Soreness\nInjury/Illness-RightGreatToe;\nWells,Jaylen Out\nSurgeryRecovery\nUTA@HOU UtahJazz Collier,Isaiah Out Injury/Illness-LeftHamstring;Strain\nInjury/Illness-RightHamstring;\nGeorge,Keyonte Out\nStrain\nHarkless,Elijah Out Injury/Illness-LeftHamstring;Strain\nHinson,Blake Out GLeague-Two-Way\nInjury/Illness-LeftKnee;Injury\nJacksonJr.,Jaren Out\nRecovery\nInjury/Illness-LeftShoulder;Injury\nKessler,Walker Out\nRecovery\nPage5of9\nInjury Report: 04/03/26 10:15 PM\nInjury/Illness-RightHip;\nMarkkanen,Lauri Out\nImpingement\nNurkic,Jusuf Out Injury/Illness-Nose;InjuryRecovery\nHoustonRockets Adams,Steven Out Injury/Illness-LeftAnkle;Surgery\nCrawford,Isaiah Out GLeague-Two-Way\nNewton,Tristen Out GLeague-Two-Way\nVanVleet,Fred Out Injury/Illness-RightKnee;ACLRepair\nInjury/Illness-LeftLateral",
+        "injury_block_text": "BostonCeltics Vucevic,Nikola Out Injury/Illness-RightRingFinger;\nPage3of9\nInjury Report: 04/03/26 11:00 PM\nFracture\nInjury/Illness-LeftKnee;\nMilwaukeeBucks Antetokounmpo,Giannis Out\nHyperextension;BoneBruise\nAntetokounmpo,Thanasis Available Injury/Illness-LeftCalf;Strain\nPorterJr.,Kevin Out Injury/Illness-RightKnee;Synovitis\nPortis,Bobby Out Injury/Illness-LeftWrist;Sprain\nRollins,Ryan Out Injury/Illness-RightHip;Strain\nInjury/Illness-RightPatella;\nSims,Jericho Available\nTendonopathy\nTrentJr.,Gary Out Injury/Illness-LeftHip;Pointer\nTOR@MEM TorontoRaptors Battle,Jamison Available Injury/Illness-Illness;Illness\nInjury/Illness-RightKnee;Surgery-\nHepburn,Chucky Out\ninjuryrecovery\nInjury/Illness-RightFoot;Plantar\nQuickley,Immanuel Out\nfasciitis\nInjury/Illness-RightKnee;Surgery\nMemphisGrizzlies Aldama,Santi Out\nRecovery\nInjury/Illness-Right5thFinger;\nCaldwell-Pope,Kentavious Out\nSurgeryRecovery\nClarke,Brandon Out Injury/Illness-RightCalf;Strain\nClaytonJr.,Walter Out Injury/Illness-LeftHip;Soreness\nEdey,Zach Out Injury/Illness-LeftAnkleAndElbow;\nPage4of9\nInjury Report: 04/03/26 11:00 PM\nSurgeryRecovery\nInjury/Illness-RightFoot;Injury\nGibson,Taj Out\nManagement\nJerome,Ty Out Injury/Illness-LeftAnkle;Sprain\nInjury/Illness-Nasal;Fracture-Face\nMashack,Jahmai Available\nMask\nMorant,Ja Out Injury/Illness-LeftElbow;UCLSprain\nInjury/Illness-RightGreatToe;\nPippenJr.,Scotty Out\nSurgeryRecovery\nProsper,Olivier-Maxence Out Injury/Illness-LowBack;Soreness\nSpencer,Cam Out Injury/Illness-LowBack;Soreness\nInjury/Illness-RightGreatToe;\nWells,Jaylen Out\nSurgeryRecovery\nUTA@HOU UtahJazz Collier,Isaiah Out Injury/Illness-LeftHamstring;Strain\nInjury/Illness-RightHamstring;\nGeorge,Keyonte Out\nStrain\nHarkless,Elijah Out Injury/Illness-LeftHamstring;Strain\nHinson,Blake Out GLeague-Two-Way\nInjury/Illness-LeftKnee;Injury\nJacksonJr.,Jaren Out\nRecovery\nInjury/Illness-LeftShoulder;Injury\nKessler,Walker Out\nRecovery\nPage5of9\nInjury Report: 04/03/26 11:00 PM\nInjury/Illness-RightHip;\nMarkkanen,Lauri Out\nImpingement\nNurkic,Jusuf Out Injury/Illness-Nose;InjuryRecovery\nHoustonRockets Adams,Steven Out Injury/Illness-LeftAnkle;Surgery\nCrawford,Isaiah Out GLeague-Two-Way\nNewton,Tristen Out GLeague-Two-Way\nVanVleet,Fred Out Injury/Illness-RightKnee;ACLRepair\nInjury/Illness-LeftLateral",
         "segments": [
           {
             "matchup": "BOS@MIL",
-            "text": "BostonCeltics Vucevic,Nikola Out Injury/Illness-RightRingFinger;\nPage3of9\nInjury Report: 04/03/26 10:15 PM\nFracture\nInjury/Illness-LeftKnee;\nMilwaukeeBucks Antetokounmpo,Giannis Out\nHyperextension;BoneBruise\nAntetokounmpo,Thanasis Available Injury/Illness-LeftCalf;Strain\nPorterJr.,Kevin Out Injury/Illness-RightKnee;Synovitis\nPortis,Bobby Out Injury/Illness-LeftWrist;Sprain\nRollins,Ryan Out Injury/Illness-RightHip;Strain\nInjury/Illness-RightPatella;\nSims,Jericho Available\nTendonopathy\nTrentJr.,Gary Out Injury/Illness-LeftHip;Pointer"
+            "text": "BostonCeltics Vucevic,Nikola Out Injury/Illness-RightRingFinger;\nPage3of9\nInjury Report: 04/03/26 11:00 PM\nFracture\nInjury/Illness-LeftKnee;\nMilwaukeeBucks Antetokounmpo,Giannis Out\nHyperextension;BoneBruise\nAntetokounmpo,Thanasis Available Injury/Illness-LeftCalf;Strain\nPorterJr.,Kevin Out Injury/Illness-RightKnee;Synovitis\nPortis,Bobby Out Injury/Illness-LeftWrist;Sprain\nRollins,Ryan Out Injury/Illness-RightHip;Strain\nInjury/Illness-RightPatella;\nSims,Jericho Available\nTendonopathy\nTrentJr.,Gary Out Injury/Illness-LeftHip;Pointer"
           },
           {
             "matchup": "TOR@MEM",
-            "text": "TorontoRaptors Battle,Jamison Available Injury/Illness-Illness;Illness\nInjury/Illness-RightKnee;Surgery-\nHepburn,Chucky Out\ninjuryrecovery\nInjury/Illness-RightFoot;Plantar\nQuickley,Immanuel Out\nfasciitis\nInjury/Illness-RightKnee;Surgery\nMemphisGrizzlies Aldama,Santi Out\nRecovery\nInjury/Illness-Right5thFinger;\nCaldwell-Pope,Kentavious Out\nSurgeryRecovery\nClarke,Brandon Out Injury/Illness-RightCalf;Strain\nClaytonJr.,Walter Out Injury/Illness-LeftHip;Soreness\nEdey,Zach Out Injury/Illness-LeftAnkleAndElbow;\nPage4of9\nInjury Report: 04/03/26 10:15 PM\nSurgeryRecovery\nInjury/Illness-RightFoot;Injury\nGibson,Taj Out\nManagement\nJerome,Ty Out Injury/Illness-LeftAnkle;Sprain\nInjury/Illness-Nasal;Fracture-Face\nMashack,Jahmai Available\nMask\nMorant,Ja Out Injury/Illness-LeftElbow;UCLSprain\nInjury/Illness-RightGreatToe;\nPippenJr.,Scotty Out\nSurgeryRecovery\nProsper,Olivier-Maxence Out Injury/Illness-LowBack;Soreness\nSpencer,Cam Out Injury/Illness-LowBack;Soreness\nInjury/Illness-RightGreatToe;\nWells,Jaylen Out\nSurgeryRecovery"
+            "text": "TorontoRaptors Battle,Jamison Available Injury/Illness-Illness;Illness\nInjury/Illness-RightKnee;Surgery-\nHepburn,Chucky Out\ninjuryrecovery\nInjury/Illness-RightFoot;Plantar\nQuickley,Immanuel Out\nfasciitis\nInjury/Illness-RightKnee;Surgery\nMemphisGrizzlies Aldama,Santi Out\nRecovery\nInjury/Illness-Right5thFinger;\nCaldwell-Pope,Kentavious Out\nSurgeryRecovery\nClarke,Brandon Out Injury/Illness-RightCalf;Strain\nClaytonJr.,Walter Out Injury/Illness-LeftHip;Soreness\nEdey,Zach Out Injury/Illness-LeftAnkleAndElbow;\nPage4of9\nInjury Report: 04/03/26 11:00 PM\nSurgeryRecovery\nInjury/Illness-RightFoot;Injury\nGibson,Taj Out\nManagement\nJerome,Ty Out Injury/Illness-LeftAnkle;Sprain\nInjury/Illness-Nasal;Fracture-Face\nMashack,Jahmai Available\nMask\nMorant,Ja Out Injury/Illness-LeftElbow;UCLSprain\nInjury/Illness-RightGreatToe;\nPippenJr.,Scotty Out\nSurgeryRecovery\nProsper,Olivier-Maxence Out Injury/Illness-LowBack;Soreness\nSpencer,Cam Out Injury/Illness-LowBack;Soreness\nInjury/Illness-RightGreatToe;\nWells,Jaylen Out\nSurgeryRecovery"
           },
           {
             "matchup": "UTA@HOU",
-            "text": "UtahJazz Collier,Isaiah Out Injury/Illness-LeftHamstring;Strain\nInjury/Illness-RightHamstring;\nGeorge,Keyonte Out\nStrain\nHarkless,Elijah Out Injury/Illness-LeftHamstring;Strain\nHinson,Blake Out GLeague-Two-Way\nInjury/Illness-LeftKnee;Injury\nJacksonJr.,Jaren Out\nRecovery\nInjury/Illness-LeftShoulder;Injury\nKessler,Walker Out\nRecovery\nPage5of9\nInjury Report: 04/03/26 10:15 PM\nInjury/Illness-RightHip;\nMarkkanen,Lauri Out\nImpingement\nNurkic,Jusuf Out Injury/Illness-Nose;InjuryRecovery\nHoustonRockets Adams,Steven Out Injury/Illness-LeftAnkle;Surgery\nCrawford,Isaiah Out GLeague-Two-Way\nNewton,Tristen Out GLeague-Two-Way\nVanVleet,Fred Out Injury/Illness-RightKnee;ACLRepair\nInjury/Illness-LeftLateral"
+            "text": "UtahJazz Collier,Isaiah Out Injury/Illness-LeftHamstring;Strain\nInjury/Illness-RightHamstring;\nGeorge,Keyonte Out\nStrain\nHarkless,Elijah Out Injury/Illness-LeftHamstring;Strain\nHinson,Blake Out GLeague-Two-Way\nInjury/Illness-LeftKnee;Injury\nJacksonJr.,Jaren Out\nRecovery\nInjury/Illness-LeftShoulder;Injury\nKessler,Walker Out\nRecovery\nPage5of9\nInjury Report: 04/03/26 11:00 PM\nInjury/Illness-RightHip;\nMarkkanen,Lauri Out\nImpingement\nNurkic,Jusuf Out Injury/Illness-Nose;InjuryRecovery\nHoustonRockets Adams,Steven Out Injury/Illness-LeftAnkle;Surgery\nCrawford,Isaiah Out GLeague-Two-Way\nNewton,Tristen Out GLeague-Two-Way\nVanVleet,Fred Out Injury/Illness-RightKnee;ACLRepair\nInjury/Illness-LeftLateral"
           }
         ]
       },
@@ -1169,11 +2152,11 @@
         "game_time_et": "08:30",
         "matchup": "ORL@DAL",
         "header_line": "04/03/2026 08:30(ET) ORL@DAL",
-        "injury_block_text": "OrlandoMagic Black,Anthony Out\nAbdominal;Strain\nCastleton,Colin Out GLeague-Two-Way\nIsaac,Jonathan Out Injury/Illness-LeftKnee;Sprain\nMorales,Alex Out GLeague-Two-Way\nInjury/Illness-LeftShoulder;\nDallasMavericks BagleyIII,Marvin Out\nImpingement\nCisse,Moussa Out GLeague-Two-Way\nIrving,Kyrie Out Injury/Illness-LeftKnee;Surgery\nLivelyII,Dereck Out Injury/Illness-RightFoot;Surgery\nInjury/Illness-RightPlantarFascia;\nMartin,Caleb Out\nStrain\nPoulakidas,John Available GLeague-Two-Way\nSmith,Tyler Available GLeague-Two-Way\nPage6of9\nInjury Report: 04/03/26 10:15 PM\nWashington,P.J. Out Injury/Illness-Illness;Illness",
+        "injury_block_text": "OrlandoMagic Black,Anthony Out\nAbdominal;Strain\nCastleton,Colin Out GLeague-Two-Way\nIsaac,Jonathan Out Injury/Illness-LeftKnee;Sprain\nMorales,Alex Out GLeague-Two-Way\nInjury/Illness-LeftShoulder;\nDallasMavericks BagleyIII,Marvin Out\nImpingement\nCisse,Moussa Out GLeague-Two-Way\nIrving,Kyrie Out Injury/Illness-LeftKnee;Surgery\nLivelyII,Dereck Out Injury/Illness-RightFoot;Surgery\nInjury/Illness-RightPlantarFascia;\nMartin,Caleb Out\nStrain\nPoulakidas,John Available GLeague-Two-Way\nSmith,Tyler Available GLeague-Two-Way\nPage6of9\nInjury Report: 04/03/26 11:00 PM\nWashington,P.J. Out Injury/Illness-Illness;Illness",
         "segments": [
           {
             "matchup": "ORL@DAL",
-            "text": "OrlandoMagic Black,Anthony Out\nAbdominal;Strain\nCastleton,Colin Out GLeague-Two-Way\nIsaac,Jonathan Out Injury/Illness-LeftKnee;Sprain\nMorales,Alex Out GLeague-Two-Way\nInjury/Illness-LeftShoulder;\nDallasMavericks BagleyIII,Marvin Out\nImpingement\nCisse,Moussa Out GLeague-Two-Way\nIrving,Kyrie Out Injury/Illness-LeftKnee;Surgery\nLivelyII,Dereck Out Injury/Illness-RightFoot;Surgery\nInjury/Illness-RightPlantarFascia;\nMartin,Caleb Out\nStrain\nPoulakidas,John Available GLeague-Two-Way\nSmith,Tyler Available GLeague-Two-Way\nPage6of9\nInjury Report: 04/03/26 10:15 PM\nWashington,P.J. Out Injury/Illness-Illness;Illness"
+            "text": "OrlandoMagic Black,Anthony Out\nAbdominal;Strain\nCastleton,Colin Out GLeague-Two-Way\nIsaac,Jonathan Out Injury/Illness-LeftKnee;Sprain\nMorales,Alex Out GLeague-Two-Way\nInjury/Illness-LeftShoulder;\nDallasMavericks BagleyIII,Marvin Out\nImpingement\nCisse,Moussa Out GLeague-Two-Way\nIrving,Kyrie Out Injury/Illness-LeftKnee;Surgery\nLivelyII,Dereck Out Injury/Illness-RightFoot;Surgery\nInjury/Illness-RightPlantarFascia;\nMartin,Caleb Out\nStrain\nPoulakidas,John Available GLeague-Two-Way\nSmith,Tyler Available GLeague-Two-Way\nPage6of9\nInjury Report: 04/03/26 11:00 PM\nWashington,P.J. Out Injury/Illness-Illness;Illness"
           }
         ]
       },
@@ -1195,15 +2178,15 @@
         "game_time_et": "03:00",
         "matchup": "SAS@DEN",
         "header_line": "04/04/2026 03:00(ET) SAS@DEN",
-        "injury_block_text": "SanAntonioSpurs JonesGarcia,David Out Injury/Illness-RightAnkle;Surgery\nPage7of9\nInjury Report: 04/03/26 10:15 PM\nMiller,Emanuel Out GLeague-Two-Way\nDenverNuggets HardawayJr.,Tim Probable Injury/Illness-LeftKnee;Soreness\nInjury/Illness-RightHamstring;\nJones,Spencer Out\nStrain\nNnaji,Zeke Out Injury/Illness-LeftHip;Sprain\nInjury/Illness-RightHamstring;\nWatson,Peyton Out\nStrain\nWAS@MIA WashingtonWizards Champagnie,Justin Questionable Injury/Illness-RightKnee;Contusion\nInjury/Illness-RightRetrocalcaneal;\nCoulibaly,Bilal Questionable\nBursitis\nDavis,Anthony Out Injury/Illness-LeftFinger;Sprain\nGeorge,Kyshawn Out Injury/Illness-LeftElbow;Sprain\nJohnson,Tre Questionable Injury/Illness-RightFoot;Sprain\nRussell,D'Angelo Out NotWithTeam\nSarr,Alex Questionable Injury/Illness-LeftBigToe;Capsulitis\nVukcevic,Tristan Questionable Injury/Illness-RightKnee;Contusion\nInjury/Illness-RightShoulder;Deep\nWhitmore,Cam Out\nVeinThrombosis\nInjury/Illness-LowBack;Pain;Right\nYoung,Trae Out\nQuadContusion\nMiamiHeat Herro,Tyler Probable Injury/Illness-RightFoot;Soreness\nPage8of9\nInjury Report: 04/03/26 10:15 PM\nReturntoCompetition\nPowell,Norman Out\nReconditioning\nRozier,Terry Out NotWithTeam\nInjury/Illness-LeftBigToe;\nWiggins,Andrew Available\nSesamoiditis\nInjury/Illness-LeftLung;",
+        "injury_block_text": "SanAntonioSpurs JonesGarcia,David Out Injury/Illness-RightAnkle;Surgery\nPage7of9\nInjury Report: 04/03/26 11:00 PM\nMiller,Emanuel Out GLeague-Two-Way\nDenverNuggets HardawayJr.,Tim Probable Injury/Illness-LeftKnee;Soreness\nInjury/Illness-RightHamstring;\nJones,Spencer Out\nStrain\nNnaji,Zeke Out Injury/Illness-LeftHip;Sprain\nInjury/Illness-RightHamstring;\nWatson,Peyton Out\nStrain\nWAS@MIA WashingtonWizards Champagnie,Justin Questionable Injury/Illness-RightKnee;Contusion\nInjury/Illness-RightRetrocalcaneal;\nCoulibaly,Bilal Questionable\nBursitis\nDavis,Anthony Out Injury/Illness-LeftFinger;Sprain\nGeorge,Kyshawn Out Injury/Illness-LeftElbow;Sprain\nJohnson,Tre Questionable Injury/Illness-RightFoot;Sprain\nRussell,D'Angelo Out NotWithTeam\nSarr,Alex Questionable Injury/Illness-LeftBigToe;Capsulitis\nVukcevic,Tristan Questionable Injury/Illness-RightKnee;Contusion\nInjury/Illness-RightShoulder;Deep\nWhitmore,Cam Out\nVeinThrombosis\nInjury/Illness-LowBack;Pain;Right\nYoung,Trae Out\nQuadContusion\nMiamiHeat Herro,Tyler Probable Injury/Illness-RightFoot;Soreness\nPage8of9\nInjury Report: 04/03/26 11:00 PM\nReturntoCompetition\nPowell,Norman Out\nReconditioning\nRozier,Terry Out NotWithTeam\nInjury/Illness-LeftBigToe;\nWiggins,Andrew Available\nSesamoiditis\nInjury/Illness-LeftLung;",
         "segments": [
           {
             "matchup": "SAS@DEN",
-            "text": "SanAntonioSpurs JonesGarcia,David Out Injury/Illness-RightAnkle;Surgery\nPage7of9\nInjury Report: 04/03/26 10:15 PM\nMiller,Emanuel Out GLeague-Two-Way\nDenverNuggets HardawayJr.,Tim Probable Injury/Illness-LeftKnee;Soreness\nInjury/Illness-RightHamstring;\nJones,Spencer Out\nStrain\nNnaji,Zeke Out Injury/Illness-LeftHip;Sprain\nInjury/Illness-RightHamstring;\nWatson,Peyton Out\nStrain"
+            "text": "SanAntonioSpurs JonesGarcia,David Out Injury/Illness-RightAnkle;Surgery\nPage7of9\nInjury Report: 04/03/26 11:00 PM\nMiller,Emanuel Out GLeague-Two-Way\nDenverNuggets HardawayJr.,Tim Probable Injury/Illness-LeftKnee;Soreness\nInjury/Illness-RightHamstring;\nJones,Spencer Out\nStrain\nNnaji,Zeke Out Injury/Illness-LeftHip;Sprain\nInjury/Illness-RightHamstring;\nWatson,Peyton Out\nStrain"
           },
           {
             "matchup": "WAS@MIA",
-            "text": "WashingtonWizards Champagnie,Justin Questionable Injury/Illness-RightKnee;Contusion\nInjury/Illness-RightRetrocalcaneal;\nCoulibaly,Bilal Questionable\nBursitis\nDavis,Anthony Out Injury/Illness-LeftFinger;Sprain\nGeorge,Kyshawn Out Injury/Illness-LeftElbow;Sprain\nJohnson,Tre Questionable Injury/Illness-RightFoot;Sprain\nRussell,D'Angelo Out NotWithTeam\nSarr,Alex Questionable Injury/Illness-LeftBigToe;Capsulitis\nVukcevic,Tristan Questionable Injury/Illness-RightKnee;Contusion\nInjury/Illness-RightShoulder;Deep\nWhitmore,Cam Out\nVeinThrombosis\nInjury/Illness-LowBack;Pain;Right\nYoung,Trae Out\nQuadContusion\nMiamiHeat Herro,Tyler Probable Injury/Illness-RightFoot;Soreness\nPage8of9\nInjury Report: 04/03/26 10:15 PM\nReturntoCompetition\nPowell,Norman Out\nReconditioning\nRozier,Terry Out NotWithTeam\nInjury/Illness-LeftBigToe;\nWiggins,Andrew Available\nSesamoiditis\nInjury/Illness-LeftLung;"
+            "text": "WashingtonWizards Champagnie,Justin Questionable Injury/Illness-RightKnee;Contusion\nInjury/Illness-RightRetrocalcaneal;\nCoulibaly,Bilal Questionable\nBursitis\nDavis,Anthony Out Injury/Illness-LeftFinger;Sprain\nGeorge,Kyshawn Out Injury/Illness-LeftElbow;Sprain\nJohnson,Tre Questionable Injury/Illness-RightFoot;Sprain\nRussell,D'Angelo Out NotWithTeam\nSarr,Alex Questionable Injury/Illness-LeftBigToe;Capsulitis\nVukcevic,Tristan Questionable Injury/Illness-RightKnee;Contusion\nInjury/Illness-RightShoulder;Deep\nWhitmore,Cam Out\nVeinThrombosis\nInjury/Illness-LowBack;Pain;Right\nYoung,Trae Out\nQuadContusion\nMiamiHeat Herro,Tyler Probable Injury/Illness-RightFoot;Soreness\nPage8of9\nInjury Report: 04/03/26 11:00 PM\nReturntoCompetition\nPowell,Norman Out\nReconditioning\nRozier,Terry Out NotWithTeam\nInjury/Illness-LeftBigToe;\nWiggins,Andrew Available\nSesamoiditis\nInjury/Illness-LeftLung;"
           }
         ]
       },
@@ -1222,5 +2205,1742 @@
       }
     ],
     "pdf_parse_error": null
+  },
+  "merged": {
+    "games": [
+      {
+        "time_et": "7:00 PM ET",
+        "away_abbr": "MIN",
+        "home_abbr": "PHI",
+        "away_team": "Timberwolves",
+        "home_team": "76ers",
+        "away_record": "46-31",
+        "home_record": "43-34",
+        "away": {
+          "lineup_status": "confirmed",
+          "starters": [
+            {
+              "position": "PG",
+              "name": "Donte DiVincenzo",
+              "name_short": "D. DiVincenzo"
+            },
+            {
+              "position": "SG",
+              "name": "Anthony Edwards",
+              "name_short": "A. Edwards"
+            },
+            {
+              "position": "SF",
+              "name": "Ayo Dosunmu",
+              "name_short": "Ayo Dosunmu"
+            },
+            {
+              "position": "PF",
+              "name": "Julius Randle",
+              "name_short": "Julius Randle"
+            },
+            {
+              "position": "C",
+              "name": "Rudy Gobert",
+              "name_short": "Rudy Gobert"
+            }
+          ],
+          "may_not_play": [
+            {
+              "position": "F",
+              "name": "Jaden McDaniels",
+              "name_short": "J. McDaniels",
+              "status": "Out"
+            }
+          ]
+        },
+        "home": {
+          "lineup_status": "confirmed",
+          "starters": [
+            {
+              "position": "PG",
+              "name": "Tyrese Maxey",
+              "name_short": "Tyrese Maxey"
+            },
+            {
+              "position": "SG",
+              "name": "VJ Edgecombe",
+              "name_short": "VJ Edgecombe"
+            },
+            {
+              "position": "SF",
+              "name": "Paul George",
+              "name_short": "Paul George"
+            },
+            {
+              "position": "PF",
+              "name": "Dominick Barlow",
+              "name_short": "D. Barlow"
+            },
+            {
+              "position": "C",
+              "name": "Joel Embiid",
+              "name_short": "Joel Embiid"
+            }
+          ],
+          "may_not_play": [
+            {
+              "position": "C",
+              "name": "Johni Broome",
+              "name_short": "J. Broome",
+              "status": "Out"
+            }
+          ]
+        },
+        "injury_crosswalk": {
+          "away": {
+            "rotowire_name": "Timberwolves",
+            "espn_team": "Minnesota Timberwolves",
+            "espn_players": [
+              {
+                "name": "Jaden McDaniels",
+                "position": "F",
+                "est_return_date": "Apr 7",
+                "status": "Out",
+                "comment": "Mar 30: McDaniels is week-to-week with left knee patella tendinopathy and a bone bruise, per Marc J. Spears of ESPN.com."
+              }
+            ]
+          },
+          "home": {
+            "rotowire_name": "76ers",
+            "espn_team": "Philadelphia 76ers",
+            "espn_players": [
+              {
+                "name": "Johni Broome",
+                "position": "F",
+                "est_return_date": "Apr 9",
+                "status": "Out",
+                "comment": "Apr 2: Broome (knee) has been ruled out for Friday&#x27;s game against the Timberwolves."
+              }
+            ]
+          }
+        }
+      },
+      {
+        "time_et": "7:00 PM ET",
+        "away_abbr": "IND",
+        "home_abbr": "CHA",
+        "away_team": "Pacers",
+        "home_team": "Hornets",
+        "away_record": "18-59",
+        "home_record": "42-36",
+        "away": {
+          "lineup_status": "confirmed",
+          "starters": [
+            {
+              "position": "PG",
+              "name": "Quenton Jackson",
+              "name_short": "Q. Jackson"
+            },
+            {
+              "position": "SG",
+              "name": "Ben Sheppard",
+              "name_short": "Ben Sheppard"
+            },
+            {
+              "position": "SF",
+              "name": "Kobe Brown",
+              "name_short": "Kobe Brown"
+            },
+            {
+              "position": "PF",
+              "name": "Pascal Siakam",
+              "name_short": "P. Siakam"
+            },
+            {
+              "position": "C",
+              "name": "Jay Huff",
+              "name_short": "Jay Huff"
+            }
+          ],
+          "may_not_play": [
+            {
+              "position": "G",
+              "name": "Johnny Furphy",
+              "name_short": "J. Furphy",
+              "status": "OFS"
+            },
+            {
+              "position": "G",
+              "name": "Tyrese Haliburton",
+              "name_short": "T. Haliburton",
+              "status": "OFS"
+            },
+            {
+              "position": "G",
+              "name": "T.J. McConnell",
+              "name_short": "T. McConnell",
+              "status": "Ques"
+            },
+            {
+              "position": "G",
+              "name": "Andrew Nembhard",
+              "name_short": "A. Nembhard",
+              "status": "Ques"
+            },
+            {
+              "position": "F",
+              "name": "Aaron Nesmith",
+              "name_short": "A. Nesmith",
+              "status": "Ques"
+            },
+            {
+              "position": "F",
+              "name": "Pascal Siakam",
+              "name_short": "P. Siakam",
+              "status": "Ques"
+            },
+            {
+              "position": "F",
+              "name": "Jarace Walker",
+              "name_short": "J. Walker",
+              "status": "Ques"
+            },
+            {
+              "position": "C",
+              "name": "Ivica Zubac",
+              "name_short": "I. Zubac",
+              "status": "OFS"
+            }
+          ]
+        },
+        "home": {
+          "lineup_status": "confirmed",
+          "starters": [
+            {
+              "position": "PG",
+              "name": "LaMelo Ball",
+              "name_short": "LaMelo Ball"
+            },
+            {
+              "position": "SG",
+              "name": "Kon Knueppel",
+              "name_short": "Kon Knueppel"
+            },
+            {
+              "position": "SF",
+              "name": "Brandon Miller",
+              "name_short": "B. Miller"
+            },
+            {
+              "position": "PF",
+              "name": "Miles Bridges",
+              "name_short": "Miles Bridges"
+            },
+            {
+              "position": "C",
+              "name": "Ryan Kalkbrenner",
+              "name_short": "R. Kalkbrenner"
+            }
+          ],
+          "may_not_play": [
+            {
+              "position": "C",
+              "name": "Moussa Diabate",
+              "name_short": "M. Diabate",
+              "status": "Ques"
+            },
+            {
+              "position": "C",
+              "name": "PJ Hall",
+              "name_short": "P. Hall",
+              "status": "Ques"
+            },
+            {
+              "position": "F",
+              "name": "Grant Williams",
+              "name_short": "G. Williams",
+              "status": "Ques"
+            }
+          ]
+        },
+        "injury_crosswalk": {
+          "away": {
+            "rotowire_name": "Pacers",
+            "espn_team": "Indiana Pacers",
+            "espn_players": [
+              {
+                "name": "Pascal Siakam",
+                "position": "F",
+                "est_return_date": "Apr 5",
+                "status": "Day-To-Day",
+                "comment": "Apr 3: Siakam (back) supplied 30 points (13-24 FG, 2-4 3Pt, 2-3 FT), seven rebounds, two assists and two steals in 34 minutes during Friday&#x27;s 129-108 loss to the Hornets."
+              },
+              {
+                "name": "Andrew Nembhard",
+                "position": "G",
+                "est_return_date": "Apr 5",
+                "status": "Day-To-Day",
+                "comment": "Apr 3: Nembhard (back) is listed as out for Friday&#x27;s game against Charlotte."
+              },
+              {
+                "name": "T.J. McConnell",
+                "position": "G",
+                "est_return_date": "Apr 5",
+                "status": "Day-To-Day",
+                "comment": "Apr 3: McConnell is out for Friday&#x27;s game versus the Hornets due to right hamstring soreness."
+              },
+              {
+                "name": "Jarace Walker",
+                "position": "F",
+                "est_return_date": "Apr 5",
+                "status": "Out",
+                "comment": "Apr 2: Walker (back) has been ruled out for Friday&#x27;s game against Charlotte."
+              },
+              {
+                "name": "Aaron Nesmith",
+                "position": "G",
+                "est_return_date": "Apr 5",
+                "status": "Out",
+                "comment": "Apr 2: Nesmith (neck) has been ruled out for Friday&#x27;s game against the Hornets."
+              },
+              {
+                "name": "Ivica Zubac",
+                "position": "C",
+                "est_return_date": "Oct 1",
+                "status": "Out",
+                "comment": "Mar 20: Zubac will miss the rest of the season with a fractured rib, Dustin Dopirak of The Indianapolis Star reports."
+              },
+              {
+                "name": "Johnny Furphy",
+                "position": "G",
+                "est_return_date": "Jan 1",
+                "status": "Out",
+                "comment": "Feb 9: Furphy was diagnosed with a torn right ACL on Monday and will miss the remainder of the season, Michael Scotto of USA Today reports."
+              },
+              {
+                "name": "Tyrese Haliburton",
+                "position": "G",
+                "est_return_date": "Oct 1",
+                "status": "Out",
+                "comment": "Jan 27: Haliburton said Tuesday in his appearance on the &quot;Mind the Game&quot; podcast that he has resumed taking part in 3-on-3 and 4-on-4 work on the court while he continues to recover from right Achilles surgery."
+              }
+            ]
+          },
+          "home": {
+            "rotowire_name": "Hornets",
+            "espn_team": "Charlotte Hornets",
+            "espn_players": [
+              {
+                "name": "Grant Williams",
+                "position": "F",
+                "est_return_date": "Apr 5",
+                "status": "Day-To-Day",
+                "comment": "Apr 3: Williams (knee) is out for Friday&#x27;s game against the Pacers."
+              },
+              {
+                "name": "PJ Hall",
+                "position": "C",
+                "est_return_date": "Apr 5",
+                "status": "Day-To-Day",
+                "comment": "Apr 3: Hall has been ruled out for Friday&#x27;s game against the Pacers due to a right ankle fracture."
+              },
+              {
+                "name": "Moussa Diabate",
+                "position": "F",
+                "est_return_date": "Apr 5",
+                "status": "Day-To-Day",
+                "comment": "Apr 3: Diabate (ankle) won&#x27;t play in Friday&#x27;s game against Indiana."
+              }
+            ]
+          }
+        }
+      },
+      {
+        "time_et": "7:30 PM ET",
+        "away_abbr": "ATL",
+        "home_abbr": "BKN",
+        "away_team": "Hawks",
+        "home_team": "Nets",
+        "away_record": "45-33",
+        "home_record": "18-59",
+        "away": {
+          "lineup_status": "confirmed",
+          "starters": [
+            {
+              "position": "PG",
+              "name": "CJ McCollum",
+              "name_short": "CJ McCollum"
+            },
+            {
+              "position": "SG",
+              "name": "Nickeil Alexander-Walker",
+              "name_short": "N. Alexander-Walker"
+            },
+            {
+              "position": "SF",
+              "name": "Dyson Daniels",
+              "name_short": "Dyson Daniels"
+            },
+            {
+              "position": "PF",
+              "name": "Jalen Johnson",
+              "name_short": "Jalen Johnson"
+            },
+            {
+              "position": "C",
+              "name": "Onyeka Okongwu",
+              "name_short": "O. Okongwu"
+            }
+          ],
+          "may_not_play": [
+            {
+              "position": "C",
+              "name": "Jock Landale",
+              "name_short": "J. Landale",
+              "status": "Out"
+            }
+          ]
+        },
+        "home": {
+          "lineup_status": "confirmed",
+          "starters": [
+            {
+              "position": "PG",
+              "name": "Nolan Traore",
+              "name_short": "Nolan Traore"
+            },
+            {
+              "position": "SG",
+              "name": "Drake Powell",
+              "name_short": "Drake Powell"
+            },
+            {
+              "position": "SF",
+              "name": "Terance Mann",
+              "name_short": "Terance Mann"
+            },
+            {
+              "position": "PF",
+              "name": "Noah Clowney",
+              "name_short": "Noah Clowney"
+            },
+            {
+              "position": "C",
+              "name": "Nic Claxton",
+              "name_short": "Nic Claxton"
+            }
+          ],
+          "may_not_play": [
+            {
+              "position": "G",
+              "name": "Egor Demin",
+              "name_short": "Egor Demin",
+              "status": "OFS"
+            },
+            {
+              "position": "F",
+              "name": "Michael Porter",
+              "name_short": "M. Porter",
+              "status": "OFS"
+            },
+            {
+              "position": "C",
+              "name": "Day'Ron Sharpe",
+              "name_short": "D. Sharpe",
+              "status": "OFS"
+            },
+            {
+              "position": "F",
+              "name": "Danny Wolf",
+              "name_short": "Danny Wolf",
+              "status": "OFS"
+            }
+          ]
+        },
+        "injury_crosswalk": {
+          "away": {
+            "rotowire_name": "Hawks",
+            "espn_team": "Atlanta Hawks",
+            "espn_players": [
+              {
+                "name": "Jock Landale",
+                "position": "C",
+                "est_return_date": "Apr 17",
+                "status": "Out",
+                "comment": "Apr 2: Landale (ankle) is expected to miss at least two weeks, per Brad Rowland of the Locked On Podcast Network."
+              }
+            ]
+          },
+          "home": {
+            "rotowire_name": "Nets",
+            "espn_team": "Brooklyn Nets",
+            "espn_players": [
+              {
+                "name": "Michael Porter Jr.",
+                "position": "F",
+                "est_return_date": "Oct 1",
+                "status": "Out",
+                "comment": "Apr 3: Porter (hamstring) has been ruled out for the remainder of the 2025-26 season, Erik Slater of ClutchPoints.com reports."
+              },
+              {
+                "name": "Danny Wolf",
+                "position": "F",
+                "est_return_date": "Jul 9",
+                "status": "Out",
+                "comment": "Apr 3: The Nets announced Friday that Wolf (ankle) is being shut down for the rest of the season, Erik Slater of ClutchPoints.com reports."
+              },
+              {
+                "name": "Egor Demin",
+                "position": "G",
+                "est_return_date": "Oct 1",
+                "status": "Out",
+                "comment": "Mar 18: Demin underwent a non-surgical procedure to address plantar fasciitis in his left foot, and there&#x27;s hope he will make a full recovery in time for NBA Summer League, Brian Lewis of the New York Post reports"
+              },
+              {
+                "name": "Day&#x27;Ron Sharpe",
+                "position": "C",
+                "est_return_date": "Oct 1",
+                "status": "Out",
+                "comment": "Mar 12: Sharpe has been diagnosed with an ulnar collateral ligament tear in his left thumb and will require season-ending surgery, Erik Slater of ClutchPoints.com reports."
+              }
+            ]
+          }
+        }
+      },
+      {
+        "time_et": "7:30 PM ET",
+        "away_abbr": "CHI",
+        "home_abbr": "NYK",
+        "away_team": "Bulls",
+        "home_team": "Knicks",
+        "away_record": "29-48",
+        "home_record": "50-28",
+        "away": {
+          "lineup_status": "confirmed",
+          "starters": [
+            {
+              "position": "PG",
+              "name": "Josh Giddey",
+              "name_short": "Josh Giddey"
+            },
+            {
+              "position": "SG",
+              "name": "Tre Jones",
+              "name_short": "Tre Jones"
+            },
+            {
+              "position": "SF",
+              "name": "Isaac Okoro",
+              "name_short": "Isaac Okoro"
+            },
+            {
+              "position": "PF",
+              "name": "Matas Buzelis",
+              "name_short": "Matas Buzelis"
+            },
+            {
+              "position": "C",
+              "name": "Guerschon Yabusele",
+              "name_short": "G. Yabusele"
+            }
+          ],
+          "may_not_play": [
+            {
+              "position": "C",
+              "name": "Zach Collins",
+              "name_short": "Z. Collins",
+              "status": "OFS"
+            },
+            {
+              "position": "F",
+              "name": "Noa Essengue",
+              "name_short": "N. Essengue",
+              "status": "OFS"
+            },
+            {
+              "position": "C",
+              "name": "Nick Richards",
+              "name_short": "N. Richards",
+              "status": "Ques"
+            },
+            {
+              "position": "G",
+              "name": "Anfernee Simons",
+              "name_short": "A. Simons",
+              "status": "Doubt"
+            },
+            {
+              "position": "C",
+              "name": "Jalen Smith",
+              "name_short": "J. Smith",
+              "status": "OFS"
+            }
+          ]
+        },
+        "home": {
+          "lineup_status": "confirmed",
+          "starters": [
+            {
+              "position": "PG",
+              "name": "Jalen Brunson",
+              "name_short": "Jalen Brunson"
+            },
+            {
+              "position": "SG",
+              "name": "Josh Hart",
+              "name_short": "Josh Hart"
+            },
+            {
+              "position": "SF",
+              "name": "Mikal Bridges",
+              "name_short": "Mikal Bridges"
+            },
+            {
+              "position": "PF",
+              "name": "OG Anunoby",
+              "name_short": "OG Anunoby"
+            },
+            {
+              "position": "C",
+              "name": "Mitchell Robinson",
+              "name_short": "M. Robinson"
+            }
+          ],
+          "may_not_play": [
+            {
+              "position": "C",
+              "name": "Karl-Anthony Towns",
+              "name_short": "K. Towns",
+              "status": "Ques"
+            }
+          ]
+        },
+        "injury_crosswalk": {
+          "away": {
+            "rotowire_name": "Bulls",
+            "espn_team": "Chicago Bulls",
+            "espn_players": [
+              {
+                "name": "Nick Richards",
+                "position": "C",
+                "est_return_date": "Apr 5",
+                "status": "Out",
+                "comment": "Apr 3: Richards is out for Friday&#x27;s game against the Knicks due to a sprained right elbow."
+              },
+              {
+                "name": "Anfernee Simons",
+                "position": "G",
+                "est_return_date": "Apr 5",
+                "status": "Out",
+                "comment": "Apr 2: Simons (wrist) is out for Friday&#x27;s game against the Knicks."
+              },
+              {
+                "name": "Jalen Smith",
+                "position": "F",
+                "est_return_date": "Oct 1",
+                "status": "Out",
+                "comment": "Mar 26: Smith (calf) will miss the remainder of the season, Joel Lorenzi of The Athletic reports."
+              },
+              {
+                "name": "Zach Collins",
+                "position": "F",
+                "est_return_date": "Oct 1",
+                "status": "Out",
+                "comment": "Feb 21: Collins will undergo surgery for a sprain right toe and will be sidelined for the rest of the 2025-26 season."
+              },
+              {
+                "name": "Noa Essengue",
+                "position": "F",
+                "est_return_date": "Oct 1",
+                "status": "Out",
+                "comment": "Dec 3: Essengue will undergo left shoulder surgery and will miss the remainder of the 2025-26 season, K.C. Johnson of Chicago Sports Network reports."
+              }
+            ]
+          },
+          "home": {
+            "rotowire_name": "Knicks",
+            "espn_team": "New York Knicks",
+            "espn_players": [
+              {
+                "name": "Karl-Anthony Towns",
+                "position": "C",
+                "est_return_date": "Apr 6",
+                "status": "Day-To-Day",
+                "comment": "Apr 3: Towns (elbow) won&#x27;t play Friday versus the Bulls, James L. Edwards III of The Athletic reports."
+              }
+            ]
+          }
+        }
+      },
+      {
+        "time_et": "8:00 PM ET",
+        "away_abbr": "UTA",
+        "home_abbr": "HOU",
+        "away_team": "Jazz",
+        "home_team": "Rockets",
+        "away_record": "21-57",
+        "home_record": "48-29",
+        "away": {
+          "lineup_status": "confirmed",
+          "starters": [
+            {
+              "position": "PG",
+              "name": "Cody Williams",
+              "name_short": "Cody Williams"
+            },
+            {
+              "position": "SG",
+              "name": "Brice Sensabaugh",
+              "name_short": "B. Sensabaugh"
+            },
+            {
+              "position": "SF",
+              "name": "Ace Bailey",
+              "name_short": "Ace Bailey"
+            },
+            {
+              "position": "PF",
+              "name": "John Konchar",
+              "name_short": "John Konchar"
+            },
+            {
+              "position": "C",
+              "name": "Kyle Filipowski",
+              "name_short": "K. Filipowski"
+            }
+          ],
+          "may_not_play": [
+            {
+              "position": "G",
+              "name": "Isaiah Collier",
+              "name_short": "I. Collier",
+              "status": "Doubt"
+            },
+            {
+              "position": "G",
+              "name": "Keyonte George",
+              "name_short": "K. George",
+              "status": "Doubt"
+            },
+            {
+              "position": "G",
+              "name": "Elijah Harkless",
+              "name_short": "E. Harkless",
+              "status": "Ques"
+            },
+            {
+              "position": "F",
+              "name": "Jaren Jackson",
+              "name_short": "J. Jackson",
+              "status": "OFS"
+            },
+            {
+              "position": "C",
+              "name": "Walker Kessler",
+              "name_short": "W. Kessler",
+              "status": "OFS"
+            },
+            {
+              "position": "C",
+              "name": "Jusuf Nurkic",
+              "name_short": "J. Nurkic",
+              "status": "OFS"
+            },
+            {
+              "position": "F",
+              "name": "Lauri Markkanen",
+              "name_short": "L. Markkanen",
+              "status": "Out"
+            }
+          ]
+        },
+        "home": {
+          "lineup_status": "confirmed",
+          "starters": [
+            {
+              "position": "PG",
+              "name": "Amen Thompson",
+              "name_short": "Amen Thompson"
+            },
+            {
+              "position": "SG",
+              "name": "Reed Sheppard",
+              "name_short": "Reed Sheppard"
+            },
+            {
+              "position": "SF",
+              "name": "Kevin Durant",
+              "name_short": "Kevin Durant"
+            },
+            {
+              "position": "PF",
+              "name": "Jabari Smith",
+              "name_short": "J. Smith"
+            },
+            {
+              "position": "C",
+              "name": "Alperen Sengun",
+              "name_short": "A. Sengun"
+            }
+          ],
+          "may_not_play": [
+            {
+              "position": "C",
+              "name": "Steven Adams",
+              "name_short": "S. Adams",
+              "status": "OFS"
+            },
+            {
+              "position": "F",
+              "name": "Jabari Smith",
+              "name_short": "J. Smith",
+              "status": "Ques"
+            },
+            {
+              "position": "G",
+              "name": "Fred VanVleet",
+              "name_short": "F. VanVleet",
+              "status": "Out"
+            }
+          ]
+        },
+        "injury_crosswalk": {
+          "away": {
+            "rotowire_name": "Jazz",
+            "espn_team": "Utah Jazz",
+            "espn_players": [
+              {
+                "name": "Keyonte George",
+                "position": "G",
+                "est_return_date": "Apr 5",
+                "status": "Out",
+                "comment": "Apr 2: George (hamstring) has been ruled out for Friday&#x27;s game against the Rockets."
+              },
+              {
+                "name": "Isaiah Collier",
+                "position": "G",
+                "est_return_date": "Apr 5",
+                "status": "Out",
+                "comment": "Apr 2: Collier (hamstring) is out for Friday&#x27;s game versus Houston."
+              },
+              {
+                "name": "Elijah Harkless",
+                "position": "G",
+                "est_return_date": "Apr 5",
+                "status": "Out",
+                "comment": "Apr 2: Harkless (hamstring) is out for Friday&#x27;s game against Houston."
+              },
+              {
+                "name": "Lauri Markkanen",
+                "position": "F",
+                "est_return_date": "Apr 10",
+                "status": "Out",
+                "comment": "Mar 19: Markkanen (hip) will be re-evaluated in two weeks, Ben Anderson of KSL News Salt Lake City reports."
+              },
+              {
+                "name": "Jusuf Nurkic",
+                "position": "C",
+                "est_return_date": "Oct 1",
+                "status": "Out",
+                "comment": "Feb 23: Nurkic is scheduled to undergo season-ending nose surgery Wednesday, Chris Haynes of NBA TV reports."
+              },
+              {
+                "name": "Jaren Jackson Jr.",
+                "position": "F",
+                "est_return_date": "Oct 1",
+                "status": "Out",
+                "comment": "Feb 12: Jackson was diagnosed with a localized PVNS growth in his left knee and will miss the remainder of the season, Chris Haynes of NBA TV reports."
+              },
+              {
+                "name": "Walker Kessler",
+                "position": "C",
+                "est_return_date": "Oct 1",
+                "status": "Out",
+                "comment": "Nov 5: Kessler will undergo left shoulder surgery and will miss the remainder of the 2025-26 season, Tony Jones of The Athletic reports."
+              }
+            ]
+          },
+          "home": {
+            "rotowire_name": "Rockets",
+            "espn_team": "Houston Rockets",
+            "espn_players": [
+              {
+                "name": "Jabari Smith Jr.",
+                "position": "F",
+                "est_return_date": "Apr 5",
+                "status": "Day-To-Day",
+                "comment": "Apr 3: Smith (face) exited Friday&#x27;s 140-106 win over the Jazz in the third quarter and did not return, finishing with 18 points (6-16 FG, 4-8 3Pt, 2-2 FT), five rebounds and one steal across 24 minutes."
+              },
+              {
+                "name": "Steven Adams",
+                "position": "C",
+                "est_return_date": "Oct 1",
+                "status": "Out",
+                "comment": "Jan 28: The Rockets announced Wednesday that Adams has undergone season-ending left ankle surgery, per Shams Charania of ESPN."
+              },
+              {
+                "name": "Fred VanVleet",
+                "position": "G",
+                "est_return_date": "Jun 1",
+                "status": "Out",
+                "comment": "Sep 22: VanVleet suffered a torn ACL and may be out for the entire 2025-26 campaign, Shams Charania of ESPN reports."
+              }
+            ]
+          }
+        }
+      },
+      {
+        "time_et": "8:00 PM ET",
+        "away_abbr": "BOS",
+        "home_abbr": "MIL",
+        "away_team": "Celtics",
+        "home_team": "Bucks",
+        "away_record": "52-25",
+        "home_record": "30-47",
+        "away": {
+          "lineup_status": "confirmed",
+          "starters": [
+            {
+              "position": "PG",
+              "name": "Derrick White",
+              "name_short": "Derrick White"
+            },
+            {
+              "position": "SG",
+              "name": "Jaylen Brown",
+              "name_short": "Jaylen Brown"
+            },
+            {
+              "position": "SF",
+              "name": "Sam Hauser",
+              "name_short": "Sam Hauser"
+            },
+            {
+              "position": "PF",
+              "name": "Jayson Tatum",
+              "name_short": "Jayson Tatum"
+            },
+            {
+              "position": "C",
+              "name": "Neemias Queta",
+              "name_short": "Neemias Queta"
+            }
+          ],
+          "may_not_play": [
+            {
+              "position": "C",
+              "name": "Nikola Vucevic",
+              "name_short": "N. Vucevic",
+              "status": "Doubt"
+            }
+          ]
+        },
+        "home": {
+          "lineup_status": "confirmed",
+          "starters": [
+            {
+              "position": "PG",
+              "name": "AJ Green",
+              "name_short": "AJ Green"
+            },
+            {
+              "position": "SG",
+              "name": "Ousmane Dieng",
+              "name_short": "Ousmane Dieng"
+            },
+            {
+              "position": "SF",
+              "name": "Kyle Kuzma",
+              "name_short": "Kyle Kuzma"
+            },
+            {
+              "position": "PF",
+              "name": "Pete Nance",
+              "name_short": "Pete Nance"
+            },
+            {
+              "position": "C",
+              "name": "Myles Turner",
+              "name_short": "Myles Turner"
+            }
+          ],
+          "may_not_play": [
+            {
+              "position": "F",
+              "name": "Giannis Antetokounmpo",
+              "name_short": "G. Antetokounmpo",
+              "status": "Doubt"
+            },
+            {
+              "position": "F",
+              "name": "Bobby Portis",
+              "name_short": "B. Portis",
+              "status": "Ques"
+            },
+            {
+              "position": "G",
+              "name": "Ryan Rollins",
+              "name_short": "R. Rollins",
+              "status": "Ques"
+            },
+            {
+              "position": "F",
+              "name": "Gary Trent",
+              "name_short": "G. Trent",
+              "status": "Ques"
+            },
+            {
+              "position": "G",
+              "name": "Kevin Porter",
+              "name_short": "K. Porter",
+              "status": "Out"
+            }
+          ]
+        },
+        "injury_crosswalk": {
+          "away": {
+            "rotowire_name": "Celtics",
+            "espn_team": "Boston Celtics",
+            "espn_players": [
+              {
+                "name": "Nikola Vucevic",
+                "position": "C",
+                "est_return_date": "Apr 5",
+                "status": "Out",
+                "comment": "Mar 7: Vucevic underwent surgery Saturday to stabilize a fracture in his right ring finger and will be reevaluated in 3-to-4 weeks."
+              }
+            ]
+          },
+          "home": {
+            "rotowire_name": "Bucks",
+            "espn_team": "Milwaukee Bucks",
+            "espn_players": [
+              {
+                "name": "Gary Trent Jr.",
+                "position": "G",
+                "est_return_date": "Apr 5",
+                "status": "Day-To-Day",
+                "comment": "Apr 3: Trent (hip) won&#x27;t play Friday versus the Celtics, Eric Nehm of The Athletic reports."
+              },
+              {
+                "name": "Ryan Rollins",
+                "position": "G",
+                "est_return_date": "Apr 5",
+                "status": "Day-To-Day",
+                "comment": "Apr 3: Rollins (hip) has been ruled out for Friday&#x27;s game against the Celtics."
+              },
+              {
+                "name": "Bobby Portis",
+                "position": "F",
+                "est_return_date": "Apr 5",
+                "status": "Out",
+                "comment": "Apr 2: Portis (wrist) is out for Friday&#x27;s game against Boston."
+              },
+              {
+                "name": "Giannis Antetokounmpo",
+                "position": "F",
+                "est_return_date": "Apr 5",
+                "status": "Out",
+                "comment": "Apr 2: Antetokounmpo (knee) is out for Friday&#x27;s game against the Celtics."
+              },
+              {
+                "name": "Kevin Porter Jr.",
+                "position": "G",
+                "est_return_date": "Oct 1",
+                "status": "Out",
+                "comment": "Mar 28: Bucks head coach Doc Rivers told reporters Saturday that he would &quot;be surprised&quot; if Porter (knee) plays again this season, Eric Nehm of The Athletic reports."
+              }
+            ]
+          }
+        }
+      },
+      {
+        "time_et": "8:00 PM ET",
+        "away_abbr": "TOR",
+        "home_abbr": "MEM",
+        "away_team": "Raptors",
+        "home_team": "Grizzlies",
+        "away_record": "43-34",
+        "home_record": "25-52",
+        "away": {
+          "lineup_status": "confirmed",
+          "starters": [
+            {
+              "position": "PG",
+              "name": "Ja'Kobe Walter",
+              "name_short": "J. Walter"
+            },
+            {
+              "position": "SG",
+              "name": "Brandon Ingram",
+              "name_short": "B. Ingram"
+            },
+            {
+              "position": "SF",
+              "name": "RJ Barrett",
+              "name_short": "RJ Barrett"
+            },
+            {
+              "position": "PF",
+              "name": "Scottie Barnes",
+              "name_short": "S. Barnes"
+            },
+            {
+              "position": "C",
+              "name": "Jakob Poeltl",
+              "name_short": "Jakob Poeltl"
+            }
+          ],
+          "may_not_play": [
+            {
+              "position": "G",
+              "name": "Chucky Hepburn",
+              "name_short": "C. Hepburn",
+              "status": "Out"
+            },
+            {
+              "position": "G",
+              "name": "Immanuel Quickley",
+              "name_short": "I. Quickley",
+              "status": "Out"
+            }
+          ]
+        },
+        "home": {
+          "lineup_status": "confirmed",
+          "starters": [
+            {
+              "position": "PG",
+              "name": "Javon Small",
+              "name_short": "Javon Small"
+            },
+            {
+              "position": "SG",
+              "name": "Cedric Coward",
+              "name_short": "Cedric Coward"
+            },
+            {
+              "position": "SF",
+              "name": "Rayan Rupert",
+              "name_short": "Rayan Rupert"
+            },
+            {
+              "position": "PF",
+              "name": "GG Jackson",
+              "name_short": "GG Jackson"
+            },
+            {
+              "position": "C",
+              "name": "Taylor Hendricks",
+              "name_short": "T. Hendricks"
+            }
+          ],
+          "may_not_play": [
+            {
+              "position": "F",
+              "name": "Santi Aldama",
+              "name_short": "S. Aldama",
+              "status": "OFS"
+            },
+            {
+              "position": "G",
+              "name": "Kentavious Caldwell-Pope",
+              "name_short": "K. Caldwell-Pope",
+              "status": "OFS"
+            },
+            {
+              "position": "F",
+              "name": "Brandon Clarke",
+              "name_short": "B. Clarke",
+              "status": "OFS"
+            },
+            {
+              "position": "G",
+              "name": "Walter Clayton",
+              "name_short": "W. Clayton",
+              "status": "Ques"
+            },
+            {
+              "position": "C",
+              "name": "Zach Edey",
+              "name_short": "Zach Edey",
+              "status": "OFS"
+            },
+            {
+              "position": "C",
+              "name": "Taj Gibson",
+              "name_short": "T. Gibson",
+              "status": "Ques"
+            },
+            {
+              "position": "G",
+              "name": "Ty Jerome",
+              "name_short": "T. Jerome",
+              "status": "Ques"
+            },
+            {
+              "position": "G",
+              "name": "Jahmai Mashack",
+              "name_short": "J. Mashack",
+              "status": "Ques"
+            },
+            {
+              "position": "G",
+              "name": "Ja Morant",
+              "name_short": "Ja Morant",
+              "status": "OFS"
+            },
+            {
+              "position": "G",
+              "name": "Scotty Pippen",
+              "name_short": "S. Pippen",
+              "status": "OFS"
+            },
+            {
+              "position": "F",
+              "name": "Olivier-Maxence Prosper",
+              "name_short": "O. Prosper",
+              "status": "Ques"
+            },
+            {
+              "position": "G",
+              "name": "Cam Spencer",
+              "name_short": "C. Spencer",
+              "status": "Ques"
+            },
+            {
+              "position": "F",
+              "name": "Jaylen Wells",
+              "name_short": "J. Wells",
+              "status": "OFS"
+            }
+          ]
+        },
+        "injury_crosswalk": {
+          "away": {
+            "rotowire_name": "Raptors",
+            "espn_team": "Toronto Raptors",
+            "espn_players": [
+              {
+                "name": "Chucky Hepburn",
+                "position": "G",
+                "est_return_date": "Apr 9",
+                "status": "Out",
+                "comment": "Apr 2: Hepburn (knee) has been ruled out for Friday&#x27;s game against the Grizzlies."
+              },
+              {
+                "name": "Immanuel Quickley",
+                "position": "G",
+                "est_return_date": "Apr 7",
+                "status": "Out",
+                "comment": "Apr 1: Quickley (foot) had his first workout without a boot Wednesday but remains without a timetable for a return to game action, Blake Murphy of Sportsnet.ca reports."
+              }
+            ]
+          },
+          "home": {
+            "rotowire_name": "Grizzlies",
+            "espn_team": "Memphis Grizzlies",
+            "espn_players": [
+              {
+                "name": "Cam Spencer",
+                "position": "G",
+                "est_return_date": "Apr 5",
+                "status": "Day-To-Day",
+                "comment": "Apr 3: Spencer is out for Friday&#x27;s game against the Raptors due to low back soreness."
+              },
+              {
+                "name": "Olivier-Maxence Prosper",
+                "position": "F",
+                "est_return_date": "Apr 5",
+                "status": "Day-To-Day",
+                "comment": "Apr 3: Prosper (back) has been ruled out for Friday&#x27;s game against Toronto, Michael Grange of Sportsnet.ca reports."
+              },
+              {
+                "name": "Walter Clayton Jr.",
+                "position": "G",
+                "est_return_date": "Apr 5",
+                "status": "Day-To-Day",
+                "comment": "Apr 3: Clayton (hip) has been ruled out for Friday&#x27;s game against the Raptors."
+              },
+              {
+                "name": "Jahmai Mashack",
+                "position": "G",
+                "est_return_date": "Apr 5",
+                "status": "Day-To-Day",
+                "comment": "Apr 3: Mashack didn&#x27;t return during the second half of Friday&#x27;s 128-96 loss to the Raptors due to neck soreness, finishing with two points (0-4 FG, 0-1 3Pt, 2-6 FT), one rebound and one assist across 14 minutes."
+              },
+              {
+                "name": "Taj Gibson",
+                "position": "F",
+                "est_return_date": "Apr 5",
+                "status": "Out",
+                "comment": "Apr 3: Gibson (foot) is out for Friday&#x27;s game versus Toronto."
+              },
+              {
+                "name": "Ty Jerome",
+                "position": "G",
+                "est_return_date": "Apr 5",
+                "status": "Out",
+                "comment": "Apr 2: Jerome (ankle) is listed as out for Friday&#x27;s game in Toronto."
+              },
+              {
+                "name": "Jaylen Wells",
+                "position": "F",
+                "est_return_date": "Oct 1",
+                "status": "Out",
+                "comment": "Mar 31: Wells (toe) underwent a successful procedure Tuesday to stabilize his right great toe."
+              },
+              {
+                "name": "Zach Edey",
+                "position": "C",
+                "est_return_date": "Oct 1",
+                "status": "Out",
+                "comment": "Mar 25: The Grizzlies announced that Edey (ankle) underwent a procedure Tuesday to address lingering discomfort in his left elbow."
+              },
+              {
+                "name": "Ja Morant",
+                "position": "G",
+                "est_return_date": "Oct 1",
+                "status": "Out",
+                "comment": "Mar 24: The Grizzlies announced Tuesday that Morant is progressing in his recovery from a UCL sprain in his left elbow and recently received a platelet-rich plasma injection, though he&#x27;ll miss the remainder of the 2025-26 campaign."
+              },
+              {
+                "name": "Brandon Clarke",
+                "position": "F",
+                "est_return_date": "Oct 1",
+                "status": "Out",
+                "comment": "Mar 24: Clarke needs additional time to recover from a right calf strain and has been ruled out for the rest of the 2025-26 season."
+              },
+              {
+                "name": "Santi Aldama",
+                "position": "F",
+                "est_return_date": "Oct 1",
+                "status": "Out",
+                "comment": "Mar 15: Aldama will undergo a season-ending arthroscopic procedure and receive an orthobiologic injection to address discomfort in his right knee, Brett Siegel of ClutchPoints.com reports."
+              },
+              {
+                "name": "Scotty Pippen Jr.",
+                "position": "G",
+                "est_return_date": "Oct 1",
+                "status": "Out",
+                "comment": "Mar 13: Pippen will miss the remainder of the season after undergoing a sesamoidectomy to address ongoing discomfort in his right big toe, Michael Scotto of USA Today reports Friday."
+              },
+              {
+                "name": "Kentavious Caldwell-Pope",
+                "position": "G",
+                "est_return_date": "Oct 1",
+                "status": "Out",
+                "comment": "Feb 19: The Grizzlies announced Thursday that Caldwell-Pope underwent surgery to address the misalignment of his right pinky finger and will miss the remainder of the 2025-26 campaign."
+              }
+            ]
+          }
+        }
+      },
+      {
+        "time_et": "8:30 PM ET",
+        "away_abbr": "ORL",
+        "home_abbr": "DAL",
+        "away_team": "Magic",
+        "home_team": "Mavericks",
+        "away_record": "40-36",
+        "home_record": "24-52",
+        "away": {
+          "lineup_status": "confirmed",
+          "starters": [
+            {
+              "position": "PG",
+              "name": "Jalen Suggs",
+              "name_short": "Jalen Suggs"
+            },
+            {
+              "position": "SG",
+              "name": "Desmond Bane",
+              "name_short": "Desmond Bane"
+            },
+            {
+              "position": "SF",
+              "name": "Franz Wagner",
+              "name_short": "Franz Wagner"
+            },
+            {
+              "position": "PF",
+              "name": "Paolo Banchero",
+              "name_short": "P. Banchero"
+            },
+            {
+              "position": "C",
+              "name": "Wendell Carter",
+              "name_short": "W. Carter"
+            }
+          ],
+          "may_not_play": [
+            {
+              "position": "G",
+              "name": "Anthony Black",
+              "name_short": "A. Black",
+              "status": "Doubt"
+            },
+            {
+              "position": "F",
+              "name": "Jonathan Isaac",
+              "name_short": "J. Isaac",
+              "status": "Doubt"
+            }
+          ]
+        },
+        "home": {
+          "lineup_status": "confirmed",
+          "starters": [
+            {
+              "position": "PG",
+              "name": "Ryan Nembhard",
+              "name_short": "Ryan Nembhard"
+            },
+            {
+              "position": "SG",
+              "name": "Max Christie",
+              "name_short": "Max Christie"
+            },
+            {
+              "position": "SF",
+              "name": "Cooper Flagg",
+              "name_short": "Cooper Flagg"
+            },
+            {
+              "position": "PF",
+              "name": "Naji Marshall",
+              "name_short": "Naji Marshall"
+            },
+            {
+              "position": "C",
+              "name": "Daniel Gafford",
+              "name_short": "D. Gafford"
+            }
+          ],
+          "may_not_play": [
+            {
+              "position": "C",
+              "name": "Marvin Bagley",
+              "name_short": "M. Bagley",
+              "status": "Ques"
+            },
+            {
+              "position": "G",
+              "name": "Kyrie Irving",
+              "name_short": "K. Irving",
+              "status": "OFS"
+            },
+            {
+              "position": "C",
+              "name": "Dereck Lively",
+              "name_short": "D. Lively",
+              "status": "OFS"
+            },
+            {
+              "position": "F",
+              "name": "Caleb Martin",
+              "name_short": "C. Martin",
+              "status": "Ques"
+            },
+            {
+              "position": "F",
+              "name": "P.J. Washington",
+              "name_short": "P. Washington",
+              "status": "Ques"
+            }
+          ]
+        },
+        "injury_crosswalk": {
+          "away": {
+            "rotowire_name": "Magic",
+            "espn_team": "Orlando Magic",
+            "espn_players": [
+              {
+                "name": "Jonathan Isaac",
+                "position": "F",
+                "est_return_date": "Apr 5",
+                "status": "Out",
+                "comment": "Apr 2: Isaac (knee) is out for Friday&#x27;s game against the Mavericks."
+              },
+              {
+                "name": "Anthony Black",
+                "position": "G",
+                "est_return_date": "Apr 5",
+                "status": "Out",
+                "comment": "Apr 2: Black (abdomen) is out for Friday&#x27;s game against the Mavericks."
+              }
+            ]
+          },
+          "home": {
+            "rotowire_name": "Mavericks",
+            "espn_team": "Dallas Mavericks",
+            "espn_players": [
+              {
+                "name": "Marvin Bagley III",
+                "position": "F",
+                "est_return_date": "Apr 5",
+                "status": "Out",
+                "comment": "Apr 3: Bagley (shoulder) won&#x27;t play in Friday&#x27;s game against Orlando."
+              },
+              {
+                "name": "Caleb Martin",
+                "position": "F",
+                "est_return_date": "Apr 5",
+                "status": "Out",
+                "comment": "Apr 3: Martin is out for Friday&#x27;s game versus Orlando due to a right plantar fascia strain, Ron Harrod Jr. of DLLS Sports reports."
+              },
+              {
+                "name": "P.J. Washington",
+                "position": "F",
+                "est_return_date": "Apr 5",
+                "status": "Out",
+                "comment": "Apr 3: Washington (illness) has been ruled out for Friday&#x27;s game against the Magic, Ron Harrod Jr. of DLLS Sports reports."
+              },
+              {
+                "name": "Kyrie Irving",
+                "position": "G",
+                "est_return_date": "Oct 1",
+                "status": "Out",
+                "comment": "Feb 18: Irving (knee) will miss the remainder of the 2025-26 season, ESPN&#x27;s Shams Charania reports."
+              },
+              {
+                "name": "Dereck Lively II",
+                "position": "C",
+                "est_return_date": "Oct 1",
+                "status": "Out",
+                "comment": "Dec 21: Lively successfully underwent surgery on his right foot Sunday."
+              }
+            ]
+          }
+        }
+      },
+      {
+        "time_et": "10:00 PM ET",
+        "away_abbr": "NOP",
+        "home_abbr": "SAC",
+        "away_team": "Pelicans",
+        "home_team": "Kings",
+        "away_record": "25-52",
+        "home_record": "20-57",
+        "away": {
+          "lineup_status": "confirmed",
+          "starters": [
+            {
+              "position": "PG",
+              "name": "Herbert Jones",
+              "name_short": "Herbert Jones"
+            },
+            {
+              "position": "SG",
+              "name": "Trey Murphy",
+              "name_short": "Trey Murphy"
+            },
+            {
+              "position": "SF",
+              "name": "Saddiq Bey",
+              "name_short": "Saddiq Bey"
+            },
+            {
+              "position": "PF",
+              "name": "Zion Williamson",
+              "name_short": "Z. Williamson"
+            },
+            {
+              "position": "C",
+              "name": "Yves Missi",
+              "name_short": "Yves Missi"
+            }
+          ],
+          "may_not_play": [
+            {
+              "position": "C",
+              "name": "Karlo Matkovic",
+              "name_short": "K. Matkovic",
+              "status": "Out"
+            },
+            {
+              "position": "G",
+              "name": "Bryce McGowens",
+              "name_short": "B. McGowens",
+              "status": "Out"
+            },
+            {
+              "position": "G",
+              "name": "Dejounte Murray",
+              "name_short": "D. Murray",
+              "status": "Out"
+            }
+          ]
+        },
+        "home": {
+          "lineup_status": "confirmed",
+          "starters": [
+            {
+              "position": "PG",
+              "name": "Devin Carter",
+              "name_short": "Devin Carter"
+            },
+            {
+              "position": "SG",
+              "name": "Nique Clifford",
+              "name_short": "N. Clifford"
+            },
+            {
+              "position": "SF",
+              "name": "DeMar DeRozan",
+              "name_short": "DeMar DeRozan"
+            },
+            {
+              "position": "PF",
+              "name": "Precious Achiuwa",
+              "name_short": "P. Achiuwa"
+            },
+            {
+              "position": "C",
+              "name": "Maxime Raynaud",
+              "name_short": "M. Raynaud"
+            }
+          ],
+          "may_not_play": [
+            {
+              "position": "C",
+              "name": "Drew Eubanks",
+              "name_short": "D. Eubanks",
+              "status": "OFS"
+            },
+            {
+              "position": "F",
+              "name": "De'Andre Hunter",
+              "name_short": "D. Hunter",
+              "status": "OFS"
+            },
+            {
+              "position": "F",
+              "name": "Zach LaVine",
+              "name_short": "Z. LaVine",
+              "status": "OFS"
+            },
+            {
+              "position": "C",
+              "name": "Domantas Sabonis",
+              "name_short": "D. Sabonis",
+              "status": "OFS"
+            },
+            {
+              "position": "G",
+              "name": "Malik Monk",
+              "name_short": "Malik Monk",
+              "status": "Out"
+            },
+            {
+              "position": "F",
+              "name": "Keegan Murray",
+              "name_short": "K. Murray",
+              "status": "Out"
+            },
+            {
+              "position": "G",
+              "name": "Isaiah Stevens",
+              "name_short": "I. Stevens",
+              "status": "Out"
+            },
+            {
+              "position": "G",
+              "name": "Russell Westbrook",
+              "name_short": "R. Westbrook",
+              "status": "Out"
+            }
+          ]
+        },
+        "injury_crosswalk": {
+          "away": {
+            "rotowire_name": "Pelicans",
+            "espn_team": "New Orleans Pelicans",
+            "espn_players": [
+              {
+                "name": "Karlo Matkovic",
+                "position": "F",
+                "est_return_date": "Apr 5",
+                "status": "Out",
+                "comment": "Apr 3: Matkovic (back) won&#x27;t play Friday in Sacramento."
+              },
+              {
+                "name": "Bryce McGowens",
+                "position": "G",
+                "est_return_date": "Apr 5",
+                "status": "Out",
+                "comment": "Apr 3: McGowens (toe) has been ruled out for Friday&#x27;s game against the Kings."
+              },
+              {
+                "name": "Dejounte Murray",
+                "position": "G",
+                "est_return_date": "Apr 5",
+                "status": "Out",
+                "comment": "Apr 3: Murray (rest) will not play Friday against the Kings."
+              }
+            ]
+          },
+          "home": {
+            "rotowire_name": "Kings",
+            "espn_team": "Sacramento Kings",
+            "espn_players": [
+              {
+                "name": "Malik Monk",
+                "position": "G",
+                "est_return_date": "Apr 5",
+                "status": "Out",
+                "comment": "Apr 3: Monk (personal) is out for Friday&#x27;s game against the Pelicans."
+              },
+              {
+                "name": "Keegan Murray",
+                "position": "F",
+                "est_return_date": "Apr 5",
+                "status": "Out",
+                "comment": "Apr 2: Murray (ankle) has been ruled out for Friday&#x27;s game against New Orleans."
+              },
+              {
+                "name": "Russell Westbrook",
+                "position": "G",
+                "est_return_date": "Apr 5",
+                "status": "Out",
+                "comment": "Apr 2: Westbrook (toe) has been ruled out for Friday&#x27;s game against New Orleans."
+              },
+              {
+                "name": "Isaiah Stevens",
+                "position": "G",
+                "est_return_date": "Apr 5",
+                "status": "Out",
+                "comment": "Mar 29: The Kings list Stevens out for Sunday&#x27;s game against the Nets due to right ankle soreness."
+              },
+              {
+                "name": "Drew Eubanks",
+                "position": "F",
+                "est_return_date": "Oct 1",
+                "status": "Out",
+                "comment": "Mar 18: Eubanks underwent successful surgery to repair a torn UCL in his left thumb Wednesday and he will miss the remainder of the season, Sean Cunningham of Fox 40 Sacramento reports."
+              },
+              {
+                "name": "De&#x27;Andre Hunter",
+                "position": "F",
+                "est_return_date": "Oct 1",
+                "status": "Out",
+                "comment": "Feb 20: Hunter is set to undergo season-ending eye surgery, Chris Haynes of NBA TV reports."
+              },
+              {
+                "name": "Domantas Sabonis",
+                "position": "F",
+                "est_return_date": "Oct 1",
+                "status": "Out",
+                "comment": "Feb 18: Sabonis underwent season-ending knee surgery Wednesday to repair a torn left meniscus, Shams Charania of ESPN reports."
+              },
+              {
+                "name": "Zach LaVine",
+                "position": "G",
+                "est_return_date": "Oct 1",
+                "status": "Out",
+                "comment": "Feb 13: LaVine will undergo season-ending surgery on his right hand after the All-Star break, Chris Haynes of NBA TV reports."
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "fusion_notes_zh": "首发以 RotoWire 为准（区分 Confirmed/Expected）。伤停优先级：NBA 官方 PDF > RotoWire MAY NOT PLAY；ESPN 为第三方汇总，可与前两源对照，冲突时以官方为准。"
   }
 }

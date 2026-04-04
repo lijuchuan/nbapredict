@@ -1,21 +1,26 @@
 #!/usr/bin/env python3
 """
-抓取 RotoWire 当日 NBA 首发与「MAY NOT PLAY」名单，并从 NBA 官网伤病报告索引页选取最新 PDF，
-解析为文本与尽量结构化的球员行，合并写入一个 JSON 文件。
+抓取 RotoWire 当日首发与 MAY NOT PLAY、ESPN NBA 伤病表、NBA 官网最新伤病 PDF，
+多源融合后写入一个 JSON 文件。
 """
 from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
 import sys
 from datetime import datetime, timezone
 from io import BytesIO
 from typing import Any
 from urllib.request import Request, urlopen
+from zoneinfo import ZoneInfo
+
+BEIJING_TZ = ZoneInfo("Asia/Shanghai")
 
 ROTOWIRE_URL = "https://www.rotowire.com/basketball/nba-lineups.php"
 NBA_INJURY_INDEX_URL = "https://official.nba.com/nba-injury-report-2025-26-season/"
+ESPN_INJURIES_URL = "https://www.espn.com/nba/injuries"
 PDF_HREF_RE = re.compile(
     r"https://ak-static\.cms\.nba\.com/referee/injury/Injury-Report_\d{4}-\d{2}-\d{2}_\d{2}_\d{2}(?:AM|PM)\.pdf"
 )
@@ -213,6 +218,140 @@ def _split_official_pdf_by_game(full_text: str) -> list[dict[str, str]]:
     return sections
 
 
+def parse_espn_injuries_page(html: str) -> list[dict[str, Any]]:
+    """
+    解析 ESPN injuries 页中每个 ResponsiveTable：队名 + 球员行（姓名、位置、预计回归、状态、备注）。
+    """
+    blocks = html.split('<div class="ResponsiveTable Table__league-injuries">')[1:]
+    team_name_re = re.compile(
+        r'<span class="injuries__teamName ml2">([^<]+)</span>'
+    )
+    row_re = re.compile(
+        r'<tr class="Table__TR Table__TR--sm[^"]*"[^>]*>(.*?)</tr>',
+        re.S,
+    )
+    teams_out: list[dict[str, Any]] = []
+    for block in blocks:
+        tm = team_name_re.search(block)
+        if not tm:
+            continue
+        team = tm.group(1).strip()
+        players: list[dict[str, str]] = []
+        for rm in row_re.finditer(block):
+            tr = rm.group(1)
+            name_m = re.search(r'<a class="AnchorLink"[^>]*>([^<]+)</a>', tr)
+            if not name_m:
+                continue
+            pos_m = re.search(r'<td class="col-pos Table__TD">([^<]*)</td>', tr)
+            date_m = re.search(r'<td class="col-date Table__TD">([^<]*)</td>', tr)
+            stat_m = re.search(r'<td class="col-stat Table__TD">(.*?)</td>', tr, re.S)
+            desc_m = re.search(r'<td class="col-desc Table__TD">([^<]*)</td>', tr)
+            status = ""
+            if stat_m:
+                inner = stat_m.group(1)
+                s2 = re.search(r">([^<]+)</span>", inner)
+                status = (
+                    s2.group(1).strip()
+                    if s2
+                    else re.sub(r"<[^>]+>", "", inner).strip()
+                )
+            players.append(
+                {
+                    "name": name_m.group(1).strip(),
+                    "position": (pos_m.group(1).strip() if pos_m else ""),
+                    "est_return_date": (date_m.group(1).strip() if date_m else ""),
+                    "status": status,
+                    "comment": (desc_m.group(1).strip() if desc_m else ""),
+                }
+            )
+        teams_out.append({"team": team, "players": players})
+    return teams_out
+
+
+def _espn_team_tokens(full_name: str) -> list[str]:
+    return re.findall(r"[a-z0-9]+", full_name.lower())
+
+
+def _find_espn_team_row(
+    rotowire_team_name: str, espn_teams: list[dict[str, Any]]
+) -> dict[str, Any] | None:
+    """
+    将 RotoWire 队名对齐到 ESPN 完整队名。
+    用「队名片段最后若干 token」匹配，避免 'Nets' 误命中 'Hornets'（子串/后缀陷阱）。
+    """
+    rw = rotowire_team_name.strip()
+    if not rw:
+        return None
+    rwn = rw.lower()
+    rw_parts = rwn.split()
+    names = [t["team"] for t in espn_teams]
+
+    for t in espn_teams:
+        if t["team"].lower() == rwn:
+            return t
+
+    hits: list[str] = []
+    for full in names:
+        toks = _espn_team_tokens(full)
+        if not toks:
+            continue
+        if toks[-1] == rwn:
+            hits.append(full)
+            continue
+        if len(rw_parts) >= 2 and len(toks) >= 2:
+            if toks[-2] == rw_parts[-2] and toks[-1] == rw_parts[-1]:
+                hits.append(full)
+    if len(hits) == 1:
+        return next(t for t in espn_teams if t["team"] == hits[0])
+    if len(hits) > 1:
+        return next(t for t in espn_teams if t["team"] == max(hits, key=len))
+
+    aliases = {
+        "blazers": "Portland Trail Blazers",
+        "sixers": "Philadelphia 76ers",
+        "wolves": "Minnesota Timberwolves",
+    }
+    if rwn in aliases:
+        target = aliases[rwn]
+        for t in espn_teams:
+            if t["team"] == target:
+                return t
+    return None
+
+
+def merge_rotowire_espn_games(
+    rw_games: list[dict[str, Any]], espn_teams: list[dict[str, Any]]
+) -> list[dict[str, Any]]:
+    """每场 RotoWire 对阵挂载对应 ESPN 全队伤病表（按队名对齐）。"""
+    merged: list[dict[str, Any]] = []
+    for g in rw_games:
+        away = g.get("away_team") or ""
+        home = g.get("home_team") or ""
+        away_row = _find_espn_team_row(away, espn_teams)
+        home_row = _find_espn_team_row(home, espn_teams)
+        entry = {
+            **g,
+            "injury_crosswalk": {
+                "away": {
+                    "rotowire_name": away,
+                    "espn_team": away_row["team"] if away_row else None,
+                    "espn_players": (
+                        away_row["players"] if away_row else []
+                    ),
+                },
+                "home": {
+                    "rotowire_name": home,
+                    "espn_team": home_row["team"] if home_row else None,
+                    "espn_players": (
+                        home_row["players"] if home_row else []
+                    ),
+                },
+            },
+        }
+        merged.append(entry)
+    return merged
+
+
 def fetch_nba_official_bundle() -> dict[str, Any]:
     out: dict[str, Any] = {
         "index_url": NBA_INJURY_INDEX_URL,
@@ -266,22 +405,40 @@ def main() -> int:
         "-o",
         "--output",
         default="",
-        help="输出 JSON 路径；默认 data/nba_lineups_injuries_<UTC日期>.json",
+        help="输出 JSON 路径；默认 data/<北京时间YYYY-MM-DD>/nba_lineups_injuries_<同日>.json",
     )
     args = parser.parse_args()
-    now = datetime.now(timezone.utc)
+    now_utc = datetime.now(timezone.utc)
+    now_beijing = now_utc.astimezone(BEIJING_TZ)
+    bj_date = now_beijing.date().isoformat()
     out_path = args.output or (
-        f"data/nba_lineups_injuries_{now.date().isoformat()}.json"
+        f"data/{bj_date}/nba_lineups_injuries_{bj_date}.json"
     )
 
     payload: dict[str, Any] = {
-        "fetched_at_utc": now.isoformat(),
+        "fetched_at_utc": now_utc.isoformat(),
+        "fetched_at_beijing": now_beijing.isoformat(),
+        "archive_date_beijing": bj_date,
         "sources": {
             "rotowire_lineups": ROTOWIRE_URL,
             "nba_official_injury_index": NBA_INJURY_INDEX_URL,
+            "espn_injuries": ESPN_INJURIES_URL,
         },
         "rotowire": {"games": [], "error": None},
+        "espn": {
+            "teams": [],
+            "error": None,
+            "url": ESPN_INJURIES_URL,
+        },
         "nba_official": {},
+        "merged": {
+            "games": [],
+            "fusion_notes_zh": (
+                "首发以 RotoWire 为准（区分 Confirmed/Expected）。"
+                "伤停优先级：NBA 官方 PDF > RotoWire MAY NOT PLAY；"
+                "ESPN 为第三方汇总，可与前两源对照，冲突时以官方为准。"
+            ),
+        },
     }
 
     try:
@@ -290,9 +447,23 @@ def main() -> int:
     except Exception as e:
         payload["rotowire"]["error"] = str(e)
 
+    try:
+        espn_html = _http_get_text(ESPN_INJURIES_URL, timeout=45)
+        payload["espn"]["teams"] = parse_espn_injuries_page(espn_html)
+    except Exception as e:
+        payload["espn"]["error"] = str(e)
+
     payload["nba_official"] = fetch_nba_official_bundle()
 
+    payload["merged"]["games"] = merge_rotowire_espn_games(
+        payload["rotowire"]["games"],
+        payload["espn"]["teams"],
+    )
+
     raw = json.dumps(payload, ensure_ascii=False, indent=2)
+    parent = os.path.dirname(out_path)
+    if parent:
+        os.makedirs(parent, exist_ok=True)
     try:
         with open(out_path, "w", encoding="utf-8") as f:
             f.write(raw)
