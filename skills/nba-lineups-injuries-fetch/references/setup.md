@@ -4,6 +4,10 @@
 
 脚本核心 HTTP 与 JSON 仅依赖 Python 3.9+ 标准库。
 
+## 输出目录
+
+合并 JSON **始终**写入仓库根下 `data/<北京时间 YYYY-MM-DD>/`；`-o` 仅指定该日期目录内的相对文件名或子路径（见 `SKILL.md`）。
+
 ## 可选：NBA 官方 PDF 结构化解析
 
 从 [NBA 官方伤病报告页](https://official.nba.com/nba-injury-report-2025-26-season/) 下载的报表为 PDF。要提取正文并做行级解析，需要安装：

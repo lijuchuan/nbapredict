@@ -46,19 +46,31 @@ python3 skills/nba-lineups-injuries-fetch/scripts/fetch_lineups_injuries.py \
   --okooo-live-away-cn 森林狼 --okooo-live-home-cn 76人 --okooo-hwl-pid 2
 ```
 
-默认输出：按**北京时间**建目录：
+**落盘规则（固定）**：所有抓取结果一律写入仓库根目录下的 **`data/<北京时间 YYYY-MM-DD>/`**，与日历日一一对应。
 
-`data/<YYYY-MM-DD>/nba_lineups_injuries_<YYYY-MM-DD>.json`
+- 不设 `-o`：默认文件名为 `nba_lineups_injuries_<YYYY-MM-DD>.json`（仍在上述日期子目录内）。
+- 设 `-o`：只写**相对「当日归档目录」**的文件名或子路径（勿写绝对路径；若误写则只取文件名放入当日目录）。
+
+示例：
 
 ```bash
-python3 skills/nba-lineups-injuries-fetch/scripts/fetch_lineups_injuries.py -o data/my_nba_snapshot.json
+# 写入 data/2026-04-05/nba_lineups_injuries_2026-04-05.json
+python3 skills/nba-lineups-injuries-fetch/scripts/fetch_lineups_injuries.py
+
+# 写入 data/2026-04-05/my_nba_snapshot.json
+python3 skills/nba-lineups-injuries-fetch/scripts/fetch_lineups_injuries.py -o my_nba_snapshot.json
+
+# 写入 data/2026-04-05/lineups/run1.json
+python3 skills/nba-lineups-injuries-fetch/scripts/fetch_lineups_injuries.py -o lineups/run1.json
 ```
 
 ## JSON 结构（约定）
 
 | 字段 | 含义 |
 |------|------|
-| `fetched_at_utc` / `fetched_at_beijing` / `archive_date_beijing` | 抓取与归档日（北京日历日同子目录名） |
+| `fetched_at_utc` / `fetched_at_beijing` / `archive_date_beijing` | 抓取与归档日（北京日历日同 `data/` 下子目录名） |
+| `output_path` | 本次写入的相对路径（形如 `data/<日期>/…`） |
+| `output_storage_note_zh` | 落盘目录约定说明 |
 | `sources` | RotoWire / NBA 官方 / ESPN 入口 URL |
 | `rotowire.*` / `espn.*` / `nba_official.*` / `merged.*` | 同前 |
 | `okooo_hwl_change.fetches[]` | 每次抓取：`url`、`query`、`page_title`、`book_name_zh`、`changes[]`（`left`/`line`/`right`/`time`）、`error`；无行时可有 `empty_notice_zh` |

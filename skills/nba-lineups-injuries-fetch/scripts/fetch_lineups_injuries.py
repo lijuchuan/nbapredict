@@ -521,6 +521,28 @@ def merge_rotowire_espn_games(
     return merged
 
 
+def resolve_data_archive_output_path(output_arg: str, bj_date: str) -> str:
+    """
+    爬取结果统一落在项目 data 目录下、按北京日历日子目录存放：
+    data/<YYYY-MM-DD>/<相对路径或默认文件名>
+    """
+    default_name = f"nba_lineups_injuries_{bj_date}.json"
+    raw = (output_arg or "").strip()
+    if not raw:
+        rel = default_name
+    else:
+        rel = raw.replace("\\", "/")
+        while rel.startswith("./"):
+            rel = rel[2:]
+        if rel.startswith("data/"):
+            rel = rel[5:].lstrip("/")
+        rel_os = os.path.normpath(rel)
+        if os.path.isabs(rel_os) or rel_os.startswith(".."):
+            rel_os = os.path.basename(rel_os) or default_name
+        rel = rel_os
+    return os.path.join("data", bj_date, rel)
+
+
 def fetch_nba_official_bundle() -> dict[str, Any]:
     out: dict[str, Any] = {
         "index_url": NBA_INJURY_INDEX_URL,
@@ -574,7 +596,10 @@ def main() -> int:
         "-o",
         "--output",
         default="",
-        help="输出 JSON 路径；默认 data/<北京时间YYYY-MM-DD>/nba_lineups_injuries_<同日>.json",
+        help=(
+            "输出文件相对「当日归档目录」的路径或文件名；实际写入 data/<北京时间YYYY-MM-DD>/ 下。"
+            "留空则默认为该目录下的 nba_lineups_injuries_<同日>.json"
+        ),
     )
     parser.add_argument(
         "--okooo-hwl-change-url",
@@ -624,14 +649,17 @@ def main() -> int:
     now_utc = datetime.now(timezone.utc)
     now_beijing = now_utc.astimezone(BEIJING_TZ)
     bj_date = now_beijing.date().isoformat()
-    out_path = args.output or (
-        f"data/{bj_date}/nba_lineups_injuries_{bj_date}.json"
-    )
+    out_path = resolve_data_archive_output_path(args.output, bj_date)
 
     payload: dict[str, Any] = {
         "fetched_at_utc": now_utc.isoformat(),
         "fetched_at_beijing": now_beijing.isoformat(),
         "archive_date_beijing": bj_date,
+        "output_path": out_path,
+        "output_storage_note_zh": (
+            "抓取结果统一写入仓库根下 data/<北京时间YYYY-MM-DD>/ 目录；"
+            "archive_date_beijing 与目录名一致。"
+        ),
         "sources": {
             "rotowire_lineups": ROTOWIRE_URL,
             "nba_official_injury_index": NBA_INJURY_INDEX_URL,
